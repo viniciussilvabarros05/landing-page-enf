@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ReactNode } from "react";
 type Props = {
   children: ReactNode;
-  className: string;
+  className?: string;
 };
 
 const Button3D = ({ children, className }: Props) => {
