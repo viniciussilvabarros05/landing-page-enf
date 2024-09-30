@@ -3,6 +3,7 @@ import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Profiles } from "@/components/profiles";
 import { Section2 } from "@/components/sectio2";
+import { SpecialsConditions } from "@/components/specials-conditionss";
 import Image from "next/image";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero/>
       <Section2/>
       <Profiles/>
+      <SpecialsConditions/>
       <FAQ/>
     </div>
   );
