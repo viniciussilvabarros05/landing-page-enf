@@ -21,7 +21,7 @@ export function FAQ() {
           <WordPullUp className="text-3xl w-full 2xl:text-5xl" words="FAQ" />
         )}
       </div>
-      <div className="flex items-center justify-between gap-4 mt-40">
+      <div className="flex items-center justify-between gap-4 mt-20">
         <div className="flex-1 flex border border-blue-500 h-full"></div>
         <Accordion type="single" collapsible className="w-1/2">
           <AccordionItem value="item-1" className="bg-blue-300 px-4 rounded-sm">

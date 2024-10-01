@@ -30,7 +30,7 @@ export const SpecialsConditions = () => {
       </div>
       <BlurFade duration={0.3} delay={0.3} inView>
         <Carousel
-          className="mt-40"
+          className="mt-20"
           opts={{
             align: "start",
             loop: true,
