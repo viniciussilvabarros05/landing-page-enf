@@ -15,6 +15,7 @@ import BlurFade from "./ui/blur-fade";
 import { Profile, profiles } from "@/utils/profiles";
 import { motion } from "framer-motion";
 import { ModalProfile } from "./modal-profile";
+
 export const Profiles = () => {
   const ref = useRef(null);
   const [api, setApi] = useState<CarouselApi>();

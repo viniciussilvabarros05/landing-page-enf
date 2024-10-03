@@ -1,3 +1,5 @@
+import { categoriesKids, Category } from "./categories-kids";
+
 export type Profile = {
   label: string;
   id: number;
@@ -5,6 +7,7 @@ export type Profile = {
   hero: string;
   title: string;
   description: string;
+  categories: Category[];
 };
 export const profiles = [
   {
@@ -14,6 +17,7 @@ export const profiles = [
     hero: "",
     title: "",
     description: "",
+    categories: categoriesKids,
   },
   {
     id: 2,
@@ -24,6 +28,7 @@ export const profiles = [
       "Vacinar as crianças é muito importante para que elas cresçam saudáveis e protegidas!",
     description:
       "Nos primeiros anos de vida, o corpo das crianças ainda está aprendendo a se defender sozinho, então as vacinas ajudam a fortalecer essas defesas. Quando os pais vacinam seus filhos, eles não estão apenas cuidando da saúde das crianças, mas também ajudando a proteger outras pessoas ao redor, evitando que doenças se espalhem. É essencial que as famílias acompanhem o calendário de vacinas que são preenchidas na caderneta de saúde da criança. Essa caderneta serve como um registro que ajuda a lembrar quais vacinas já foram tomadas e quais ainda faltam. Ao manter essa caderneta em dia, os pais garantem que seus filhos recebam todas as vacinas necessárias, criando um ambiente mais seguro para o crescimento e o desenvolvimento infantil.",
+    categories: categoriesKids,
   },
   {
     id: 3,
@@ -32,9 +37,26 @@ export const profiles = [
     hero: "",
     title: "",
     description: "",
+    categories: categoriesKids,
   },
-  { id: 4, label: "Indígena", img: "", hero: "", title: "", description: "" },
-  { id: 5, label: "Viajante", img: "", hero: "", title: "", description: "" },
+  {
+    id: 4,
+    label: "Indígena",
+    img: "",
+    hero: "",
+    title: "",
+    description: "",
+    categories: categoriesKids,
+  },
+  {
+    id: 5,
+    label: "Viajante",
+    img: "",
+    hero: "",
+    title: "",
+    description: "",
+    categories: categoriesKids,
+  },
   {
     id: 6,
     label: "Adolescente",
@@ -42,5 +64,6 @@ export const profiles = [
     hero: "",
     title: "",
     description: "",
+    categories: categoriesKids,
   },
 ];

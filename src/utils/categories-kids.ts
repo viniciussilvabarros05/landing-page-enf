@@ -1,9 +1,14 @@
+export type Category = {
+    id:number;
+    label:string;
+    img:string;
+}
 export const categoriesKids =  [
     { id: 1, label: "ao nascer", img: "/images/aonascer.png" },
     { id: 2, label: "2 meses", img: "/images/2m3m.jpeg" },
     { id: 3, label: "3 meses", img: "/images/2m3m.jpeg" }, 
     { id: 4, label: "4 meses", img: "/images/4m5m.jpeg" },
-    { id: 5, label: "5 meses", img: "/images/5a.png" },
+    { id: 5, label: "5 meses", img: "/images/4m5m.jpeg" },
     { id: 6, label: "6 meses", img: "/images/6m7m.jpeg" },
     { id: 7, label: "7 meses", img: "/images/7a.png" },
     { id: 9, label: "9 meses", img: "/images/9m.jpeg" },
