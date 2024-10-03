@@ -32,7 +32,7 @@ export const profiles = [
   },
   {
     id: 3,
-    label: "Adulto/Idoso",
+    label: "Adulto-Idoso",
     img: "",
     hero: "",
     title: "",

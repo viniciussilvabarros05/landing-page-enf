@@ -38,19 +38,28 @@ export const Profiles = () => {
 
   const openModal = (profile: Profile) => {
     setCurrentProfile(profile);
-    document.documentElement.style.overflow = "hidden";
-    document.body.style.overflow = "hidden";
+    setTimeout(() => {
+      document.documentElement.style.overflow = "hidden";
+      document.body.style.overflow = "hidden";
+    }, 200);
   };
 
   const closeModal = () => {
     setCurrentProfile(null);
+    setTimeout(() => {
+      document.documentElement.style.overflow = "auto";
+      document.body.style.overflow = "auto";
+    }, 200);
+  };
+
+  useEffect(() => {
     document.documentElement.style.overflow = "auto";
     document.body.style.overflow = "auto";
-  };
+  }, []);
 
   return (
     <Container>
-      <div ref={ref}>
+      <div ref={ref} id="profiles">
         {isInView && (
           <WordPullUp
             className="text-3xl w-full 2xl:text-5xl"
@@ -71,7 +80,7 @@ export const Profiles = () => {
                     whileTap={{
                       scale: 0.9,
                     }}
-                    transition={{ type: "spring", bounce: 0.6 }}
+                    transition={{ type: "spring", bounce: 0.7 }}
                     onClick={() => openModal(profile)}
                     className="border-blue-500 border-2 size-56 rounded-full m-auto overflow-hidden p-4 cursor-pointer"
                   >
@@ -109,18 +118,17 @@ export const Profiles = () => {
       <AnimatePresence>
         {currentProfile && (
           <motion.div
-            className="w-screen h-full fixed top-0 right-0 border-blue-500 bg-white z-[99999] overflow-y-auto"
+            className="w-screen h-full fixed top-0 right-0 border-blue-500 bg-white z-[99] overflow-y-auto"
             initial="hidden"
-            onClick={closeModal}
             variants={{
               hidden: { scale: 0, borderRadius: "9999999px" },
               show: { scale: 1, borderRadius: "0px" },
             }}
             animate={currentProfile ? "show" : "hidden"}
-            transition={{ ease: "linear" }}
+            transition={{ ease: "linear", delay: 0.2 }}
             exit={{ scale: 0 }}
           >
-            <ModalProfile profile={currentProfile} />
+            <ModalProfile profile={currentProfile} exit={closeModal} />
           </motion.div>
         )}
       </AnimatePresence>
