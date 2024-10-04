@@ -1,5 +1,3 @@
-
-
 export const vaccines = [
   {
     categories: [1],
@@ -54,12 +52,11 @@ export const vaccines = [
     },
     cuidadosPosVacinacao: {
       pergunta: "Cuidados necessários pós vacinação:",
-      resposta: {
-        alivio:
-          "Utilizar compressas frias no local de aplicação para aliviar a vermelhidão.",
-        alerta:
-          "Se houver desconforto por vários dias ou febre acima de 37.9º, procurar ajuda com um profissional de saúde.",
-      },
+      resposta: [
+        "Utilizar compressas frias no local de aplicação para aliviar a vermelhidão.",
+        ,
+        "Se houver desconforto por vários dias ou febre acima de 37.9º, procurar ajuda com um profissional de saúde.",
+      ],
     },
     contraIndicacoes: {
       pergunta: "Quem não deve tomar a vacina Hepatite B?",
@@ -124,12 +121,11 @@ export const vaccines = [
     },
     cuidadosPosVacinacao: {
       pergunta: "Cuidados necessários pós vacinação:",
-      resposta: {
-        higiene:
-          "Lavar normalmente com água na hora do banho e secar com toalha limpa, sem esfregar.",
-        alerta:
-          "Não fazer compressas, usar pomadas ou romper a bolha. Tudo cicatriza em até 12 semanas (3 meses).",
-      },
+      resposta: [
+        "Lavar normalmente com água na hora do banho e secar com toalha limpa, sem esfregar.",
+        ,
+        "Não fazer compressas, usar pomadas ou romper a bolha. Tudo cicatriza em até 12 semanas (3 meses).",
+      ],
     },
     contraIndicacoes: {
       pergunta: "Quem não deve tomar a vacina BCG?",
@@ -196,12 +192,11 @@ export const vaccines = [
     },
     cuidadosPosVacinacao: {
       pergunta: "Cuidados necessários pós vacinação:",
-      resposta: {
-        alivio:
-          "Utilizar compressas frias no local de aplicação para aliviar a dor, vermelhidão e inflamação.",
-        alerta:
-          "Se a criança apresentar desconforto incomum por vários dias, alergias, ou febre acima de 37.9º, procurar ajuda de um profissional de saúde.",
-      },
+      resposta: [
+        "Utilizar compressas frias no local de aplicação para aliviar a dor, vermelhidão e inflamação.",
+        ,
+        "Se a criança apresentar desconforto incomum por vários dias, alergias, ou febre acima de 37.9º, procurar ajuda de um profissional de saúde.",
+      ],
     },
     contraIndicacoes: {
       pergunta: "Quem não deve tomar a vacina Poliomielite?",
@@ -266,8 +261,9 @@ export const vaccines = [
     },
     cuidadosPosVacinacao: {
       pergunta: "Cuidados necessários após a vacinação:",
-      resposta:
+      resposta: [
         "Monitorar os sintomas e, caso persistam por muitos dias ou piorem, procurar um profissional de saúde.",
+      ],
     },
     contraIndicacoes: {
       pergunta: "Quem não deve tomar a vacina Rotavírus?",
@@ -328,8 +324,9 @@ export const vaccines = [
     },
     cuidadosPosVacinacao: {
       pergunta: "Cuidados necessários pós-vacinação:",
-      resposta:
+      resposta: [
         "Utilizar compressas frias no local de aplicação para alívio da dor, vermelhidão e/ou inflamação. Se a criança sentir algum desconforto incomum por vários dias ou se observar o aparecimento de alergias e febre acima de 37.9º, é importante procurar ajuda com um profissional de saúde para avaliação.",
+      ],
     },
     contraIndicacoes: {
       pergunta: "Quem não deve tomar a vacina Pneumocócica 10?",
@@ -393,8 +390,9 @@ export const vaccines = [
     },
     cuidadosPosVacinacao: {
       pergunta: "Cuidados necessários pós-vacinação:",
-      resposta:
+      resposta: [
         "Utilizar compressas frias no local de aplicação para alívio da dor, vermelhidão e/ou inflamação. Se a criança sentir algum desconforto incomum por vários dias ou se observar o aparecimento de alergias e febre acima de 37.9º, é importante procurar ajuda com um profissional de saúde para avaliação.",
+      ],
     },
     contraIndicacoes: {
       pergunta: "Quem não deve tomar a vacina Pentavalente?",
@@ -459,8 +457,9 @@ export const vaccines = [
     },
     cuidadosPosVacinacao: {
       pergunta: "Cuidados necessários pós-vacinação:",
-      resposta:
+      resposta: [
         "Utilizar compressas frias no local de aplicação para alívio da dor, vermelhidão e/ou inflamação. Se a criança sentir algum desconforto incomum por vários dias ou se observar o aparecimento de alergias e febre acima de 37.9º, é importante procurar ajuda com um profissional de saúde para avaliação.",
+      ],
     },
     contraIndicacoes: {
       pergunta: "Quem não deve tomar a vacina Meningocócica C?",
@@ -522,8 +521,9 @@ export const vaccines = [
     },
     cuidadosPosVacinacao: {
       pergunta: "Cuidados com o local onde a vacina foi administrada:",
-      resposta:
+      resposta: [
         "Coloque compressas frias no local da injeção para aliviar a dor, vermelhidão e/ou inflamação. Se a criança sentir algum desconforto por vários dias, ou se observar o surgimento de alergias e febre acima de 37.9ºC, é importante procurar ajuda com um profissional de saúde.",
+      ],
     },
     contraIndicacoes: {
       pergunta: "Quem não deve tomar a vacina Influenza?",
@@ -928,8 +928,9 @@ export const vaccines = [
     },
     contraIndicacoes: {
       pergunta: "Quem não deve tomar a vacina Hepatite A?",
-      resposta:
+      resposta: [
         "Crianças que apresentaram confirmação de alergia a algum dos componentes presentes na vacina.",
+      ],
     },
   },
   {
@@ -996,7 +997,7 @@ export const vaccines = [
     },
   },
   {
-    categories:[70],
+    categories: [70],
     nome: "Vacina Dupla Bacteriana (dT)",
     finalidade: {
       pergunta: "Para que serve a vacina Dupla Bacteriana?",
@@ -1017,7 +1018,7 @@ export const vaccines = [
       ],
     },
     indicacoes: {
-      idadeRecomendada: {
+      idadeMinima: {
         pergunta: "Idade recomendada para a criança ser vacinada:",
         resposta:
           "A vacina Dupla Bacteriana pode ser administrada a qualquer tempo a partir dos 7 anos de idade.",

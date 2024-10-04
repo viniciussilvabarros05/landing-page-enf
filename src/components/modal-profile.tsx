@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { Profile } from "@/utils/profiles";
 import { Container } from "./ui/container";
@@ -9,21 +9,27 @@ import Image from "next/image";
 import { Category } from "@/utils/categories-kids";
 import Button3D from "./button3d";
 import { CircleArrowLeft } from "lucide-react";
-import {useRouter} from 'next/navigation'
+import { useRouter } from "next/navigation";
 type Props = {
   profile: Profile | null;
-  exit: ()=>void;
+  exit: () => void;
 };
 
-export const ModalProfile = ({ profile,exit }: Props) => {
+export const ModalProfile = ({ profile, exit }: Props) => {
   const ref = useRef(null);
   const inView = useInView(ref);
-  const navigation = useRouter()
+  const navigation = useRouter();
+
+  function handleNavigationTo(profileLabel: string, categoryId: number) {
+    document.documentElement.style.overflow = "auto";
+    document.body.style.overflow = "auto";
+    navigation.push(`${profileLabel}/${categoryId}`);
+  }
   return (
     <Container className="p-4 items-center gap-8 relative">
       <>
         <Button3D className="absolute left-12 top-8 rounded-full px-2">
-          <CircleArrowLeft className="size-12 text-white" onClick={exit}/>
+          <CircleArrowLeft className="size-12 text-white" onClick={exit} />
         </Button3D>
         <div className="flex gap-4 mx-auto items-center justify-between">
           <div className="bg-yellow-400 flex py-2 items-center mx-auto px-24 rounded-full gap-4">
@@ -48,10 +54,12 @@ export const ModalProfile = ({ profile,exit }: Props) => {
           {profile?.categories.map((category) => {
             return (
               <div className="flex flex-col gap-4">
-                <Button3D onClick={() => navigation.push(`${profile.label}/${category.id}`)}>
+                <Button3D
+                  onClick={() => handleNavigationTo(profile.label, category.id)}
+                >
                   <div>{category.label}</div>
                 </Button3D>
-                
+
                 <img src={category.img} className="size-44 object-contain" />
               </div>
             );
