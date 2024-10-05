@@ -7,6 +7,7 @@ import { vaccines } from "@/utils/vaccines";
 import { CircleArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
+import { ButtonBack } from "./buttonBack";
 type Props = {
   params: { slug: string; profile: string, nome:string };
 };
@@ -28,11 +29,7 @@ export default function Page({ params }: Props) {
 
   return (
     <Container className="py-8 px-16 gap-8 items-center">
-      <Button3D className="fixed left-12 top-8 rounded-full px-2">
-        <Link href="/#profiles">
-          <CircleArrowLeft className="size-12 text-white" />
-        </Link>
-      </Button3D>
+      <ButtonBack/>
       <BlurFade inView>
         <div className="size-32 mx-auto rounded-full border-blue-500 border p-4 overflow-hidden">
           <img
