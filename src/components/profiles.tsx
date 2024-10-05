@@ -15,6 +15,7 @@ import BlurFade from "./ui/blur-fade";
 import { Profile, profiles } from "@/utils/profiles";
 import { motion } from "framer-motion";
 import { ModalProfile } from "./modal-profile";
+import { useRouter } from "next/navigation";
 
 export const Profiles = () => {
   const ref = useRef(null);
@@ -22,6 +23,7 @@ export const Profiles = () => {
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
   const isInView = useInView(ref, { once: true });
+  const navigation = useRouter()
   const [currentProfile, setCurrentProfile] = useState<Profile | null>(null);
   useEffect(() => {
     if (!api) {
@@ -38,24 +40,20 @@ export const Profiles = () => {
 
   const openModal = (profile: Profile) => {
     setCurrentProfile(profile);
-    setTimeout(() => {
-      document.documentElement.style.overflow = "hidden";
-      document.body.style.overflow = "hidden";
-    }, 200);
   };
+
+  function handleNavigationTo(profileLabel: string,) {
+    navigation.push(`/profiles/${profileLabel}`);
+    
+  }
 
   const closeModal = () => {
     setCurrentProfile(null);
     setTimeout(() => {
-      document.documentElement.style.overflow = "auto";
-      document.body.style.overflow = "auto";
-    }, 200);
+
+    }, 150);
   };
 
-  useEffect(() => {
-    document.documentElement.style.overflow = "auto";
-    document.body.style.overflow = "auto";
-  }, []);
 
   return (
     <Container>
@@ -81,7 +79,7 @@ export const Profiles = () => {
                       scale: 0.9,
                     }}
                     transition={{ type: "spring", bounce: 0.7 }}
-                    onClick={() => openModal(profile)}
+                    onClick={() => handleNavigationTo(profile.label)}
                     className="border-blue-500 border-2 size-56 rounded-full m-auto overflow-hidden p-4 cursor-pointer"
                   >
                     <img
@@ -115,23 +113,7 @@ export const Profiles = () => {
           )}
         </div>
       </BlurFade>
-      <AnimatePresence>
-        {currentProfile && (
-          <motion.div
-            className="w-screen h-full fixed top-0 right-0 border-blue-500 bg-white z-[99] overflow-y-auto"
-            initial="hidden"
-            variants={{
-              hidden: { scale: 0, borderRadius: "9999999px" },
-              show: { scale: 1, borderRadius: "0px" },
-            }}
-            animate={currentProfile ? "show" : "hidden"}
-            transition={{ ease: "linear", delay: 0.2 }}
-            exit={{ scale: 0 }}
-          >
-            <ModalProfile profile={currentProfile} exit={closeModal} />
-          </motion.div>
-        )}
-      </AnimatePresence>
+
     </Container>
   );
 };

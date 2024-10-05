@@ -8,12 +8,13 @@ import { CircleArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
 type Props = {
-  params: { slug: string; profile: string };
+  params: { slug: string; profile: string, nome:string };
 };
 export default function Page({ params }: Props) {
-  const { slug, profile } = params;
+  const { slug, profile , nome} = params;
   const profileSearch = decodeURIComponent(profile);
   const slugSearch = Number(decodeURIComponent(slug));
+  const nomeSearch = decodeURIComponent(nome)
   const profileData = profiles.find(
     (profile) => profile.label == profileSearch
   );
@@ -21,7 +22,7 @@ export default function Page({ params }: Props) {
     (category) => category.id == slugSearch
   );
   const vaccinesData = vaccines.filter((vaccine) =>
-    vaccine.categories.includes(slugSearch)
+    vaccine.categories.includes(slugSearch) && vaccine.nome == nomeSearch
   );
 
 
