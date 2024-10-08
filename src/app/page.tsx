@@ -8,7 +8,7 @@ import { SpecialsConditions } from "@/components/specials-conditionss";
 
 export default function Home() {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center pb-8">
+    <div className="w-full min-h-screen flex flex-col items-center py-14">
       <Header/>
       <Hero/>
       <Section2/>

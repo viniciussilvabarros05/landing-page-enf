@@ -14,7 +14,7 @@ import {
 export const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header className="w-full m-auto flex p-8 fixed top-0 left-0 bg-white/40 backdrop-blur-md shadow-md z-10 ">
+    <header className="w-full m-auto flex p-8 fixed top-0 left-0 bg-white/40 backdrop-blur-md shadow-md z-10">
       <div className="w-full gap-8 items-center justify-center hidden lg:flex">
         <LinkHeader href={""} label={"Início"} />
         <LinkHeader href={"/#profiles"} label={" Vacina para todos"} />
