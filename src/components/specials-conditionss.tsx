@@ -23,12 +23,12 @@ export const SpecialsConditions = () => {
       <div ref={ref}>
         {isInView && (
           <WordPullUp
-            className="text-3xl w-full 2xl:text-5xl"
+          className="text-2xl lg:text-3xl w-full 2xl:text-5xl"
             words="Segurança comprovada: Veja como as vacinas reduzem problemas de saúde ao longo dos anos"
           />
         )}
       </div>
-      <BlurFade duration={0.3} delay={0.3} inView>
+      <BlurFade duration={0.3} delay={0.3} inView className="px-10 lg:px-0">
         <Carousel
           className="mt-20"
           opts={{
@@ -42,19 +42,19 @@ export const SpecialsConditions = () => {
           ]}
         >
           <CarouselContent>
-            <CarouselItem className="basis-1/4">
+            <CarouselItem className="lg:basis-1/4">
               <div className="border-blue-500 border-2 w-52 h-72 rounded-md m-auto"></div>
             </CarouselItem>
-            <CarouselItem className="basis-1/4">
+            <CarouselItem className="lg:basis-1/4">
               <div className="border-blue-500 border-2 w-52 h-72 rounded-md m-auto"></div>
             </CarouselItem>
-            <CarouselItem className="basis-1/4">
+            <CarouselItem className="lg:basis-1/4">
               <div className="border-blue-500 border-2 w-52 h-72 rounded-md m-auto"></div>
             </CarouselItem>
-            <CarouselItem className="basis-1/4">
+            <CarouselItem className="lg:basis-1/4">
               <div className="border-blue-500 border-2 w-52 h-72 rounded-md m-auto"></div>
             </CarouselItem>
-            <CarouselItem className="basis-1/4">
+            <CarouselItem className="lg:basis-1/4">
               <div className="border-blue-500 border-2 w-52 h-72 rounded-md m-auto"></div>
             </CarouselItem>
           </CarouselContent>

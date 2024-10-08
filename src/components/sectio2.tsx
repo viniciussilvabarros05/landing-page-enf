@@ -6,19 +6,21 @@ import WordPullUp from "./ui/word-pull-up";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import BoxReveal from "./ui/box-reveal";
+import { Container } from "./ui/container";
 export const Section2 = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
-    <div className="flex flex-col w-[100%] 2xl:w-[70%] h-screen px-20 gap-20 mt-4" ref={ref}>
-      {isInView && (
-        <WordPullUp
-          className="text-3xl w-full 2xl:text-5xl"
-          words="Proteção em Cada Fase da Vida - As Vacinas que Salvam Vidas"
-        />
-      )}
-
-      <div className="flex flex-col gap-4 w-[50%] ml-auto items-end">
+    <Container>
+      <div ref={ref}>
+        {isInView && (
+          <WordPullUp
+            className="text-2xl lg:text-3xl w-full 2xl:text-5xl"
+            words="Proteção em Cada Fase da Vida - As Vacinas que Salvam Vidas"
+          />
+        )}
+      </div>
+      <div className="flex flex-col gap-4 w-full lg:w-[60%] 2xl:w-[50%] ml-auto items-end mt-20">
         <BoxReveal boxColor={"#8FC0FB"} duration={0.3}>
           <h2 className="text-end">
             A vacinação é fundamental para garantir proteção em todas as etapas
@@ -34,6 +36,6 @@ export const Section2 = () => {
           </Button3D>
         </BlurFade>
       </div>
-    </div>
+    </Container>
   );
 };

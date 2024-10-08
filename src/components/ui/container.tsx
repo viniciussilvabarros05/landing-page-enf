@@ -10,7 +10,7 @@ export const Container = ({ children, ref, className }: Props) => {
   return (
     <div
       className={cn(
-        "flex flex-col w-[100%] 2xl:w-[70%] min-h-screen px-20",
+        "flex flex-col justify-center w-[100%] 2xl:w-[70%] min-h-screen lg:px-20 px-5",
         className
       )}
       ref={ref}

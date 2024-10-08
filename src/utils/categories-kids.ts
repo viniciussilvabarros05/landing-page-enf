@@ -10,7 +10,7 @@ export const categoriesKids =  [
     { id: 4, label: "4 meses", img: "/images/4m5m.jpeg" },
     { id: 5, label: "5 meses", img: "/images/4m5m.jpeg" },
     { id: 6, label: "6 meses", img: "/images/6m7m.jpeg" },
-    { id: 7, label: "7 meses", img: "/images/7a.png" },
+    { id: 7, label: "7 meses", img: "/images/6m7m.jpeg" },
     { id: 9, label: "9 meses", img: "/images/9m.jpeg" },
     { id: 12, label: "12 meses", img: "/images/12m15m.jpeg" },
     { id: 15, label: "15 meses", img: "/images/12m15m.jpeg" }, 

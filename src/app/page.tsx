@@ -4,11 +4,11 @@ import { Hero } from "@/components/hero";
 import { Profiles } from "@/components/profiles";
 import { Section2 } from "@/components/sectio2";
 import { SpecialsConditions } from "@/components/specials-conditionss";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col items-center">
+    <div className="w-full min-h-screen flex flex-col items-center pb-8">
       <Header/>
       <Hero/>
       <Section2/>

@@ -14,3 +14,4 @@ export default function Page({ params }: Props) {
 
   return <ModalProfile profile={profileData} />;
 }
+                   

@@ -18,12 +18,12 @@ export function FAQ() {
     <Container>
       <div ref={ref}>
         {isInView && (
-          <WordPullUp className="text-3xl w-full 2xl:text-5xl" words="FAQ" />
+          <WordPullUp className="text-2xl lg:text-3xl w-full 2xl:text-5xl" words="FAQ" />
         )}
       </div>
-      <div className="flex items-center justify-between gap-4 mt-20">
-        <div className="flex-1 flex border border-blue-500 h-full"></div>
-        <Accordion type="single" collapsible className="w-1/2">
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mt-20">
+        <img className="flex-1 flex border border-blue-500 h-[340px] w-full" src={""} alt={""}/>
+        <Accordion type="single" collapsible className="w-full lg:w-1/2">
           <AccordionItem value="item-1" className="bg-blue-300 px-4 rounded-sm">
             <AccordionTrigger className="text-white font-bold">
               Is it accessible?

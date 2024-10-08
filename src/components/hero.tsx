@@ -2,14 +2,15 @@ import Link from "next/link";
 import Button3D from "./button3d";
 import BlurFade from "./ui/blur-fade";
 import BoxReveal from "./ui/box-reveal";
+import { Container } from "./ui/container";
 import WordPullUp from "./ui/word-pull-up";
 
 export const Hero = () => {
   return (
-    <div className="w-full h-screen bg-center bg-cover flex items-center px-20 2xl:w-[70%]">
-      <div className="flex flex-col gap-4 w-[30%] lg:w-[50%]">
+    <Container>
+      <div className="flex flex-col gap-4 w-[100%] lg:w-[30%] xl:w-[50%]">
         <BoxReveal boxColor={"#8FC0FB"} duration={0.3}>
-          <h1 className="text-3xl font-semibold 2xl:text-5xl">
+          <h1 className="lg:text-3xl font-semibold 2xl:text-5xl text-2xl">
             Bem-vindo ao (nome do site), o nosso portal de informações sobre
             vacinas
           </h1>
@@ -39,6 +40,6 @@ export const Hero = () => {
           </Button3D>
         </BlurFade>
       </div>
-    </div>
+    </Container>
   );
 };

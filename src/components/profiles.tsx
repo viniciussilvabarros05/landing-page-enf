@@ -60,17 +60,17 @@ export const Profiles = () => {
       <div ref={ref} id="profiles">
         {isInView && (
           <WordPullUp
-            className="text-3xl w-full 2xl:text-5xl"
+          className="text-2xl lg:text-3xl w-full 2xl:text-5xl"
             words="ACESSE O SEU GRUPO"
           />
         )}
       </div>
-      <BlurFade duration={0.3} delay={0.3} inView>
+      <BlurFade duration={0.3} delay={0.3} inView className="px-10 lg:px-0">
         <Carousel className="mt-20" opts={{ loop: true }} setApi={setApi}>
           <CarouselContent>
             {profiles.map((profile) => {
               return (
-                <CarouselItem className="basis-1/3 flex items-center justify-center flex-col gap-3 py-6">
+                <CarouselItem className=" lg:basis-1/3 flex items-center justify-center flex-col gap-3 py-6">
                   <motion.div
                     whileHover={{
                       scale: 1.1,
