@@ -10,7 +10,7 @@ import { Category } from "@/utils/categories-kids";
 import Button3D from "./button3d";
 import { CircleArrowLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -36,12 +36,15 @@ export const ModalProfile = ({ profile }: Props) => {
   const vaccinesData = (idSearch: number) =>
     vaccines.filter((vaccine) => vaccine.categories.includes(idSearch));
 
-  function handleNavigationTo(profileLabel: string, categoryId: number,vaccine:string) {
+  function handleNavigationTo(
+    profileLabel: string,
+    categoryId: number,
+    vaccine: string
+  ) {
     navigation.push(`/${profileLabel}/${categoryId}/${vaccine}`);
-    
   }
-  function back (){
-    navigation.back()
+  function back() {
+    navigation.back();
   }
   return (
     <motion.div
@@ -55,13 +58,12 @@ export const ModalProfile = ({ profile }: Props) => {
       transition={{ ease: "linear", delay: 0.2 }}
       exit={{ scale: 0 }}
     >
-
-        <ButtonBack/>
-    <Container className="p-4 items-center gap-8 relative">
-      <>
-
+      <ButtonBack className={`bg-[${profile?.color}]`} />
+      <div className="p-4 items-center gap-8 relative flex flex-col justify-center mx-auto w-[100%] lg:px-20 px-5 mt-20">
         <div className="flex gap-4 mx-auto items-center justify-between">
-          <div className="bg-yellow-400 flex py-2 items-center mx-auto px-16 lg:px-24 rounded-full gap-4">
+          <div
+            className={`bg-[${profile?.color}] flex py-2 items-center mx-auto px-16 lg:px-24 rounded-full gap-4`}
+          >
             <h1 className="text-4xl mx-auto text-gray-700 uppercase flex">
               {profile?.label}
             </h1>
@@ -83,10 +85,12 @@ export const ModalProfile = ({ profile }: Props) => {
           {profile?.categories.map((category) => {
             return (
               <div className="flex flex-col gap-4">
-                <NavigationMenu >
+                <NavigationMenu>
                   <NavigationMenuList>
                     <NavigationMenuItem>
-                      <NavigationMenuTrigger className="bg-[#F5BF36] text-white font-semibold min-w-[150px] hover:bg-blue-500 mx-auto hover:text-white">
+                      <NavigationMenuTrigger
+                        className={`bg-[${profile?.color}] text-white font-semibold min-w-[150px] hover:bg-blue-500 mx-auto hover:text-white`}
+                      >
                         {category.label}
                       </NavigationMenuTrigger>
                       <NavigationMenuContent className="gap-4 flex flex-col p-4 items-center mr-10 justify-center z-[99] bg-blue-300">
@@ -94,9 +98,13 @@ export const ModalProfile = ({ profile }: Props) => {
                           return (
                             <NavigationMenuLink className="w-full">
                               <Button3D
-                                className="w-full max-w-[250px]"
+                                className={`w-full max-w-[250px] bg-[${profile?.color}]`}
                                 onClick={() =>
-                                  handleNavigationTo(profile.label, category.id, vaccines.nome)
+                                  handleNavigationTo(
+                                    profile.label,
+                                    category.id,
+                                    vaccines.nome
+                                  )
                                 }
                               >
                                 <div className="w-full ">{vaccines.nome}</div>
@@ -113,8 +121,7 @@ export const ModalProfile = ({ profile }: Props) => {
             );
           })}
         </div>
-      </>
-    </Container>
+      </div>
     </motion.div>
   );
 };

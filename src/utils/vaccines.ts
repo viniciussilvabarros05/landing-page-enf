@@ -1057,4 +1057,68 @@ export const vaccines = [
       ],
     },
   },
+  {
+    categories: [100],
+    nome: "Vacina Tríplice Viral",
+    finalidade: {
+      pergunta: "Para que serve a vacina Tríplice Viral?",
+      resposta:
+        "A vacina Tríplice Viral serve para prevenir contra três doenças: sarampo, caxumba e rubéola.",
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta:
+        "O sarampo, a caxumba e a rubéola são doenças contagiosas que podem causar problemas, especialmente em crianças. O sarampo causa febre e manchas vermelhas na pele; a caxumba pode causar febre, inchaço e dores na garganta; e a rubéola geralmente causa febre e o aparecimento de bolhas na pele.",
+    },
+    comoTomar: {
+      pergunta: "Como tomar a vacina Tríplice Viral?",
+      resposta:
+        "Recomenda-se iniciar ou completar 2 doses de acordo com a situação vacinal registrada na caderneta de vacinação. O intervalo de tempo recomendado é de 30 dias após receber a 1ª dose.",
+    },
+    indicacoes: {
+      idadeMinima: {
+        pergunta: "Idade mínima recomendada para o adolescente ser vacinado:",
+        resposta: "A qualquer momento.",
+      },
+      idadeMaxima: {
+        pergunta: "Idade máxima recomendada para o adolescente ser vacinado:",
+        resposta: "Não há limite de idade para a administração da vacina.",
+      },
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Tríplice Viral é aplicada?",
+      resposta:
+        "A vacina Tríplice Viral é aplicada no braço direito ou esquerdo por meio de injeção subcutânea (sob a pele).",
+    },
+    vacinacaoSimultanea: {
+      pergunta:
+        "O adolescente pode receber a vacina Tríplice Viral junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. O adolescente pode receber outras vacinas do Calendário de Vacinação junto com a Tríplice Viral.",
+    },
+    reacoesAdversas: {
+      pergunta:
+        "O que acontece no local em que a vacina Tríplice Viral foi aplicada?",
+      resposta:
+        "É esperado que o local da aplicação fique vermelho, duro, dolorido e com um pouco de ardência.",
+    },
+    cuidadosPosVacinacao: {
+      pergunta: "Cuidados necessários pós vacinação:",
+      resposta: [
+        "Utilizar compressas frias no local de aplicação para aliviar a dor, vermelhidão e inflamação.",
+        "Evitar esforço físico e muitas movimentações do braço.",
+        "Se o adolescente apresentar febre acima de 37.9º ou desconforto incomum, procurar ajuda com um profissional de saúde.",
+      ],
+    },
+    contraIndicacoes: {
+      pergunta: "Quem não deve tomar a vacina Tríplice Viral?",
+      resposta: [
+        "Pessoas que apresentaram reação alérgica grave (anafilaxia) após uma dose anterior da vacina Tríplice Viral.",
+        "Pessoas com sistema imunológico muito debilitado por doenças ou medicamentos.",
+      ],
+      alertas: [
+        "Qualquer alteração no local da aplicação, como dor intensa ou inchaço incomum, deve ser avaliada por um profissional de saúde.",
+      ],
+    },
+  },
 ];

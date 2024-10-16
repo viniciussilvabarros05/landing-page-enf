@@ -1,4 +1,5 @@
 import { categoriesKids, Category } from "./categories-kids";
+import { categoriesTeen } from "./categories-teen";
 
 export type Profile = {
   label: string;
@@ -6,6 +7,7 @@ export type Profile = {
   img: string;
   hero: string;
   title: string;
+  color: string;
   description: string;
   categories: Category[];
 };
@@ -16,6 +18,7 @@ export const profiles = [
     img: "",
     hero: "",
     title: "",
+    color: "",
     description: "",
     categories: categoriesKids,
   },
@@ -24,6 +27,7 @@ export const profiles = [
     label: "Criança",
     img: "/images/6m7m.jpeg",
     hero: "/images/hero-crianca2.jpeg",
+    color: "#f5bf36",
     title:
       "Vacinar as crianças é muito importante para que elas cresçam saudáveis e protegidas!",
     description:
@@ -36,6 +40,7 @@ export const profiles = [
     img: "",
     hero: "",
     title: "",
+    color: "",
     description: "",
     categories: categoriesKids,
   },
@@ -45,6 +50,7 @@ export const profiles = [
     img: "",
     hero: "",
     title: "",
+    color: "",
     description: "",
     categories: categoriesKids,
   },
@@ -54,16 +60,18 @@ export const profiles = [
     img: "",
     hero: "",
     title: "",
+    color: "",
     description: "",
     categories: categoriesKids,
   },
   {
     id: 6,
     label: "Adolescente",
-    img: "",
-    hero: "",
+    img: "/images/adolescentes.jpg",
+    hero: "/images/adolescentes.jpg",
+    color: "#84cc16",
     title: "",
     description: "",
-    categories: categoriesKids,
+    categories: categoriesTeen,
   },
 ];

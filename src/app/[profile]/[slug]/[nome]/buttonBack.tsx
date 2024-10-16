@@ -1,13 +1,18 @@
 "use client"
 
 import Button3D from "@/components/button3d"
+import { cn } from "@/lib/utils"
 import { CircleArrowLeft } from "lucide-react"
 import { useRouter } from "next/navigation"
 
-export const ButtonBack = ()=>{
+type Props = {
+  className:string;
+}
+
+export const ButtonBack = ({className}:Props)=>{
     const navigation = useRouter()
     return(
-        <Button3D className="fixed left-4 top-4 lg:left-12 lg:top-8 rounded-full px-2 z-10">
+        <Button3D className={cn("fixed left-4 top-4 lg:left-12 lg:top-4 rounded-full px-2 z-10", className)}>
         <div onClick={()=> navigation.back()}>
           <CircleArrowLeft className="size-10 text-white" />
         </div>

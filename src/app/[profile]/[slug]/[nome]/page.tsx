@@ -29,7 +29,7 @@ export default function Page({ params }: Props) {
 
   return (
     <Container className="py-8 lg:px-16 gap-8 items-center">
-      <ButtonBack />
+      <ButtonBack className={`bg-[${profileData?.color}]`} />
       <BlurFade inView>
         <div className="size-32 mx-auto rounded-full border-blue-500 border p-4 overflow-hidden">
           <img
@@ -38,7 +38,7 @@ export default function Page({ params }: Props) {
           />
         </div>
       </BlurFade>
-      <BoxReveal boxColor="#3b82f6" duration={0.4}>
+      <BoxReveal boxColor={profileData?.color} duration={0.4}>
         <h1 className="text-black text-4xl font-bold text-center lg:text-start">
           {profileData?.label} : {categoryData?.label}
         </h1>
@@ -46,7 +46,7 @@ export default function Page({ params }: Props) {
       {vaccinesData.map((vaccine) => {
         return (
           <div className="flex flex-col items-center lg:items-start gap-4 lg:w-[50%] py-8">
-            <BoxReveal boxColor="#3b82f6" duration={0.4}>
+            <BoxReveal boxColor={profileData?.color} duration={0.4}>
               <h2 className="text-blue-500 uppercase font-bold mx-auto">
                 {vaccine.nome}
               </h2>
