@@ -58,11 +58,14 @@ export const ModalProfile = ({ profile }: Props) => {
       transition={{ ease: "linear", delay: 0.2 }}
       exit={{ scale: 0 }}
     >
-      <ButtonBack className={`bg-[${profile?.color}]`} />
+      <ButtonBack
+        className={`bg-[${profile?.color}]`}
+        style={{ backgroundColor: profile?.color }}
+      />
       <div className="p-4 items-center gap-8 relative flex flex-col justify-center mx-auto w-[100%] lg:px-20 px-5 mt-10">
         <div className="flex gap-4 mx-auto items-center justify-between">
           <div
-          style={{backgroundColor:profile?.color}}
+            style={{ backgroundColor: profile?.color }}
             className={`flex py-2 items-center mx-auto px-16 lg:px-24 rounded-full gap-4`}
           >
             <h1 className="text-4xl mx-auto text-gray-700 uppercase flex">
@@ -90,7 +93,7 @@ export const ModalProfile = ({ profile }: Props) => {
                   <NavigationMenuList>
                     <NavigationMenuItem>
                       <NavigationMenuTrigger
-                      style={{backgroundColor:profile?.color}}
+                        style={{ backgroundColor: profile?.color }}
                         className={`text-white font-semibold min-w-[150px] hover:bg-blue-500 mx-auto hover:text-white`}
                       >
                         {category.label}
@@ -101,7 +104,7 @@ export const ModalProfile = ({ profile }: Props) => {
                             <NavigationMenuLink className="w-full">
                               <Button3D
                                 className={`w-full max-w-[250px]`}
-                                style={{backgroundColor: profile?.color}}
+                                style={{ backgroundColor: profile?.color }}
                                 onClick={() =>
                                   handleNavigationTo(
                                     profile.label,
