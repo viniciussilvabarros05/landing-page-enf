@@ -1121,4 +1121,130 @@ export const vaccines = [
       ],
     },
   },
+  {
+    categories: [110],
+    nome: "Vacina HPV",
+    finalidade: {
+      pergunta: "Para que serve a vacina HPV?",
+      resposta:
+        "A vacina do HPV serve para prevenir um vírus chamado Papilomavírus Humano (HPV) que pode causar problemas de saúde como: câncer e verrugas nas partes íntimas.",
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta:
+        "O HPV é um vírus muito comum que se pega principalmente através do contato sexual. Ele pode causar câncer de colo de útero e verrugas nas partes íntimas e ânus.",
+    },
+    comoTomar: {
+      pergunta: "Como tomar a vacina HPV?",
+      resposta: "A vacina HPV possui apenas uma dose (dose única).",
+      alerta:
+        "Em casos em que a pessoa tenha necessidade de receber um esquema vacinal com mais de uma dose, o intervalo de tempo recomendado entre as doses é de 2 meses entre a 1ª e 2ª dose, e 6 meses entre a 2ª e 3ª dose.",
+    },
+    indicacoes: {
+      idadeMinima: {
+        pergunta: "Idade mínima recomendada para o adolescente ser vacinado:",
+        resposta: "9 anos de idade.",
+      },
+      idadeMaxima: {
+        pergunta: "Idade máxima recomendada para o adolescente ser vacinado:",
+        resposta: "14 anos, 11 meses e 29 dias.",
+      },
+    },
+    condicoesEspecificas: {
+      pergunta: "Condições específicas para vacinação:",
+      respostas: [
+        {
+          titulo: "Meninos e Meninas de 9 a 14 anos com HIV/Aids:",
+          resposta:
+            "Pessoas de 9 a 45 anos com HIV/Aids, que fizeram transplante ou estão em tratamento de câncer recomendam-se 3 doses.",
+          alerta:
+            "O intervalo de tempo recomendado é de 2 meses entre a 1ª e 2ª dose. A 3ª dose deve ser aplicada 6 meses após a data da 1ª dose.",
+        },
+        {
+          titulo: "Vítimas de Abuso Sexual de 9 a 45 anos:",
+          resposta: [
+            "De 9 a 14 anos: 2 doses (a 2ª dose é tomada 6 meses depois da 1ª).",
+            "De 15 a 45 anos: 3 doses (a 2ª dose é tomada 2 meses depois da 1ª dose, e a 3ª dose é administrada 6 meses depois da 1ª).",
+          ],
+        },
+      ],
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina HPV é aplicada?",
+      resposta:
+        "A vacina HPV é aplicada, de preferência, no ombro do braço esquerdo ou direito (via intramuscular).",
+    },
+    vacinacaoSimultanea: {
+      pergunta:
+        "O adolescente pode receber a vacina HPV junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. O adolescente pode receber outras vacinas do Calendário de Vacinação junto com a vacina HPV.",
+    },
+    reacoesAdversas: {
+      pergunta: "O que acontece no local em que a vacina HPV foi aplicada?",
+      resposta:
+        "É esperado que o local onde a vacina foi aplicada fique dolorido e vermelho. O adolescente também pode ter febre e dores de cabeça, geralmente entre os 2 primeiros dias após a vacinação.",
+    },
+    cuidadosPosVacinacao: {
+      pergunta: "Cuidados necessários pós vacinação:",
+      resposta: [
+        "Utilizar compressas frias no local de aplicação para alívio da dor, vermelhidão e/ou inflamação.",
+        "Evitar esforço físico e muitas movimentações do braço.",
+        "Se o adolescente apresentar desconforto incomum por vários dias ou se observar o aparecimento de alergias e febre acima de 37.9º, procurar ajuda com um profissional de saúde para avaliação.",
+      ],
+    },
+  },
+  {
+    categories: [110],
+    nome: "Vacina Meningocócica ACWY",
+    finalidade: {
+      pergunta: "Para que serve a vacina meningocócica ACWY?",
+      resposta:
+        "A vacina meningocócica ACWY serve para prevenir a doença meningocócica causada pela bactéria dos sorogrupos A, C, W, Y.",
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta:
+        "A meningite é uma doença inflamatória que afeta as meninges, membranas que envolvem o cérebro, causada por vírus, fungos e bactérias. Essa doença é comumente mais recorrente por vírus e bactérias.",
+    },
+    comoTomar: {
+      pergunta: "Como tomar a vacina meningocócica ACWY?",
+      resposta:
+        "A vacina meningocócica ACWY possui apenas uma dose (dose única) ou um reforço de acordo com a situação vacinal registrada na caderneta de vacinação.",
+    },
+    indicacoes: {
+      idadeMinima: {
+        pergunta: "Idade mínima recomendada para o adolescente ser vacinado:",
+        resposta: "11 anos de idade.",
+      },
+      idadeMaxima: {
+        pergunta: "Idade máxima recomendada para o adolescente ser vacinado:",
+        resposta: "14 anos, 11 meses e 29 dias.",
+      },
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina meningocócica ACWY é aplicada?",
+      resposta:
+        "A vacina meningocócica ACWY é aplicada no ombro do braço esquerdo ou direito (via intramuscular).",
+    },
+    vacinacaoSimultanea: {
+      pergunta:
+        "O adolescente pode receber a vacina meningocócica ACWY junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. A vacina meningocócica ACWY pode ser administrada com outras vacinas do Calendário Nacional de Vacinação.",
+    },
+    reacoesAdversas: {
+      pergunta: "O que acontece no local em que a vacina foi aplicada?",
+      resposta:
+        "É esperado que o local onde a vacina foi aplicada fique dolorido, endurecido e vermelho, podendo ser acompanhado por febre e dores de cabeça.",
+    },
+    cuidadosPosVacinacao: {
+      pergunta: "Cuidados necessários pós vacinação:",
+      resposta: [
+        "Utilizar compressas frias no local de aplicação para alívio da dor, vermelhidão e/ou inflamação.",
+        "Evitar esforço físico e muitas movimentações do braço.",
+        "Se o adolescente apresentar desconforto incomum por vários dias ou se observar o aparecimento de alergias e febre acima de 37.9º, é importante procurar ajuda com um profissional de saúde para avaliação.",
+      ],
+    },
+  }
 ];

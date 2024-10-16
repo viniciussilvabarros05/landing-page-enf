@@ -137,6 +137,23 @@ export default function Page({ params }: Props) {
                 })}
 
               </div>
+               </BlurFade>
+            <BlurFade inView duration={0.4}>
+              <div className="flex flex-col gap-2">
+                <p className="font-bold">
+                  {vaccine.condicoesEspecificas?.pergunta}
+                </p>
+                {vaccine.condicoesEspecificas?.respostas.map((res) => {
+                  return (
+                  <div>
+                    <p className="text-bold">- {res.titulo}</p>
+                    <li className="">{res.resposta}</li>
+                    <li className="text-red-400">{res.alerta}</li>
+                  </div>
+                  );
+                })}
+
+              </div>
             </BlurFade>
             <BlurFade inView duration={0.4}>
               <div className="flex flex-col gap-2">
