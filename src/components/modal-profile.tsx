@@ -59,10 +59,11 @@ export const ModalProfile = ({ profile }: Props) => {
       exit={{ scale: 0 }}
     >
       <ButtonBack className={`bg-[${profile?.color}]`} />
-      <div className="p-4 items-center gap-8 relative flex flex-col justify-center mx-auto w-[100%] lg:px-20 px-5 mt-20">
+      <div className="p-4 items-center gap-8 relative flex flex-col justify-center mx-auto w-[100%] lg:px-20 px-5 mt-10">
         <div className="flex gap-4 mx-auto items-center justify-between">
           <div
-            className={`bg-[${profile?.color}] flex py-2 items-center mx-auto px-16 lg:px-24 rounded-full gap-4`}
+          style={{backgroundColor:profile?.color}}
+            className={`flex py-2 items-center mx-auto px-16 lg:px-24 rounded-full gap-4`}
           >
             <h1 className="text-4xl mx-auto text-gray-700 uppercase flex">
               {profile?.label}
@@ -89,7 +90,8 @@ export const ModalProfile = ({ profile }: Props) => {
                   <NavigationMenuList>
                     <NavigationMenuItem>
                       <NavigationMenuTrigger
-                        className={`bg-[${profile?.color}] text-white font-semibold min-w-[150px] hover:bg-blue-500 mx-auto hover:text-white`}
+                      style={{backgroundColor:profile?.color}}
+                        className={`text-white font-semibold min-w-[150px] hover:bg-blue-500 mx-auto hover:text-white`}
                       >
                         {category.label}
                       </NavigationMenuTrigger>
@@ -98,7 +100,8 @@ export const ModalProfile = ({ profile }: Props) => {
                           return (
                             <NavigationMenuLink className="w-full">
                               <Button3D
-                                className={`w-full max-w-[250px] bg-[${profile?.color}]`}
+                                className={`w-full max-w-[250px]`}
+                                style={{backgroundColor: profile?.color}}
                                 onClick={() =>
                                   handleNavigationTo(
                                     profile.label,
