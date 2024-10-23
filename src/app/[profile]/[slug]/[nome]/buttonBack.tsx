@@ -6,7 +6,7 @@ import { CircleArrowLeft } from "lucide-react"
 import { useRouter } from "next/navigation"
 
 type Props = {
-  className:string;
+  className?:string;
   style?: any
 }
 

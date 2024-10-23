@@ -29,7 +29,7 @@ export default function Page({ params }: Props) {
 
   return (
     <Container className="py-8 lg:px-16 gap-8 items-center">
-      <ButtonBack className={`bg-[${profileData?.color}]`} />
+      <ButtonBack style={{backgroundColor: profileData?.color}} />
       <BlurFade inView>
         <div className="size-32 mx-auto rounded-full border-blue-500 border p-4 overflow-hidden">
           <img

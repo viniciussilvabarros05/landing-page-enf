@@ -1122,6 +1122,63 @@ export const vaccines = [
     },
   },
   {
+    categories: [100],
+    nome: "Vacina Hepatite B",
+    finalidade: {
+      pergunta: "Para que serve a vacina Hepatite B?",
+      resposta:
+        "A vacina Hepatite B serve para prevenir doenças causadas pelo vírus da Hepatite B.",
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta:
+        "A Hepatite B é uma doença que provoca inflamação e problemas no fígado e pode ser transmitida através do sexo sem proteção, compartilhamento de objetos contaminados e de mãe para filho.",
+    },
+    comoTomar: {
+      pergunta: "Como tomar a vacina Hepatite B?",
+      resposta:
+        "A vacina Hepatite B possui 3 doses para os adolescentes que não possuem comprovação da vacina registrada em caderneta.",
+      alerta:
+        "O intervalo de tempo recomendado entre a 1ª e a 2ª dose é de 30 dias, e entre a 2ª e a 3ª dose é de 60 dias.",
+      exemplo:
+        "Ex.: João possui registro da 1ª e 2ª dose da vacina da Hepatite B na caderneta, portanto deverá completar apenas com a 3ª dose.",
+    },
+    indicacoes: {
+      idadeMinima: {
+        pergunta: "Idade recomendada para o adolescente ser vacinado:",
+        resposta: "A partir de 7 anos de idade, em qualquer momento.",
+      },
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Hepatite B é aplicada?",
+      resposta:
+        "A vacina Hepatite B é aplicada de preferência no braço direito ou esquerdo no músculo próximo ao ombro (via intramuscular).",
+    },
+    vacinacaoSimultanea: {
+      pergunta:
+        "O adolescente pode receber a vacina Hepatite B junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. O adolescente pode receber outras vacinas do Calendário de Vacinação junto com a Hepatite B.",
+    },
+    reacoesAdversas: {
+      pergunta: "O que acontece no local em que a vacina foi aplicada?",
+      resposta:
+        "Pode apresentar pequena vermelhidão no local onde a vacina foi administrada, e pode vir acompanhado de febre nas primeiras 24h após a vacinação.",
+    },
+    cuidadosPosVacinacao: {
+      pergunta: "Cuidados necessários pós vacinação:",
+      resposta: [
+        "Utilizar compressas frias no local de aplicação para alívio da vermelhidão.",
+        "Em caso de aumento exagerado de um dos sintomas apresentados e/ou o aparecimento de pus em grande quantidade no local, recomenda-se buscar serviço de saúde para avaliação profissional.",
+      ],
+    },
+    alerta: {
+      pergunta: "ALERTA:",
+      resposta:
+        "Qualquer outra alteração no local ou próximo de onde a vacina foi administrada, procurar ajuda com um profissional de saúde.",
+    },
+  },
+  {
     categories: [110],
     nome: "Vacina HPV",
     finalidade: {
