@@ -132,7 +132,10 @@ export default function Page({ params }: Props) {
                 <p className="font-bold">
                   {vaccine.contraIndicacoes?.pergunta}
                 </p>
-                {vaccine.contraIndicacoes?.resposta.map((res) => {
+                {vaccine.contraIndicacoes?.resposta?.map((res) => {
+                  if(res ==""){
+                    return
+                  }
                   return <li className="">{res}</li>;
                 })}
 

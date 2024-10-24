@@ -1,4 +1,6 @@
+import { categoriesAdults } from "./categories-adults";
 import { categoriesKids, Category } from "./categories-kids";
+import { categoriesPregnant } from "./categories-pregnant";
 import { categoriesTeen } from "./categories-teen";
 
 export type Profile = {
@@ -14,13 +16,13 @@ export type Profile = {
 export const profiles = [
   {
     id: 1,
-    label: "Gestantes",
+    label: "Gestantes e Puérpera",
     img: "",
     hero: "",
     title: "",
-    color: "",
+    color: "#c084fc",
     description: "",
-    categories: categoriesKids,
+    categories: categoriesPregnant,
   },
   {
     id: 2,
@@ -37,12 +39,12 @@ export const profiles = [
   {
     id: 3,
     label: "Adulto-Idoso",
-    img: "",
-    hero: "",
+    img: "/images/adulto-idoso.avif",
+    hero: "/images/adulto-idoso.avif",
     title: "",
-    color: "",
+    color: "#0284c7",
     description: "",
-    categories: categoriesKids,
+    categories: categoriesAdults,
   },
   {
     id: 4,

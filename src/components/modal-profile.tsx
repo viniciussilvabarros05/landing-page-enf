@@ -4,7 +4,7 @@ import { Profile, profiles } from "@/utils/profiles";
 import { Container } from "./ui/container";
 import WordPullUp from "./ui/word-pull-up";
 import { useInView } from "framer-motion";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { Category } from "@/utils/categories-kids";
 import Button3D from "./button3d";
@@ -46,6 +46,12 @@ export const ModalProfile = ({ profile }: Props) => {
   function back() {
     navigation.back();
   }
+  useEffect(()=>{
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  },[])
   return (
     <motion.div
       className="w-full h-full border-blue-500 bg-white relative"
@@ -63,23 +69,23 @@ export const ModalProfile = ({ profile }: Props) => {
         style={{ backgroundColor: profile?.color }}
       />
       <div className="p-4 items-center gap-8 relative flex flex-col justify-center mx-auto w-[100%] lg:px-20 px-5 mt-10">
-        <div className="flex gap-4 mx-auto items-center justify-between">
+        <div className="flex gap-4 mx-auto items-center justify-between" id="label">
           <div
             style={{ backgroundColor: profile?.color }}
             className={`flex py-2 items-center mx-auto px-16 lg:px-24 rounded-full gap-4`}
           >
-            <h1 className="text-4xl mx-auto text-gray-700 uppercase flex">
+            <h1 className="text-4xl mx-auto text-gray-100 uppercase flex">
               {profile?.label}
             </h1>
           </div>
         </div>
-        <div className="w-[250px] lg:w-[600px] lg:h-[350px]  rounded-2xl">
+        <div className="w-[250px] lg:w-[400px] lg:h-[350px]  rounded-2xl">
           <Image
             alt="crianças"
             src={profile?.hero || ""}
             className="rounded-2xl"
-            width={600}
-            height={300}
+            width={500}
+            height={250}
             layout="responsive"
           />
         </div>
@@ -93,8 +99,8 @@ export const ModalProfile = ({ profile }: Props) => {
                   <NavigationMenuList>
                     <NavigationMenuItem>
                       <NavigationMenuTrigger
-                        style={{ backgroundColor: profile?.color }}
-                        className={`text-white font-semibold min-w-[150px] hover:bg-blue-500 mx-auto hover:text-white`}
+                        style={{ backgroundColor: profile?.color || "#F5BF36"  }}
+                        className={`text-white font-semibold min-w-[150px] max-w-[180px] h-fit hover:bg-blue-500 mx-auto hover:text-white`}
                       >
                         {category.label}
                       </NavigationMenuTrigger>
