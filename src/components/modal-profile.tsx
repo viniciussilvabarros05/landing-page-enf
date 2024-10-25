@@ -1,14 +1,10 @@
 "use client";
 
-import { Profile, profiles } from "@/utils/profiles";
-import { Container } from "./ui/container";
-import WordPullUp from "./ui/word-pull-up";
+import { Profile } from "@/utils/profiles";
 import { useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-import { Category } from "@/utils/categories-kids";
 import Button3D from "./button3d";
-import { CircleArrowLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import {
@@ -54,7 +50,7 @@ export const ModalProfile = ({ profile }: Props) => {
   },[])
   return (
     <motion.div
-      className="w-full h-full border-blue-500 bg-white relative"
+      className="w-full h-full border-blue-500 bg-white"
       initial="hidden"
       variants={{
         hidden: { scale: 0, borderRadius: "9999999px" },
@@ -66,9 +62,9 @@ export const ModalProfile = ({ profile }: Props) => {
     >
       <ButtonBack
         className={`bg-[${profile?.color}]`}
-        style={{ backgroundColor: profile?.color }}
+        style={{ backgroundColor: profile?.color, position:"sticky" }}
       />
-      <div className="p-4 items-center gap-8 relative flex flex-col justify-center mx-auto w-[100%] lg:px-20 px-5 mt-10">
+      <div className="p-4 items-center gap-4 relative flex flex-col justify-center mx-auto w-[100%] lg:px-20 px-5 mt-10">
         <div className="flex gap-4 mx-auto items-center justify-between" id="label">
           <div
             style={{ backgroundColor: profile?.color }}
@@ -79,7 +75,7 @@ export const ModalProfile = ({ profile }: Props) => {
             </h1>
           </div>
         </div>
-        <div className="w-[250px] lg:w-[400px] lg:h-[350px]  rounded-2xl">
+        <div className="w-[250px] lg:w-[400px] lg:h-[250px]  rounded-2xl">
           <Image
             alt="crianças"
             src={profile?.hero || ""}
@@ -90,7 +86,7 @@ export const ModalProfile = ({ profile }: Props) => {
           />
         </div>
         <h2 className="font-bold">{profile?.title}</h2>
-        <p className="lg:w-1/2 text-justify mb-4">{profile?.description}</p>
+        <p className="lg:w-1/2 text-justify mb-4" dangerouslySetInnerHTML={{ __html: profile?.description || " " }}></p>
         <div className="grid lg:grid-cols-5 lg:grid-rows-3 gap-8 p-4">
           {profile?.categories.map((category) => {
             return (

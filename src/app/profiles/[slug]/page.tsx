@@ -12,6 +12,9 @@ export default function Page({ params }: Props) {
     (profile) => profile.label == profileSearch
   );
 
-  return <ModalProfile profile={profileData} />;
+  return (
+    <div className="min-h-full">
+      <ModalProfile profile={profileData} />
+    </div>
+  );
 }
-                   
