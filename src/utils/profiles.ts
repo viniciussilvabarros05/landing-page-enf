@@ -40,7 +40,7 @@ export const profiles = [
     id: 3,
     label: "Adulto-Idoso",
     img: "/images/adulto-idoso.avif",
-    hero: "/images/adulto-idoso.avif",
+    hero: "/images/hero-adultos.jpg",
     title: "",
     color: "#0284c7",
     description: "",

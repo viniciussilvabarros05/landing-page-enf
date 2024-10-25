@@ -75,7 +75,7 @@ export const ModalProfile = ({ profile }: Props) => {
             </h1>
           </div>
         </div>
-        <div className="w-[250px] lg:w-[400px] lg:h-[250px]  rounded-2xl">
+        <div className="w-[250px] lg:w-[500px] lg:h-[250px]  rounded-2xl mb-4">
           <Image
             alt="crianças"
             src={profile?.hero || ""}

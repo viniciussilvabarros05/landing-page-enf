@@ -12,7 +12,7 @@ export const categoriesPregnant = [
     {
         id: 320,
         img: "/images/",
-        label: "Gestante e Puérpera a partir da 20ª semana"
+        label: "Gestante a partir da 20ª semana"
     },
 
 ]
