@@ -17,8 +17,8 @@ export const profiles = [
   {
     id: 1,
     label: "Gestantes e Puérpera",
-    img: "",
-    hero: "",
+    img: "/images/icon_gravida.jpg",
+    hero: "/images/hero-gestante.jpeg",
     title: "Proteção em dose dupla!",
     color: "#c084fc",
     description: `A vacinação durante a gestação e no período pós-parto é essencial para proteger a saúde da mãe e do bebê. Durante a gestação, ao se vacinar, a mãe garante uma gravidez mais segura, reduzindo riscos tanto para ela quanto para o desenvolvimento saudável do bebê, já que algumas vacinas transmitem anticorpos ao feto, oferecendo uma camada inicial de proteção nos primeiros meses de vida. Após o parto, a vacinação das puérperas continua importante para fortalecer a imunidade materna, protegendo tanto a mãe quanto o bebê contra infecções, já que o contato próximo entre eles é constante.<br/> Todas as vacinas necessárias durante a gestação e o período pós-parto devem ser registradas por um profissional de saúde e acompanhadas no pré-natal, por meio da Caderneta da Gestante, disponibilizada gratuitamente pelo SUS. Esse documento traz informações valiosas sobre vacinas, cuidados na gravidez, exames essenciais, recomendações para o parto e direitos das gestantes, além de orientações para os parceiros, fortalecendo o apoio emocional e promovendo um ambiente familiar mais estável.`,
