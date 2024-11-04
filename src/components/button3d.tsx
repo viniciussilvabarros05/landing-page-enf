@@ -14,7 +14,7 @@ const Button3D = ({ children, className,onClick, style }: Props) => {
   return (
     <motion.button
       style={style}
-      className={cn("bg-[#f5bf36] text-white px-6 py-2 border-none rounded-[10px] cursor-pointer",className)}
+      className={cn("bg-[#f5bf36] text-blue-500 font-bold px-6 py-2 border-none rounded-[10px] cursor-pointer",className)}
       whileHover={{
         boxShadow: "3.5px 3.5px 1px #3b82f6", // Sombra para o efeito 3D
         y:-3.5,

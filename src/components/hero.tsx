@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Button3D from "./button3d";
 import BlurFade from "./ui/blur-fade";
@@ -7,39 +8,41 @@ import WordPullUp from "./ui/word-pull-up";
 
 export const Hero = () => {
   return (
-    <Container>
+    <Container className="bg-[#BED9DE] p-4 flex flex-col items-center justify-center gap-10 xl:flex-row">
       <div className="flex flex-col gap-4 w-[100%] lg:w-[30%] xl:w-[50%]">
         <BoxReveal boxColor={"#8FC0FB"} duration={0.3}>
-          <h1 className="lg:text-3xl font-semibold 2xl:text-5xl text-2xl">
-            Bem-vindo ao (nome do site), o nosso portal de informações sobre
-            vacinas
+          <h1 className="lg:text-3xl font-semibold 2xl:text-4xl text-2xl">
+            Bem-vindo ao
+            <span className="text-blue-500 font-semibold"> SIOVH</span>, o nosso
+            portal de informações sobre vacinas
           </h1>
         </BoxReveal>
         <BoxReveal boxColor={"#8FC0FB"} duration={0.5}>
+          <h2 className="text-md text-justify">
+            Explore informações essenciais sobre o Calendário Vacinal, seja você
+            um profissional de saúde ou alguém em busca de orientações, encontre
+            aqui tudo o que precisa para uma vacinação completa e segura.
+          </h2>
+        </BoxReveal>
+
+        <BoxReveal boxColor={"#8FC0FB"} duration={0.5}>
           <h2 className="text-md">
-            Aqui, você encontrará tudo o que precisa saber para{" "}
-            <span className="text-blue-500 font-semibold">
-              proteger sua saúde e a de sua família.{" "}
-            </span>
-            Nosso objetivo é guiá-lo de forma simples e clara sobre as vacinas
-            recomendadas para cada etapa da vida e condições especiais. Juntos,
-            podemos cuidar do nosso bem-estar e garantir um futuro mais seguro
-            para todos.{" "}
             <span className="text-blue-500 font-semibold">
               Explore e descubra como a vacinação pode fazer a diferença na sua
               vida!
             </span>
           </h2>
         </BoxReveal>
-
-        <BlurFade key={"button-3d-hero"} delay={0.5} inView>
-          <Button3D className="mr-auto">
-            <Link href={""} className="font-bold">
-              Descubra as Vacinas Necessárias para Você
-            </Link>
-          </Button3D>
-        </BlurFade>
       </div>
+      <BlurFade className="flex flex-1" delay={0.8} duration={0.8}>
+        <Image
+          alt="hero"
+          width={500}
+          height={0}
+          layout="responsive"
+          src="/images/hero.png"
+        />
+      </BlurFade>
     </Container>
   );
 };

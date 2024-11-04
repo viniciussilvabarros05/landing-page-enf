@@ -14,7 +14,7 @@ export default function Home() {
       <Section2/>
       <Profiles/>
       <SpecialsConditions/>
-      <FAQ/>
+      {/* <FAQ/> */}
     </div>
   );
 }
