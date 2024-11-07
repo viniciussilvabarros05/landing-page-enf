@@ -88,7 +88,7 @@ export const Profiles = () => {
                     />
                   </motion.div>
 
-                  <p className="text-md text-blue-500 font-semibold capitalize">
+                  <p className="text-md text-blue-500 font-semibold uppercase">
                     {profile.label}
                   </p>
                 </CarouselItem>

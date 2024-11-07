@@ -16,15 +16,15 @@ export const Section2 = () => {
         {isInView && (
           <WordPullUp
             className="text-2xl lg:text-3xl w-full 2xl:text-5xl"
-            words="Proteção em Cada Fase da Vida - As Vacinas que Salvam Vidas"
+            words="A Informação é o Melhor Caminho para a Prevenção"
           />
         )}
       </div>
-      <div className="flex flex-row justify-between mt-20">
+      <div className="flex flex-row justify-between gap-8 mt-20 max-lg:flex-col">
         <div className="flex flex-col gap-4 w-full lg:w-[60%] 2xl:w-[60%] items-end ">
           <BoxReveal boxColor={"#8FC0FB"} duration={0.3}>
-            <h2 className="text-justify">
-              O <span className="text-blue-500 font-semibold"> SIOVH </span>
+            <h2 className="text-justify text-xl">
+              O <span className="text-blue-500 font-semibold text-xl"> SIOVH </span>
               foi criado para expandir o acesso a informações confiáveis sobre
               vacinação de maneira inclusiva e acessível, oferecendo um ambiente
               prático, seguro e transparente ao usuário. Aqui, você encontrará

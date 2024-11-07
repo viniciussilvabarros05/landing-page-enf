@@ -28,7 +28,7 @@ export default function Page({ params }: Props) {
   );
 
   return (
-    <Container className="py-8 lg:px-16 gap-8 items-center">
+    <Container className="py-8 lg:px-4 gap-8 items-center">
       <ButtonBack style={{backgroundColor: profileData?.color}} />
       <BlurFade inView>
         <div className="size-32 mx-auto rounded-full border-blue-500 border p-4 overflow-hidden">
@@ -45,7 +45,7 @@ export default function Page({ params }: Props) {
       </BoxReveal>
       {vaccinesData.map((vaccine) => {
         return (
-          <div className="flex flex-col items-center lg:items-start gap-4 lg:w-[50%] py-8">
+          <div className="flex flex-col items-center lg:items-start gap-4 lg:w-[70%] py-8 text-justify">
             <BoxReveal boxColor={profileData?.color} duration={0.4}>
               <h2 className="text-blue-500 uppercase font-bold mx-auto">
                 {vaccine.nome}
