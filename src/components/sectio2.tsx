@@ -20,7 +20,7 @@ export const Section2 = () => {
           />
         )}
       </div>
-      <div className="flex flex-row justify-between gap-8 mt-20 max-lg:flex-col">
+      <div className="flex flex-row justify-between gap-8 mt-20 max-lg:flex-col max-lg:items-center">
         <div className="flex flex-col gap-4 w-full lg:w-[60%] 2xl:w-[60%] items-end ">
           <BoxReveal boxColor={"#8FC0FB"} duration={0.3}>
             <h2 className="text-justify text-xl">

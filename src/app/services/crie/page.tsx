@@ -1,3 +1,4 @@
+import Button3D from "@/components/button3d";
 import { Header } from "@/components/header";
 import BlurFade from "@/components/ui/blur-fade";
 import BoxReveal from "@/components/ui/box-reveal";
@@ -8,19 +9,17 @@ export default function Page() {
   return (
     <div className="w-full min-h-screen flex flex-col items-center py-14">
       <Header />
-      <Container className="bg-[#BED9DE] py-2 px-4 flex flex-col items-center justify-center gap-10 xl:flex-row">
-        <div className="flex flex-col gap-4 w-[100%] lg:w-[30%] xl:w-[50%]">
+      <Container className="bg-[#BED9DE] py-2 px-4 flex flex-row items-center justify-center gap-10 xl:flex-row">
+        <div className="flex flex-col gap-4 w-[50%] max-lg:w-[80%] max-xl:w-[70%]">
           <BoxReveal boxColor={"#8FC0FB"} duration={0.3}>
             <h1 className="lg:text-3xl font-semibold 2xl:text-4xl text-2xl">
-              Entenda a Importância das Unidades Básicas de Saúde para a
-              Proteção da Comunidade!
+              CRIE: Centro de Referência para Imunobiológicos Especiais
             </h1>
           </BoxReveal>
           <BoxReveal boxColor={"#8FC0FB"} duration={0.5}>
             <h2 className="text-md text-justify text-xl">
-              Conheça o papel das Unidades Básicas de Saúde enquanto serviço de
-              saúde gratuito e garanta uma vacinação acessível e segura para
-              todos.
+              Conheça o serviço especializado para proteção de pessoas com
+              condições especiais de saúde disponível pelo SUS.
             </h2>
           </BoxReveal>
         </div>
@@ -30,17 +29,25 @@ export default function Page() {
             width={500}
             height={0}
             layout="responsive"
-            src="/images/hero-services-health.png"
+            src="/images/hero-services-crie.png"
           />
         </BlurFade>
       </Container>
-      <div className="flex flex-col gap-4 w-[100%] lg:w-[30%] xl:w-[80%] mt-20">
+      <div className="flex flex-col gap-4 max-lg:w-[80%] w-[80%]  max-xl:w-[80%] mt-20">
         <p className="text-justify">
-          As Unidades Básicas de Saúde (UBS) desempenham um papel fundamental no
-          cuidado da saúde da população. Como pontos de atendimento primário do
-          Sistema Único de Saúde (SUS), elas estão estrategicamente distribuídas
-          nas comunidades para garantir que todos os brasileiros tenham acesso a
-          serviços de saúde essenciais, incluindo a vacinação.
+          O Sistema Único de Saúde (SUS) oferece um serviço de vacinação
+          especializado voltado para pessoas com condições de saúde específicas:
+          os{" "}
+          <span className="text-blue-500 font-bold">
+            {" "}
+            Centros de Referência para Imunobiológicos Especiais{" "}
+          </span>
+          , conhecidos como{" "}
+          <span className="text-blue-500 font-bold">CRIE</span>. Esses centros
+          foram criados para atender quem precisa de vacinas diferenciadas e que
+          muitas vezes requerem cuidados adicionais em função de quadros
+          clínicos específicos, como imunodeficiências, doenças crônicas,
+          transplantados, entre outros.
           <br />
           <br />
           As Unidades são preparadas para atender diferentes grupos
@@ -52,29 +59,62 @@ export default function Page() {
           adequada e segura.
           <br />
           <br />
-          A exemplo disso, tem-se a vacinação móvel, iniciativa promovida pelas
-          Unidades para garantir que pessoas acamadas e em situação de
-          vulnerabilidade social, tenham acesso à imunização. Nessa abordagem,
-          os agentes comunitários de saúde (ACS) atuam como intermediadores do
-          cuidado. Eles são os profissionais que conhecem de perto as
-          necessidades da comunidade e têm a capacidade de identificar aqueles
-          que precisam de atenção especial. 
+          O CRIE é um local especialmente preparado para proporcionar uma
+          imunização segura e adaptada às necessidades de cada usuário. O
+          atendimento no CRIE conta com o apoio de profissionais capacitados que
+          garantem que as vacinas recomendadas sejam administradas com segurança
+          e de acordo com as orientações completas sobre o esquema de vacinação
+          necessária específica para cada caso.
           <br />
           <br />
-          Por meio da vacinação móvel, esses agentes levam as vacinas até a casa
-          das pessoas que enfrentam dificuldades de deslocamento, proporcionando
-          uma experiência de vacinação inclusiva ao orientar os usuários
-          conforme as suas necessidades e garantir que todos os acompanhamentos
-          necessários sejam feitos.
+          Para acessar o CRIE, é importante que o paciente tenha uma
+          recomendação médica, acompanhado da solicitação do imunobiológico e a
+          justificativa da indicação, por meio da{" "}
+          <span className="text-blue-500 font-bold">
+            “Ficha para Solicitação de Imunobiológicos Especiais - CRIE”
+          </span>{" "}
+          e apresentação do{" "}
+          <span className="text-blue-500 font-bold"> Cartão de Vacina </span>,
+          conforme as recomendações do Ministério da Saúde.
           <br />
           <br />
-          Vacinar-se nas Unidades Básicas de Saúde contribui para a saúde
-          individual e coletiva, ajudando a reduzir a circulação de doenças
-          infecciosas e a proteger aqueles que, por motivos médicos, não podem
-          ser vacinados. A vacinação é um direito e um dever de todos, e as UBS
-          estão disponíveis para facilitar esse cuidado, acessível e gratuito,
-          para você e sua família.
+          Converse com o seu médico ou com os profissionais de saúde da Unidade
+          Básica de Saúde (UBS) para verificar a necessidade de encaminhamento e
+          conhecer o CRIE mais próximo.
         </p>
+
+        <h2 className="text-blue-500 font-semibold mb-4">
+          ACESSE OUTRAS INFORMAÇÕES:
+        </h2>
+
+        <div className="flex flex-col gap-4 w-fit">
+          <div className="flex gap-4 items-center">
+            <img alt="certificado" src="/images/certificado.png" width={30} />
+            <Button3D className="font-bold flex">
+              <a href="https://www.gov.br/saude/pt-br/vacinacao/grupos-especiais" target="_blank">
+                Funcionamento e Operacionalização do CRIE
+              </a>
+            </Button3D>
+          </div>
+          <div className="flex gap-4 items-center">
+            <img alt="certificado" src="/images/certificado.png" width={30} />
+            <Button3D className="font-bold flex">
+              <a href="https://www.gov.br/saude/pt-br/vacinacao/arquivos/relacao-nacional-dos-crie" target="_blank">
+                Endereço dos CRIE no Território Nacional
+              </a>
+            </Button3D>
+          </div>
+
+          <div className="flex gap-4 items-center">
+            <img alt="certificado" src="/images/certificado.png" width={30} />
+
+            <Button3D className="font-bold flex">
+              <a href="https://www.gov.br/saude/pt-br/vacinacao/grupos-especiais" target="_blank">
+                Vacinas disponíveis para grupos especiais
+              </a>
+            </Button3D>
+          </div>
+        </div>
       </div>
     </div>
   );

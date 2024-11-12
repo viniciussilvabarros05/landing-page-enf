@@ -26,7 +26,7 @@ export const Header = () => {
           <DropdownMenuContent className="flex flex-col items-start justify-start gap-4 p-4 bg-blue-400 w-[220px]">
             <LinkHeader href={"/services/ubs"} label={"Unidades Básicas de Saúde (UBS)"} className="w-full text-white" />
             <LinkHeader
-              href={""}
+              href={"/services/crie"}
               label={"Centro de Referência para Imunobiológicos Especiais (CRIE)"}
               className="w-full text-white"
             />
