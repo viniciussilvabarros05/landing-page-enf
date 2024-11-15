@@ -1,4 +1,5 @@
 import { categoriesAdults } from "./categories-adults";
+import { CategoriesEmergency } from "./categories-emergency";
 import { categoriesKids, Category } from "./categories-kids";
 import { categoriesPregnant } from "./categories-pregnant";
 import { categoriesTeen } from "./categories-teen";
@@ -69,11 +70,21 @@ export const profiles = [
   {
     id: 6,
     label: "Adolescente",
-    img: "/images/adolescentes.jpg",
-    hero: "/images/adolescentes.jpg",
+    img: "/images/adolescentes1.png",
+    hero: "/images/hero-adolescentes.jpg",
     color: "#84cc16",
     title: "",
     description: "",
     categories: categoriesTeen,
+  },
+  {
+    id: 7,
+    label: "Vacinas para Situações de Emergência",
+    img: "/images/hero-emergency.jpg",
+    hero: "/images/hero-emergency.jpg",
+    color: "#f87171",
+    title: "",
+    description: "",
+    categories: CategoriesEmergency,
   },
 ];

@@ -100,12 +100,12 @@ export const ModalProfile = ({ profile }: Props) => {
                       >
                         {category.label}
                       </NavigationMenuTrigger>
-                      <NavigationMenuContent className="gap-4 flex flex-col p-4 items-center mr-10 justify-center z-[99] bg-blue-300">
+                      <NavigationMenuContent className="w-[250px] gap-4 flex flex-col p-4 items-center mr-10 justify-center z-[99] bg-blue-300">
                         {vaccinesData(category.id).map((vaccines) => {
                           return (
                             <NavigationMenuLink className="w-full">
                               <Button3D
-                                className={`w-full max-w-[250px]`}
+                                className={`w-[220px]`}
                                 style={{ backgroundColor: profile?.color }}
                                 onClick={() =>
                                   handleNavigationTo(

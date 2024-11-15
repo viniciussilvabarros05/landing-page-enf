@@ -24,49 +24,70 @@ export const Section2 = () => {
         <div className="flex flex-col gap-4 w-full lg:w-[60%] 2xl:w-[60%] items-end ">
           <BoxReveal boxColor={"#8FC0FB"} duration={0.3}>
             <h2 className="text-justify text-xl">
-              O <span className="text-blue-500 font-semibold text-xl"> SIOVH </span>
+              <span className="text-blue-500 font-semibold text-xl">
+                O SIOVH{" "}
+              </span>
               foi criado para expandir o acesso a informações confiáveis sobre
               vacinação de maneira inclusiva e acessível, oferecendo um ambiente
               prático, seguro e transparente ao usuário. Aqui, você encontrará
               orientações claras e objetivas sobre o Calendário Vacinal e
               condições especiais de saúde, direcionadas a diferentes grupos
               populacionais.
-              <br />
-              <br />
+            </h2>
+          </BoxReveal>
+          <br />
+          <br />
+          <BoxReveal boxColor={"#8FC0FB"} duration={0.5}>
+            <h2 className="text-justify text-xl">
               Você tem a oportunidade de acompanhar as vacinas recomendadas para
               cada fase da vida e explorar conteúdos complementares, tudo em uma
               ferramenta prática que combina portabilidade, conectividade e
               fácil navegação.
-              <br />
-              <br />
+            </h2>
+          </BoxReveal>
+          <br />
+          <br />
+
+          <BoxReveal boxColor={"#8FC0FB"} duration={0.7}>
+            <h2 className="text-justify text-xl">
               As informações deste website estão rigorosamente alinhadas às
               normas do Ministério da Saúde e respaldadas por Notas Técnicas
               oficiais atualizadas no ano de 2024.
-              <br />
-              <br />
+            </h2>
+          </BoxReveal>
+          <br />
+          <br />
+          <BoxReveal boxColor={"#8FC0FB"} duration={0.7}>
+            <h2 className="text-justify text-xl">
               Navegue, informe-se e veja como a adoção de hábitos saudáveis pode
               fazer a diferença para você, sua família e toda a comunidade!
             </h2>
           </BoxReveal>
-
         </div>
         <div className="flex flex-col gap-4 w-fit">
           <BlurFade key={"button-3d-section2"} delay={0.5} inView>
             <div className="p-4 pb-8 h-full max-w-[300px] w-[100%] bg-blue-400 font-medium text-center flex flex-col items-center gap-4">
-              <span className="py-1 px-4 rounded-full font-semibold bg-blue-200 w-fit">MISSÃO:</span>
+              <span className="py-1 px-4 rounded-full font-semibold bg-blue-200 w-fit">
+                MISSÃO:
+              </span>
               <p className="font-semibold">
                 Expandir o acesso a informações confiáveis sobre o Calendário
                 Vacinal.
               </p>
-              <span className="py-1 px-4 rounded-full font-semibold bg-blue-200 w-fit">VISÃO:</span>
+              <span className="py-1 px-4 rounded-full font-semibold bg-blue-200 w-fit">
+                VISÃO:
+              </span>
               <p className="font-semibold">
-                Expandir o acesso a informações confiáveis sobre o Calendário
-                Vacinal.
+                Busca-se ser uma referência em educação em saúde, orientando a
+                população e contribuindo para a promoção da saúde por meio da
+                prevenção de doenças através do conhecimento.
               </p>
-              <span className="py-1 px-4 rounded-full font-semibold bg-blue-200 w-fit">PRINCÍPIOS/VALORES</span>
+              <span className="py-1 px-4 rounded-full font-semibold bg-blue-200 w-fit">
+                PRINCÍPIOS/VALORES
+              </span>
               <p className="font-semibold">
-                Expandir o acesso a informações confiáveis sobre o Calendário
-                Vacinal.
+                Inclusão; Transparência; Acessibilidade; Inovação; Educação;
+                Confiabilidade.
               </p>
             </div>
           </BlurFade>

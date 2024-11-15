@@ -40,7 +40,7 @@ export default function Page({ params }: Props) {
       </BlurFade>
       <BoxReveal boxColor={profileData?.color} duration={0.4}>
         <h1 className="text-black text-4xl font-bold text-center lg:text-start">
-          {profileData?.label} : {categoryData?.label}
+          {nomeSearch} : {categoryData?.label}
         </h1>
       </BoxReveal>
       {vaccinesData.map((vaccine) => {

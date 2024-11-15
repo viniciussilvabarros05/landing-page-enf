@@ -40,23 +40,13 @@ export default function Page() {
           os{" "}
           <span className="text-blue-500 font-bold">
             {" "}
-            Centros de Referência para Imunobiológicos Especiais{" "}
-          </span>
-          , conhecidos como{" "}
+            Centros de Referência para Imunobiológicos Especiais
+          </span>, conhecidos como{" "}
           <span className="text-blue-500 font-bold">CRIE</span>. Esses centros
           foram criados para atender quem precisa de vacinas diferenciadas e que
           muitas vezes requerem cuidados adicionais em função de quadros
           clínicos específicos, como imunodeficiências, doenças crônicas,
           transplantados, entre outros.
-          <br />
-          <br />
-          As Unidades são preparadas para atender diferentes grupos
-          populacionais com equipes treinadas e em conformidade com as normas do
-          Ministério da Saúde. São oferecidas vacinas direcionadas para bebês,
-          crianças, adolescentes, adultos, até idosos e gestantes. Esses
-          serviços também abrangem grupos com condições especiais de saúde e
-          pessoas em situações de vulnerabilidade, proporcionando imunização
-          adequada e segura.
           <br />
           <br />
           O CRIE é um local especialmente preparado para proporcionar uma
@@ -71,9 +61,9 @@ export default function Page() {
           recomendação médica, acompanhado da solicitação do imunobiológico e a
           justificativa da indicação, por meio da{" "}
           <span className="text-blue-500 font-bold">
-            “Ficha para Solicitação de Imunobiológicos Especiais - CRIE”
-          </span>{" "}
-          e apresentação do{" "}
+            “Ficha para Solicitação de Imunobiológicos Especiais - CRIE” 
+          </span>
+           {" "}e apresentação do{" "}
           <span className="text-blue-500 font-bold"> Cartão de Vacina </span>,
           conforme as recomendações do Ministério da Saúde.
           <br />
