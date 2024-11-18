@@ -34,7 +34,7 @@ export default function Page() {
           />
         </BlurFade>
       </Container>
-      <div className="flex flex-col gap-4 w-[100%] lg:w-[30%] xl:w-[80%] mt-20">
+      <div className="flex flex-col gap-4 w-[100%] lg:w-[30%] xl:w-[80%] mt-20 text-lg">
         <p className="text-justify">
           As Unidades Básicas de Saúde (UBS) desempenham um papel fundamental no
           cuidado da saúde da população. Como pontos de atendimento primário do
@@ -51,14 +51,14 @@ export default function Page() {
           pessoas em situações de vulnerabilidade, proporcionando imunização
           adequada e segura.
           <br />
-          <br />
-          A exemplo disso, tem-se a vacinação móvel, iniciativa promovida pelas
-          Unidades para garantir que pessoas acamadas e em situação de
-          vulnerabilidade social, tenham acesso à imunização. Nessa abordagem,
-          os agentes comunitários de saúde (ACS) atuam como intermediadores do
-          cuidado. Eles são os profissionais que conhecem de perto as
-          necessidades da comunidade e têm a capacidade de identificar aqueles
-          que precisam de atenção especial. 
+          <br />A exemplo disso, tem-se a{" "}
+          <span className="font-bold text-blue-500"> vacinação móvel </span>,
+          iniciativa promovida pelas Unidades para garantir que pessoas acamadas
+          e em situação de vulnerabilidade social, tenham acesso à imunização.
+          Nessa abordagem, os agentes comunitários de saúde (ACS) atuam como
+          intermediadores do cuidado. Eles são os profissionais que conhecem de
+          perto as necessidades da comunidade e têm a capacidade de identificar
+          aqueles que precisam de atenção especial.
           <br />
           <br />
           Por meio da vacinação móvel, esses agentes levam as vacinas até a casa

@@ -41,7 +41,8 @@ export default function Page() {
           <span className="text-blue-500 font-bold">
             {" "}
             Centros de Referência para Imunobiológicos Especiais
-          </span>, conhecidos como{" "}
+          </span>
+          , conhecidos como{" "}
           <span className="text-blue-500 font-bold">CRIE</span>. Esses centros
           foram criados para atender quem precisa de vacinas diferenciadas e que
           muitas vezes requerem cuidados adicionais em função de quadros
@@ -61,9 +62,9 @@ export default function Page() {
           recomendação médica, acompanhado da solicitação do imunobiológico e a
           justificativa da indicação, por meio da{" "}
           <span className="text-blue-500 font-bold">
-            “Ficha para Solicitação de Imunobiológicos Especiais - CRIE” 
-          </span>
-           {" "}e apresentação do{" "}
+            “Ficha para Solicitação de Imunobiológicos Especiais - CRIE”
+          </span>{" "}
+          e apresentação do{" "}
           <span className="text-blue-500 font-bold"> Cartão de Vacina </span>,
           conforme as recomendações do Ministério da Saúde.
           <br />
@@ -81,7 +82,10 @@ export default function Page() {
           <div className="flex gap-4 items-center">
             <img alt="certificado" src="/images/certificado.png" width={30} />
             <Button3D className="font-bold flex">
-              <a href="https://www.gov.br/saude/pt-br/vacinacao/grupos-especiais" target="_blank">
+              <a
+                href="https://www.gov.br/saude/pt-br/vacinacao/grupos-especiais"
+                target="_blank"
+              >
                 Funcionamento e Operacionalização do CRIE
               </a>
             </Button3D>
@@ -89,7 +93,10 @@ export default function Page() {
           <div className="flex gap-4 items-center">
             <img alt="certificado" src="/images/certificado.png" width={30} />
             <Button3D className="font-bold flex">
-              <a href="https://www.gov.br/saude/pt-br/vacinacao/arquivos/relacao-nacional-dos-crie" target="_blank">
+              <a
+                href="https://www.gov.br/saude/pt-br/vacinacao/arquivos/relacao-nacional-dos-crie"
+                target="_blank"
+              >
                 Endereço dos CRIE no Território Nacional
               </a>
             </Button3D>
@@ -99,7 +106,10 @@ export default function Page() {
             <img alt="certificado" src="/images/certificado.png" width={30} />
 
             <Button3D className="font-bold flex">
-              <a href="https://www.gov.br/saude/pt-br/vacinacao/grupos-especiais" target="_blank">
+              <a
+                href="https://www.gov.br/saude/pt-br/vacinacao/grupos-especiais"
+                target="_blank"
+              >
                 Vacinas disponíveis para grupos especiais
               </a>
             </Button3D>
