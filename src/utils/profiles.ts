@@ -79,7 +79,7 @@ export const profiles = [
   },
   {
     id: 7,
-    label: "Vacinas para Situações de Emergência",
+    label: "emergency",
     img: "/images/logo-emergency.png",
     hero: "/images/hero-emergency.png",
     color: "#f87171",

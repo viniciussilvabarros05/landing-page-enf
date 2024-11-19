@@ -19,6 +19,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { vaccines } from "@/utils/vaccines";
 import { ButtonBack } from "@/app/[profile]/[slug]/[nome]/buttonBack";
+import { EmergencyVaccines } from "@/utils/emergency-vaccines";
 
 type Props = {
   profile: Profile | undefined;
@@ -29,8 +30,16 @@ export const ModalProfile = ({ profile }: Props) => {
   const inView = useInView(ref);
   const navigation = useRouter();
 
-  const vaccinesData = (idSearch: number) =>
-    vaccines.filter((vaccine) => vaccine.categories.includes(idSearch));
+  const vaccinesData = (idSearch: number) =>{
+
+    let data= vaccines.filter((vaccine) => vaccine.categories.includes(idSearch));
+
+    if(data.length ==0){
+      return EmergencyVaccines.filter((vaccine) => vaccine.categories.includes(idSearch));
+    }
+    return data
+
+  }
 
   function handleNavigationTo(
     profileLabel: string,
@@ -86,6 +95,7 @@ export const ModalProfile = ({ profile }: Props) => {
           />
         </div>
         <h2 className="font-bold">{profile?.title}</h2>
+        
         <p className="lg:w-1/2 text-justify mb-4" dangerouslySetInnerHTML={{ __html: profile?.description || " " }}></p>
         <div className="grid lg:grid-cols-5 lg:grid-rows-3 gap-8 p-4">
           {profile?.categories.map((category) => {
