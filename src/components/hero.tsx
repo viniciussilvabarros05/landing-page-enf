@@ -11,7 +11,7 @@ export const Hero = () => {
     <Container className="xl:w-full mt-0 p-0 lg:p-0">
       <div
         className="w-fit lg:px-44 h-[90vh] xl:flex-row gap-10 items-center justify-start py-2 flex flex-col bg-no-repeat bg-center bg-cover"
-        style={{ backgroundImage: "url(/images/hero-bg2.png)", backgroundPosition:'center' }}
+        style={{ backgroundImage: "url(/images/hero-bg.jpg)", backgroundPosition:'center' }}
       >
         <div className="flex flex-col gap-4 w-[100%] lg:w-[30%] xl:w-[50%] max-lg:px-4">
           <BoxReveal boxColor={"#8FC0FB"} duration={0.3}>
@@ -38,7 +38,15 @@ export const Hero = () => {
             </h2>
           </BoxReveal>
         </div>
-
+        <BlurFade className="flex flex-1" delay={0.8} duration={0.8}>
+          <Image
+            alt="hero"
+            width={500}
+            height={0}
+            layout="responsive"
+            src="/images/hero.png"
+          />
+        </BlurFade>
       </div>
     </Container>
   );
