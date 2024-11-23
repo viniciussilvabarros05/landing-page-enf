@@ -69,17 +69,17 @@ export const ModalProfile = ({ profile }: Props) => {
       transition={{ ease: "linear", delay: 0.2 }}
       exit={{ scale: 0 }}
     >
+      <div className="items-center gap-4 relative flex flex-col justify-center mx-auto w-[100%] lg:px-20 px-5">
       <ButtonBack
-        className={`bg-[${profile?.color}]`}
+        className={`bg-[${profile?.color}] mr-auto`}
         style={{ backgroundColor: profile?.color, position:"sticky" }}
       />
-      <div className="p-4 items-center gap-4 relative flex flex-col justify-center mx-auto w-[100%] lg:px-20 px-5 mt-10">
         <div className="flex gap-4 mx-auto items-center justify-between" id="label">
           <div
             style={{ backgroundColor: profile?.color }}
             className={`flex py-2 items-center mx-auto px-16 lg:px-24 rounded-full gap-4`}
           >
-            <h1 className="text-4xl mx-auto text-gray-100 uppercase flex">
+            <h1 className="text-4xl mx-auto text-gray-100 uppercase flex max-lg:text-2xl">
               {profile?.label}
             </h1>
           </div>
