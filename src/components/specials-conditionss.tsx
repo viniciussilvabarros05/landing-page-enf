@@ -108,7 +108,7 @@ export const SpecialsConditions = () => {
                   scale: 0.9,
                 }}
                 transition={{ type: "spring", bounce: 0.7 }}
-                onClick={() => handleNavigationTo("nao-indicadas")}
+                onClick={() => handleNavigationTo("/contraindications")}
                 className="border-yellow-300 border-[8px] w-56 h-[18rem] rounded-2xl m-auto  flex items-center justify-center cursor-pointer relative"
               >
                 <Image
