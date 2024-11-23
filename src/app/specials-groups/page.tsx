@@ -38,22 +38,18 @@ export default function Page() {
         para cada condição, de modo a promover uma imunização segura e
         eficiente.
       </p>
-      <div className="flex items-center gap-4">
+      <div className="flex justify-center items-center gap-4 w-full max-lg:flex-col">
         <Image
           alt="grupos especiais"
-          src=""
-          width={0}
-          height={0}
-          className="w-fit"
-          layout="responsive"
+          src="/images/crie.png"
+          width={500}
+          height={500}
         />
         <Image
           alt="grupos especiais"
-          src=""
-          width={0}
-          height={0}
-          className="w-fit"
-          layout="responsive"
+          src="/images/crie2.png"
+          width={500}
+          height={500}
         />
       </div>
 
