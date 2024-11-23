@@ -110,11 +110,6 @@ export const Header = () => {
             </DropdownMenuContent>
           </DropdownMenu>
           <LinkHeader
-            href={""}
-            label={"Campanhas de Vacinação"}
-            className="w-full"
-          />
-          <LinkHeader
             href={"/#conditions-specials"}
             label={"Mais informações"}
             className="w-full"
