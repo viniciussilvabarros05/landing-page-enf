@@ -16,7 +16,7 @@ export const Header = () => {
   return (
     <header className="w-full m-auto flex p-8 fixed top-0 left-0 bg-white/40 backdrop-blur-md shadow-md z-10">
       <div className="w-full gap-8 items-center justify-center hidden lg:flex">
-        <LinkHeader href={""} label={"Início"} />
+        <LinkHeader href={"/"} label={"Início"} />
         <LinkHeader href={"/#profiles"} label={" Vacina para todos"} />
 
         <DropdownMenu>
@@ -40,7 +40,6 @@ export const Header = () => {
             />
           </DropdownMenuContent>
         </DropdownMenu>
-        <LinkHeader href={""} label={"Campanhas de Vacinação"} />
         <LinkHeader href={"/#conditions-specials"} label={"Mais informações"} />
         <Button3D className="bg-[#f5bf36]">
           <Link href={""} className="font-bold">
