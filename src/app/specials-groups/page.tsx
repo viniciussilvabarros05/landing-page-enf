@@ -29,11 +29,11 @@ export default function Page() {
         São vacinas formuladas ou administradas em esquemas diferenciados para
         proteger indivíduos que, devido a condições de saúde ou outras
         características específicas, têm maior risco de desenvolver complicações
-        graves se infectados por certas doenças.
+        graves se infectados por vírus ou bactérias.
       </p>
-      <br/>
+      <br />
       <p className="text-justify">
-        O calendário de vacinação para esses grupos é cuidadosamente ajustado
+        O Calendário de Vacinação para esses grupos é cuidadosamente ajustado
         conforme as necessidades de proteção e as recomendações de segurança
         para cada condição, de modo a promover uma imunização segura e
         eficiente.
@@ -64,37 +64,67 @@ export default function Page() {
       >
         <li>
           <strong>Problemas no sistema imunológico:</strong> Pessoas que
-          nasceram com problemas de imunidade ou que têm doenças que enfraquecem
+          nasceram com problemas de imunidade ou que têm doenças que comprometem
           a defesa do corpo. A exemplo disso, pessoas que vivem e convivem com
-          HIV;
+          HIV/Aids;
         </li>
         <li>
-          <strong>Tratamento para câncer:</strong> Pessoas que estão fazendo quimioterapia, radioterapia ou usando medicamentos que afetam o sistema de defesa do corpo;
-
+          <strong>Tratamento para câncer:</strong> Pessoas que estão fazendo
+          quimioterapia, radioterapia ou usando medicamentos que afetam o
+          sistema de defesa do corpo;
         </li>
         <li>
-          <strong>Transplantes:</strong> Pessoas que receberam transplante de órgãos, como rim, fígado ou medula óssea, precisam de atenção especial para evitar infecções;
+          <strong>Transplantes:</strong> Pessoas que receberam transplante de
+          órgãos, como rim, fígado ou medula óssea, precisam de atenção especial
+          para evitar infecções;
         </li>
         <li>
-          <strong>Doenças autoimunes:</strong> Pessoas que tem doenças que atacam o próprio corpo, como lúpus ou artrite reumatoide, entre outras, que estão em tratamento com medicamentos imunossupressores;
+          <strong>Doenças autoimunes:</strong> Pessoas que têm doenças que
+          atacam o próprio corpo, como lúpus ou artrite reumatóide, entre
+          outras, que estão em tratamento com medicamentos imunossupressores
+          (Ex.: Corticóides);
         </li>
         <li>
-          <strong>Doenças crônicas graves:</strong>  Pessoas com doenças de longa duração, como problemas graves no coração, pulmões, rins, fígado, ou diabetes que não está bem controlada.
-
+          <strong>Doenças crônicas graves:</strong> Pessoas com doenças de longa
+          duração, como problemas graves no coração, pulmões, rins, fígado, ou
+          diabetes que não estão controlados.
         </li>
         <li>
-          <strong>Gestantes com necessidades especiais:</strong> Gestantes que tenham algum problema de saúde específico e que precisam de vacinas diferenciadas;
-
+          <strong>Gestantes com necessidades especiais:</strong> Gestantes que
+          tenham algum problema de saúde específico, a exemplo: doenças crônicas
+          graves, imunodeficiência, histórico de perdas gestacionais ou partos
+          prematuros por infecção, entre outras;
         </li>
         <li>
-          <strong>Bebês prematuros e recém-nascidos de risco:</strong> Bebês que nasceram antes do tempo ou com baixo peso, o que pode deixá-los mais vulneráveis a doenças;
-
+          <strong>Bebês pré-termos:</strong> Bebês que nasceram antes de 37
+          semanas de idade gestacional, apresentando baixo peso ou muito baixo
+          peso.
         </li>
         <li>
-          <strong>Alergias graves:</strong> Pessoas que têm reações alérgicas muito fortes a componentes das vacinas comuns e precisam de outras alternativas ou do acompanhamento de um especialista;
+          <strong>Alergias graves:</strong> Pessoas que têm reações alérgicas
+          muito fortes a componentes das vacinas comuns e precisam de outras
+          alternativas ou do acompanhamento de um especialista
         </li>
         <li>
-          <strong>Contato com pessoas de risco:</strong> Para quem mora ou cuida de pessoas com a imunidade baixa pode ser vacinado no CRIE para proteger essas pessoas.
+          <strong>Contato com pessoas de risco:</strong> Para quem mora ou cuida
+          de pessoas com a imunidade baixa pode ser vacinado no CRIE para sua
+          proteção
+        </li>
+      </ul>
+      <p className="font-bold ">Exemplo:</p>
+      <ul style={{listStyleType:"inherit"}} className="px-4">
+        <li>
+          Cuidadores que assistem pessoas com HIV/Aids, câncer em tratamento
+          quimioterápico, ou transplantados;
+        </li>
+        <li>Cuidadores de idosos ou pessoas com doenças crônicas graves;</li>
+        <li>
+          Cuidadores de bebês pré-termos ou crianças com condições especiais
+          (Ex.: cardiopatias congênitas);
+        </li>
+        <li>
+          Cuidadores que acompanham pessoas em áreas com surtos de doenças como
+          febre amarela ou sarampo, necessitando de imunização específica.
         </li>
       </ul>
       <h2 className="text-blue-500 font-semibold mt-8 mb-4">

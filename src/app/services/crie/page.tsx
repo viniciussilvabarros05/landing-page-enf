@@ -43,29 +43,18 @@ export default function Page() {
             Centros de Referência para Imunobiológicos Especiais
           </span>
           , conhecidos como{" "}
-          <span className="text-blue-500 font-bold">CRIE</span>. Esses centros
-          foram criados para atender quem precisa de vacinas diferenciadas e que
-          muitas vezes requerem cuidados adicionais em função de quadros
-          clínicos específicos, como imunodeficiências, doenças crônicas,
-          transplantados, entre outros.
+          <span className="text-blue-500 font-bold">CRIE</span>. Esses centros foram criados para atender quem precisa de vacinas especiais e que muitas vezes requerem cuidados adicionais em função de quadros clínicos específicos, como imunodeficiências, doenças crônicas, transplantados, entre outros.
           <br />
           <br />
-          O CRIE é um local especialmente preparado para proporcionar uma
-          imunização segura e adaptada às necessidades de cada usuário. O
-          atendimento no CRIE conta com o apoio de profissionais capacitados que
-          garantem que as vacinas recomendadas sejam administradas com segurança
-          e de acordo com as orientações completas sobre o esquema de vacinação
-          necessária específica para cada caso.
+          O CRIE é um local especialmente preparado para proporcionar imunização segura e adaptada às necessidades de cada usuário. O atendimento no CRIE conta com o apoio de profissionais capacitados que garantem que as vacinas recomendadas sejam administradas com segurança e de acordo com as orientações completas sobre o esquema de vacinação necessária específica para cada caso.
           <br />
           <br />
-          Para acessar o CRIE, é importante que o paciente tenha uma
-          recomendação médica, acompanhado da solicitação do imunobiológico e a
-          justificativa da indicação, por meio da{" "}
+          Para acessar o CRIE, é importante que o usuário tenha uma recomendação médica, acompanhado da solicitação da vacina e a justificativa da indicação, por meio da{" "}
           <span className="text-blue-500 font-bold">
             “Ficha para Solicitação de Imunobiológicos Especiais - CRIE”
           </span>{" "}
           e apresentação do{" "}
-          <span className="text-blue-500 font-bold"> Cartão de Vacina </span>,
+          <span className="text-blue-500 font-bold"> Caderneta ou Cartão de Vacina </span>,
           conforme as recomendações do Ministério da Saúde.
           <br />
           <br />

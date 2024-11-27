@@ -43,35 +43,38 @@ export default function Page() {
           serviços de saúde essenciais, incluindo a vacinação.
           <br />
           <br />
-          As Unidades são preparadas para atender diferentes grupos
-          populacionais com equipes treinadas e em conformidade com as normas do
-          Ministério da Saúde. São oferecidas vacinas direcionadas para bebês,
-          crianças, adolescentes, adultos, até idosos e gestantes. Esses
-          serviços também abrangem grupos com condições especiais de saúde e
-          pessoas em situações de vulnerabilidade, proporcionando imunização
-          adequada e segura.
+          As UBS são preparadas para atender diferentes grupos populacionais com
+          equipes treinadas e em conformidade com as normas do Ministério da
+          Saúde. São oferecidas vacinas direcionadas para bebês, crianças,
+          adolescentes, adultos, idosos e gestantes. Esses serviços também
+          abrangem grupos com condições especiais de saúde e pessoas em
+          situações de vulnerabilidade, proporcionando imunização adequada e
+          segura.
           <br />
           <br />A exemplo disso, tem-se a{" "}
           <span className="font-bold text-blue-500"> vacinação móvel </span>,
-          iniciativa promovida pelas Unidades para garantir que pessoas acamadas
-          e em situação de vulnerabilidade social, tenham acesso à imunização.
-          Nessa abordagem, os agentes comunitários de saúde (ACS) atuam como
-          intermediadores do cuidado. Eles são os profissionais que conhecem de
-          perto as necessidades da comunidade e têm a capacidade de identificar
-          aqueles que precisam de atenção especial.
+          uma iniciativa promovida pelas Unidades para garantir que pessoas
+          acamadas e em situação de vulnerabilidade social tenham acesso à
+          imunização. Nesse contexto, as equipes de Estratégia Saúde da Família
+          desempenham um papel central como intermediadoras do cuidado,
+          coordenando ações e garantindo a efetividade das intervenções.
+          Complementando esse trabalho, os Agentes Comunitários de Saúde (ACS)
+          atuam diretamente na comunidade, mediante o conhecimento sobre as
+          necessidades locais para identificar indivíduos que demandam atenção
+          especial.
           <br />
           <br />
-          Por meio da vacinação móvel, esses agentes levam as vacinas até a casa
-          das pessoas que enfrentam dificuldades de deslocamento, proporcionando
-          uma experiência de vacinação inclusiva ao orientar os usuários
-          conforme as suas necessidades e garantir que todos os acompanhamentos
-          necessários sejam feitos.
+          Por meio da Vacinação Móvel, os profissionais da Estratégia Saúde da
+          Família levam as vacinas até a casa das pessoas que enfrentam
+          dificuldades de deslocamento, proporcionando uma experiência de
+          vacinação inclusiva ao orientar os usuários conforme as suas
+          necessidades e garantir que todos os acompanhamentos necessários sejam
+          feitos.
           <br />
           <br />
           Vacinar-se nas Unidades Básicas de Saúde contribui para a saúde
           individual e coletiva, ajudando a reduzir a circulação de doenças
-          infecciosas e a proteger aqueles que, por motivos médicos, não podem
-          ser vacinados. A vacinação é um direito e um dever de todos, e as UBS
+          infecciosas. A vacinação é um direito e um dever de todos, e as UBS
           estão disponíveis para facilitar esse cuidado, acessível e gratuito,
           para você e sua família.
         </p>
