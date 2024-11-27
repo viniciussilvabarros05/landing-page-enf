@@ -84,7 +84,9 @@ export const profiles = [
     hero: "/images/hero-emergency.png",
     color: "#f87171",
     title: "",
-    description: "",
+    description: `Conhecer as vacinas recomendadas para situações de emergência é essencial para proteger a saúde pública e evitar a propagação de doenças em contextos críticos, como desastres naturais, surtos epidemiológicos e/ou crises humanitárias. Nesses cenários, o acesso rápido e eficiente às vacinas pode reduzir a propagação de infecções e proteger as populações vulneráveis.
+    </br>
+O Ministério da Saúde atua coordenando respostas estratégicas, garantindo o fornecimento e a distribuição das vacinas adequadas e orientando profissionais de saúde e comunidades sobre medidas preventivas. Essa ação ágil e coordenada é vital para controlar surtos e garantir a proteção coletiva`,
     categories: CategoriesEmergency,
   },
 ];
