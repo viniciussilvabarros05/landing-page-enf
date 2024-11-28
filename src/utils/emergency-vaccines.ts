@@ -51,31 +51,62 @@ export const EmergencyVaccines = [
         "A raiva é uma doença grave que afeta o cérebro e o sistema nervoso central, sendo quase sempre fatal após o início dos sintomas. A vacinação é recomendada para pessoas expostas ao risco, como veterinários, cuidadores de animais, viajantes para áreas endêmicas, ou quem foi mordido ou arranhado por animais possivelmente infectados.",
     },
     comoTomar: {
-      pergunta: "Como tomar a vacina contra a Raiva Humana?",
+      pergunta: "PROTOCOLO (Esquema Vacinal para Raiva Humana):",
       resposta: [
-        "Esquema pré-exposição: Indicado para pessoas em risco contínuo, com 4 doses administradas nos dias 0, 7, 21 e 28.",
-        "Esquema pós-exposição: Indicado para quem teve contato suspeito com o vírus da raiva.",
-        "5 doses para não vacinados: Dias 0, 3, 7, 14 e 28.",
-        "2 doses para previamente vacinados: Dias 0 e 3.",
+        `<p style="font-weight: bold; color:#3b82f6">1. ESQUEMA PRÉ-EXPOSIÇÃO:</p>`,
+        `<p>
+          Este esquema é indicado para pessoas em risco contínuo de exposição ao vírus da raiva, como veterinários, trabalhadores de laboratório, profissionais que manipulam animais ou viajam para áreas endêmicas. <strong>O esquema consiste em 4 doses:</strong>
+        </p>`,
+        `<strong>1ª Dose:</strong> Dia 0 (dia da primeira administração da vacina);`,
+        `<strong>2ª Dose:</strong> Dia 07 (sétimo dia após a primeira administração da vacina);`,
+        `<strong>3ª Dose:</strong> Dia 21 (vigésimo primeiro dia após a primeira administração da vacina);`,
+        `<strong>4ª Dose:</strong> Dia 28 (vigésimo oitavo dia após a primeira administração da vacina);`,
+        `<strong>ATENÇÃO:</strong> Após a vacinação inicial, as doses de reforço podem ser recomendadas a cada 2 a 3 anos, dependendo do nível de risco.`,
+        `<p style="font-weight: bold; color:#3b82f6">1. ESQUEMA PÓS-EXPOSIÇÃO:</p>`,
+        `Este esquema é indicado para pessoas que tiveram contato suspeito com o vírus da raiva, como mordidas, cicatrizes ou lambeduras de animais infectados ou infectados. O esquema consiste em:`,
+        `<li style="font-weight: bold; color:#3b82f6"> 5 doses para pessoas não vacinadas:</li>`,
+        `<strong>1ª Dose:</strong> Dia 0 (administração imediata da vacina);`,
+        `<strong>2ª Dose:</strong> Dia 03 (terceiro dia após a primeira administração da vacina);`,
+        `<strong>3ª Dose:</strong> Dia 07 (sétimo dia após a primeira administração da vacina);`,
+        `<strong>4ª Dose:</strong> Dia 28 Dia 14 (décimo quarto dia após a primeira administração da vacina);`,
+        `<strong>5ª Dose:</strong> Dia 28 (vigésimo oitavo dia após a primeira administração da vacina).`,
+        `<li style="font-weight: bold; color:#3b82f6"> 2 doses para pessoas previamente vacinadas:</li>`,
+        `<strong>1ª Dose:</strong> Dia 0 (administração imediata da vacina após o acidente);`,
+        `<strong>2ª Dose:</strong> Dia 03 (terceiro dia após o acidente).`,
+        `<strong>IMPORTANTE</strong>: Em alguns casos, também é aplicada a imunoglobulina antirrábica (anticorpos prontos contra o vírus) junto com a primeira dose.`,
+        `<strong style="margin: auto">Legenda:</strong>`,
+        `
+        <strong>Acidentes Leves:</strong> Mordeduras ou arranhaduras causadas por unha ou dente e/ou lambedura de pele com lesões superficiais;</br></br>
+        <strong>Acidentes Graves:</strong> Ferimentos profundos, múltiplos ou extensos, em qualquer região do corpo causados por unha e/ou lambedura de mucosas e pele onde já existe lesão grave;</br></br>
+        <strong>Animais Silvestres:</strong>
+        Ex.: Macaco, guaxinim, raposa, morcegos.<br/>
+        <strong>Obs.:</strong> Os animais silvestres não podem ser observados quanto aos sinais da raiva, por esse motivo, segue no quadro abaixo a conduta recomendada pelo Ministério da Saúde.
+        
+        `,
+
+        `<img src="/images/raiva-table.png" />`
+      
+
+
       ],
     },
     indicacoes: {
-      pergunta: "Quem deve tomar a vacina contra a Raiva Humana?",
+      pergunta: "",
       resposta:
-        "Pessoas expostas ao risco contínuo (veterinários, profissionais que manipulam animais, viajantes para áreas endêmicas) ou em casos de acidentes (mordidas, arranhões ou lambeduras de animais infectados ou suspeitos).",
+        "",
     },
     atencaoEspecial: {
-      pergunta: "Existem cuidados adicionais?",
+      pergunta: "",
       resposta: [
-        "Nos casos de acidente, lavar a área afetada com água e sabão imediatamente.",
-        "Observar o animal por 10 dias após o acidente. Caso ele morra, desapareça ou demonstre comportamento suspeito, é necessário prosseguir com o esquema de vacinação e imunoglobulina antirrábica, se indicado.",
+        "",
+        "",
       ],
     },
     campanhas: {
-      pergunta: "Como funcionam as orientações em situações emergenciais?",
+      pergunta: "",
       resposta: [
-        "A imunoglobulina antirrábica pode ser administrada junto com a primeira dose da vacina em acidentes graves.",
-        "É fundamental procurar uma Unidade de Saúde rapidamente para avaliação e início do esquema vacinal.",
+        "",
+        "",
       ],
     },
   },
