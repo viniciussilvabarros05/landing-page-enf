@@ -136,33 +136,33 @@ export const EmergencyVaccines = [
         "A difteria é caracterizada por placas branco-acinzentadas nas amígdalas ou garganta, podendo causar dificuldades para respirar. Já o tétano provoca rigidez e dores musculares intensas, causando câimbras severas. Ambas são doenças graves e potencialmente fatais.",
     },
     comoTomar: {
-      pergunta: "Como tomar a vacina Dupla Bacteriana?",
+      pergunta:
+        "ESQUEMA VACINAL - SITUAÇÃO DE EMERGÊNCIA PARA DIFTERIA E TÉTANO:",
       resposta: [
-        "Pessoas sem histórico de vacinação ou com esquema incompleto:",
-        "1ª Dose: Administrada imediatamente.",
-        "2ª Dose: Intervalo de 30 a 60 dias após a primeira dose.",
-        "3ª Dose: Intervalo de 30 a 60 dias após a segunda dose.",
-        "Reforços: Recomenda-se um reforço a cada 10 anos após o esquema inicial.",
-        "Gestantes:",
-        "Podem receber a vacina dT (Dupla Bacteriana) ou dTpa (Tríplice Bacteriana), especialmente em situações de risco de exposição ao tétano e/ou difteria, para proteção adicional.",
+        `<strong>Público-alvo</strong>: Em áreas com surtos, a prioridade é vacinar crianças, adolescentes e adultos jovens, que são mais suscetíveis. O intervalo entre as doses pode ser reduzido, conforme avaliação de risco-benefício pelas autoridades de saúde.`,
+        `<p style="color:#3b82f6; font-weight: bold; ">Pessoas sem histórico de vacinação ou esquema incompleto:</p>`,
+        `<strong>Dose inicial:</strong> Uma primeira dose é administrada imediatamente;`,
+        `<strong>Doses de Reforço:</strong> Duas doses subsequentes, intervalo de 30 a 60 dias entre cada uma. Após completar o esquema inicial, recomenda-se um reforço a cada 10 anos.`,
+        `<p style="color:#3b82f6; font-weight: bold; ">Gestantes:</p>`,
+        `Em caso de risco de exposição ao tétano e/ou difteria, as gestantes podem receber a vacina DT (Dupla Bacteriana) ou a dTpa (Tríplice Bacteriana) - que também protege contra a coqueluche - para proteção adicional.`,
+        `<p style="color:#3b82f6; font-weight: bold; ">Exposição à arma de fogo, arma branca e acidentes com prego e/ou lata enferrujada:</p>`,
+        `Realiza-se a avaliação e intervenção inicial do ferimento em serviço de saúde, e logo em seguida, atualiza-se o esquema vacinal com as doses subsequentes ou dose de reforço.`,
+        `<p style="color:#3b82f6; font-weight: bold; ">Avaliação do Ferimento:</p>`,
+        `<strong>Baixo risco</strong>: Feridas limpas, superficiais, recentes, sem contaminação.`,
+        `<strong>Alto risco</strong>: Feridas sujas, profundas, contaminadas, ou com necrose.`,
       ],
     },
     indicacoes: {
-      pergunta: "Quem deve tomar a vacina Dupla Bacteriana?",
-      resposta:
-        "Crianças, adolescentes, adultos jovens e gestantes em áreas de risco, especialmente durante surtos de difteria ou tétano.",
+      pergunta: "",
+      resposta: "",
     },
     atencaoEspecial: {
-      pergunta: "Existem cuidados adicionais?",
-      resposta: [
-        "O intervalo entre as doses pode ser reduzido em situações de emergência, conforme avaliação das autoridades de saúde.",
-        "A vacinação de gestantes pode incluir a dT ou a dTpa, dependendo do contexto e da necessidade de proteção contra coqueluche.",
-      ],
+      pergunta: "",
+      resposta: ["", ""],
     },
     campanhas: {
-      pergunta: "Como funcionam as campanhas de vacinação emergencial?",
-      resposta:
-        "Durante surtos, a vacinação é priorizada para grupos mais suscetíveis, como crianças, adolescentes e adultos jovens. O esquema vacinal pode ser ajustado para alcançar maior proteção rapidamente.",
+      pergunta: "",
+      resposta: "",
     },
   },
 ];

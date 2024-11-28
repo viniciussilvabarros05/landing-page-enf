@@ -1,3 +1,4 @@
+
 import { ButtonBack } from "@/app/[profile]/[slug]/[nome]/buttonBack";
 import Button3D from "@/components/button3d";
 import BlurFade from "@/components/ui/blur-fade";
@@ -8,23 +9,22 @@ import { EmergencyVaccines } from "@/utils/emergency-vaccines";
 import { profiles } from "@/utils/profiles";
 
 type Props = {
-  params:{data:string[]};
+  params: { data: string[] };
 };
 export default function Page({ params }: Props) {
-  const [
-    id,
-    vaccine ] = params.data;
+  const [id, vaccine] = params.data;
   const vaccineName = decodeURIComponent(vaccine);
-  const categoryData = CategoriesEmergency.find(category => category.id == Number(id))
-  const profileSearch = profiles.find(profile => profile.id == 7)
+  const categoryData = CategoriesEmergency.find(
+    (category) => category.id == Number(id)
+  );
+  const profileSearch = profiles.find((profile) => profile.id == 7);
   const vaccinesData = EmergencyVaccines.filter(
-    (vaccine) =>
-      vaccine.nome == vaccineName
+    (vaccine) => vaccine.nome == vaccineName
   );
 
   return (
     <Container className="py-8 lg:px-4 gap-8 items-center">
-      <ButtonBack style={{backgroundColor: profileSearch?.color}} />
+      <ButtonBack style={{ backgroundColor: profileSearch?.color }} />
       <BlurFade inView>
         <div className="size-32 mx-auto rounded-full border-blue-500 border p-4 overflow-hidden">
           <img
@@ -67,8 +67,19 @@ export default function Page({ params }: Props) {
             </BlurFade>
             <BlurFade inView duration={0.4}>
               <div className="flex flex-col gap-2">
-                <p className="font-bold">{vaccine.comoTomar.pergunta}</p>
-                <p className="">{vaccine.comoTomar.resposta}</p>
+                <p className="font-bold text-blue-500">
+                  {vaccine.comoTomar.pergunta}
+                </p>
+                <div className="flex flex-col gap-2">
+                  {vaccine.comoTomar.resposta.map((res) => {
+                    return (
+                      <div
+                        className=""
+                        dangerouslySetInnerHTML={{ __html: res }}
+                      ></div>
+                    );
+                  })}
+                </div>
               </div>
             </BlurFade>
             <BlurFade inView duration={0.4}>
@@ -79,17 +90,13 @@ export default function Page({ params }: Props) {
             </BlurFade>
             <BlurFade inView duration={0.4}>
               <div className="flex flex-col gap-2">
-                <p className="font-bold">
-                  {vaccine.atencaoEspecial.pergunta}
-                </p>
+                <p className="font-bold">{vaccine.atencaoEspecial.pergunta}</p>
                 <p className="">{vaccine.atencaoEspecial?.resposta}</p>
               </div>
             </BlurFade>
             <BlurFade inView duration={0.4}>
               <div className="flex flex-col gap-2">
-                <p className="font-bold">
-                  {vaccine.campanhas.pergunta}
-                </p>
+                <p className="font-bold">{vaccine.campanhas.pergunta}</p>
                 <p className="">{vaccine.campanhas?.resposta}</p>
               </div>
             </BlurFade>

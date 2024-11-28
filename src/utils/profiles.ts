@@ -17,7 +17,7 @@ export type Profile = {
 export const profiles = [
   {
     id: 1,
-    label: "Gestantes e Puérpera",
+    label: "gestantes e puérpera",
     img: "/images/icon_gravida.jpg",
     hero: "/images/hero-gestante.jpeg",
     title: "Proteção em dose dupla!",
@@ -27,7 +27,7 @@ export const profiles = [
   },
   {
     id: 2,
-    label: "Criança",
+    label: "criança",
     img: "/images/6m7m.jpeg",
     hero: "/images/hero-crianca2.jpeg",
     color: "#f5bf36",
@@ -39,7 +39,7 @@ export const profiles = [
   },
   {
     id: 3,
-    label: "Adulto-Idoso",
+    label: "adulto-Idoso",
     img: "/images/adulto-idoso.avif",
     hero: "/images/hero-adultos.jpg",
     title: "",
@@ -49,7 +49,7 @@ export const profiles = [
   },
   {
     id: 4,
-    label: "Indígena",
+    label: "indígena",
     img: "",
     hero: "",
     title: "",
@@ -59,7 +59,7 @@ export const profiles = [
   },
   {
     id: 5,
-    label: "Viajante",
+    label: "viajante",
     img: "",
     hero: "",
     title: "",
@@ -69,7 +69,7 @@ export const profiles = [
   },
   {
     id: 6,
-    label: "Adolescente",
+    label: "adolescente",
     img: "/images/adolescentes1.png",
     hero: "/images/hero-adolescentes.jpg",
     color: "#84cc16",
@@ -79,7 +79,7 @@ export const profiles = [
   },
   {
     id: 7,
-    label: "emergency",
+    label: "emergencia",
     img: "/images/logo-emergency.png",
     hero: "/images/hero-emergency.png",
     color: "#f87171",

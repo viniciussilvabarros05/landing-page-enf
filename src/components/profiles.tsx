@@ -69,6 +69,9 @@ export const Profiles = () => {
         <Carousel className="mt-20" opts={{ loop: true }} setApi={setApi}>
           <CarouselContent>
             {profiles.map((profile) => {
+              if(profile.id == 7){
+                return
+              }
               return (
                 <CarouselItem className=" lg:basis-1/3 flex items-center justify-center flex-col gap-3 py-6">
                   <motion.div
