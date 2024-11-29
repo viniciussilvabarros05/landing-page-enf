@@ -12,8 +12,7 @@ export default function Page() {
         <div className="flex flex-col gap-4 w-[100%] lg:w-[30%] xl:w-[50%]">
           <BoxReveal boxColor={"#8FC0FB"} duration={0.3}>
             <h1 className="lg:text-3xl font-semibold 2xl:text-4xl text-2xl">
-              Entenda a Importância das Unidades Básicas de Saúde para a
-              Proteção da Comunidade!
+            Entenda a importância dos Serviços de Saúde para a Prevenção de Doenças e Qualidade de Vida!
             </h1>
           </BoxReveal>
           <BoxReveal boxColor={"#8FC0FB"} duration={0.5}>

@@ -87,7 +87,7 @@ export const SpecialsConditions = () => {
                 className="border-yellow-300 border-[8px] w-56 h-[18rem] rounded-2xl m-auto  flex items-center justify-center cursor-pointer relative"
               >
                 <Image
-                  src="/images/logo-emergency.png"
+                  src="/images/vacinas-emergencia.png"
                   alt="Grupos emergencia"
                   width={300}
                   height={350}
