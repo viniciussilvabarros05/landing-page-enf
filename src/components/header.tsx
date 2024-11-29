@@ -16,7 +16,9 @@ export const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <header className="w-full m-auto flex items-center p-8 fixed top-0 left-0 bg-white/40 backdrop-blur-md shadow-md z-10">
-      <Image width={400} height={400} className="w-24 h-20 absolute left-32 max-lg:left-4" alt="SIOVH" src="/images/logo.png" style={{objectFit:"contain"}}/>
+      <Link href="/" className="w-24 h-20 absolute left-32 max-lg:left-4">
+        <Image width={400} height={400} className="w-full" alt="SIOVH" src="/images/logo.png" style={{objectFit:"contain"}}/>
+      </Link>
       <div className="w-full gap-8 items-center justify-center hidden lg:flex">
         <LinkHeader href={"/"} label={"Início"} />
         <LinkHeader href={"/#profiles"} label={" Vacina para todos"} />
