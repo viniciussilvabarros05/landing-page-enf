@@ -111,7 +111,7 @@ export default function Page({ params }: Props) {
                 <p className="">{vaccine.vacinacaoSimultanea?.resposta}</p>
               </div>
             </BlurFade>
-            <BlurFade inView duration={0.4}>
+            {/* <BlurFade inView duration={0.4}>
               <div className="flex flex-col gap-2">
                 <p className="font-bold">{vaccine.reacoesAdversas?.pergunta}</p>
                 <p className="">{vaccine.reacoesAdversas?.resposta}</p>
@@ -140,7 +140,7 @@ export default function Page({ params }: Props) {
                 })}
 
               </div>
-               </BlurFade>
+               </BlurFade> */}
             <BlurFade inView duration={0.4}>
               <div className="flex flex-col gap-2">
                 <p className="font-bold">
@@ -158,7 +158,7 @@ export default function Page({ params }: Props) {
 
               </div>
             </BlurFade>
-            <BlurFade inView duration={0.4}>
+            {/* <BlurFade inView duration={0.4}>
               <div className="flex flex-col gap-2">
                 <p className="font-bold text-red-700">
                   {vaccine.contraIndicacoes?.alertas?.length ? "Alertas" : ""}
@@ -167,7 +167,7 @@ export default function Page({ params }: Props) {
                   return <li className="text-red-500 font-semibold">{res}</li>;
                 })}
               </div>
-            </BlurFade>
+            </BlurFade> */}
           </div>
         );
       })}
