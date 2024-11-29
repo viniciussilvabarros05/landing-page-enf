@@ -4,7 +4,8 @@ export const EmergencyVaccines = [
     categories: [1002],
     finalidade: {
       pergunta: "Para que serve a vacina Febre Amarela?",
-      resposta: "A vacina Febre Amarela serve para prevenir contra a Febre Amarela.",
+      resposta:
+        "A vacina Febre Amarela serve para prevenir contra a Febre Amarela.",
     },
     descricao: {
       pergunta: "Saiba mais:",
@@ -24,21 +25,15 @@ export const EmergencyVaccines = [
     },
     indicacoes: {
       pergunta: "",
-      resposta:
-        "",
+      resposta: "",
     },
     atencaoEspecial: {
       pergunta: "",
-      resposta: [
-        "",
-      ],
+      resposta: [""],
     },
     campanhas: {
       pergunta: "",
-      resposta: [
-        "",
-        "",
-      ],
+      resposta: ["", ""],
     },
   },
   {
@@ -87,30 +82,20 @@ export const EmergencyVaccines = [
         
         `,
 
-        `<img src="/images/raiva-table.png" />`
-      
-
-
+        `<img src="/images/raiva-table.png" />`,
       ],
     },
     indicacoes: {
       pergunta: "",
-      resposta:
-        "",
+      resposta: "",
     },
     atencaoEspecial: {
       pergunta: "",
-      resposta: [
-        "",
-        "",
-      ],
+      resposta: ["", ""],
     },
     campanhas: {
       pergunta: "",
-      resposta: [
-        "",
-        "",
-      ],
+      resposta: ["", ""],
     },
   },
   {
@@ -123,37 +108,37 @@ export const EmergencyVaccines = [
     },
     descricao: {
       pergunta: "Saiba mais sobre a Vacinação de Bloqueio:",
-      resposta:
-        "A vacinação de bloqueio é recomendada em casos de surto de meningite causado por um tipo específico de meningococo, confirmado por testes laboratoriais. Sua aplicação depende de uma decisão das autoridades de saúde, baseada em análises epidemiológicas e características da população afetada. Nesses casos, o esquema vacinal pode ser ajustado para garantir uma proteção mais rápida e eficaz.",
+      resposta: `
+        A vacinação de bloqueio é recomendada quando há <strong>surto de meningite causado por um tipo específico de meningococo</strong>, confirmado por testes laboratoriais. Sua aplicação depende de uma decisão conjunta das autoridades de saúde, considerando o alcance necessário com base em análises epidemiológicas e características da população afetada.
+        </br>
+        </br>
+        Nesses casos, o esquema vacinal pode sofrer ajustes para garantir uma proteção mais ampla e rápida, com foco na contenção da disseminação da doença. No Brasil, a resposta varia de acordo com o tipo de meningite e os sorogrupos envolvidos.        
+        `,
     },
     comoTomar: {
-      pergunta: "Como tomar a vacina Meningocócica ACWY?",
+      pergunta:
+        "1. ESQUEMA VACINAL - SITUAÇÃO DE EMERGÊNCIA PARA MENINGOCOCO C:",
       resposta: [
-        "Para meningococo C:",
-        "Crianças entre 3 e 12 meses: 2 doses com intervalo de 2 meses e um reforço após 12 meses.",
-        "Crianças acima de 1 ano até 29 anos que não foram vacinadas: Dose única.",
-        "Para meningococo ACWY:",
-        "Crianças e adolescentes de 11 a 19 anos: Dose única, dependendo da situação epidemiológica.",
+        `<strong>Público-alvo</strong>: Todas as pessoas a partir de 3 meses a 29 anos de idade, dependendo da situação, em áreas afetadas;`,
+        `<strong>Crianças entre 3 e 12 meses:</strong> 2 doses com intervalo de 2 meses e um reforço após 12 meses;`,
+        `<strong>Crianças acima de 1 ano até 29 anos que não foram vacinadas:</strong> Dose única.`,
+        `<p style="color:#3b82f6; font-weight: bold; ">2. ESQUEMA VACINAL - SITUAÇÃO DE EMERGÊNCIA PARA MENINGOCOCO ACWY:</p>`,
+        `<strong>Público-alvo:</strong> Crianças e adolescentes de 11 a 19 anos de idade, dependendo da situação, em áreas afetadas;`,
+        `<p style="color:#3b82f6; font-weight: bold; ">GRUPOS DE RISCO E ORIENTAÇÕES GERAIS:</p>`,
+        `<strong>Esquema:</strong> Dose única para a faixa-etária correspondente.`,
       ],
     },
     indicacoes: {
-      pergunta: "Quem deve tomar a vacina Meningocócica ACWY?",
-      resposta:
-        "Pessoas residentes ou frequentadoras de áreas afetadas por surtos, com foco em crianças, adolescentes e jovens adultos de acordo com os esquemas vacinais definidos para meningococo C ou ACWY.",
+      pergunta: "",
+      resposta: "",
     },
     atencaoEspecial: {
-      pergunta: "Existem cuidados adicionais?",
-      resposta: [
-        "A aplicação da vacina deve seguir recomendações das autoridades de saúde locais.",
-        "Em situações de emergência, o público-alvo pode ser ampliado para conter a disseminação da doença.",
-      ],
+      pergunta: "",
+      resposta: ["", ""],
     },
     campanhas: {
-      pergunta: "Como funcionam as campanhas de vacinação emergencial?",
-      resposta: [
-        "Durante surtos, a vacinação pode ser organizada para atingir rapidamente as faixas etárias em maior risco.",
-        "O esquema vacinal pode ser ajustado para incluir doses únicas ou reforços específicos, conforme necessário.",
-      ],
+      pergunta: "",
+      resposta: ["", ""],
     },
   },
   {

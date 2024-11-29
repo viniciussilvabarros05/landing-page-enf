@@ -61,7 +61,7 @@ export default function Page({ params }: Props) {
                     {vaccine.descricao.pergunta}{" "}
                   </label>
 
-                  {vaccine.descricao.resposta}
+                   <div dangerouslySetInnerHTML={{__html: vaccine.descricao.resposta}}></div>
                 </p>
               </div>
             </BlurFade>
