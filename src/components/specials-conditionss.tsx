@@ -112,7 +112,7 @@ export const SpecialsConditions = () => {
                 className="border-yellow-300 border-[8px] w-56 h-[18rem] rounded-2xl m-auto  flex items-center justify-center cursor-pointer relative"
               >
                 <Image
-                  src="/images/nao-indicadas.png"
+                  src="/images/contraindication.png"
                   alt="Não indicadas"
                   width={300}
                   height={350}

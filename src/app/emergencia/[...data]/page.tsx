@@ -35,7 +35,7 @@ export default function Page({ params }: Props) {
         </div>
       </BlurFade>
       <BoxReveal boxColor={profileSearch?.color} duration={0.4}>
-        <h1 className="text-black text-4xl font-bold text-center lg:text-start">
+        <h1 className="text-black text-4xl font-bold text-center lg:text-start capitalize">
           {vaccineName} : {categoryData?.label}
         </h1>
       </BoxReveal>

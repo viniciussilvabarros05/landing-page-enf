@@ -4,9 +4,19 @@ import Image from "next/image";
 export default function Page() {
   return (
     <Container className="gap-4 text-justify mt-12 pb-8 text-lg">
-      <h1 className="text-blue-500 text-2xl font-bold mx-auto mb-8">
+      <h1 className="text-blue-500 text-2xl font-bold mx-auto mb-8 capitalize">
         Em que situações a vacinação não é indicada?
       </h1>
+      <div className="w-[250px] lg:w-[500px] lg:h-[250px] m-auto rounded-2xl mb-16">
+          <Image
+            alt="crianças"
+            src={"/images/hero-contraindication.png"}
+            className="rounded-2xl"
+            width={500}
+            height={250}
+            layout="responsive"
+          />
+        </div>
       <p>
         A vacinação é um método seguro e indispensável para a prevenção de
         doenças. No entanto, em determinadas condições de saúde ou situações
