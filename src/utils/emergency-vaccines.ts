@@ -4,37 +4,40 @@ export const EmergencyVaccines = [
     categories: [1002],
     finalidade: {
       pergunta: "Para que serve a vacina Febre Amarela?",
-      resposta: "Para prevenir contra a Febre Amarela.",
+      resposta: "A vacina Febre Amarela serve para prevenir contra a Febre Amarela.",
     },
     descricao: {
       pergunta: "Saiba mais:",
       resposta:
-        "A Febre Amarela é uma doença causada por vírus transmitida principalmente pela picada de mosquitos infectados. Pode causar febre, dores no corpo, dor de cabeça, náusea e vômito. Durante surtos, o esquema vacinal é intensificado para proteger rapidamente a população em áreas de risco, seguindo orientações do Ministério da Saúde e da OMS.",
+        "A Febre Amarela é uma doença causada por vírus que é transmitida, principalmente, pela picada de mosquitos infectados. Ela pode causar febre, dores no corpo, dor de cabeça, náusea e vômito. Em situações de emergência devido a um surto de febre amarela, o esquema vacinal pode ser intensificado para proteger rapidamente a população da área afetada, seguindo as orientações do Ministério da Saúde e da Organização Mundial da Saúde (OMS).",
     },
     comoTomar: {
-      pergunta: "Como tomar a vacina Febre Amarela?",
+      pergunta: "ESQUEMA VACINAL - SITUAÇÃO DE EMERGÊNCIA PARA FEBRE AMARELA:",
       resposta: [
-        "Esquema em situação de emergência: dose única, suficiente para imunidade ao longo da vida.",
-        "Durante campanhas emergenciais, doses fracionadas podem ser administradas, oferecendo proteção por um período mínimo de 8 anos.",
+        `<strong>Público-alvo</strong>: Pessoas a partir dos 9 meses de idade até 59 anos que vivam em áreas de risco ou que viajem para essas regiões`,
+        `<strong>Esquema Vacinal:</strong>: Dose única. Uma dose da vacina é suficiente para fornecer imunidade contra a febre amarela ao longo da vida.`,
+        `<p style="color:#3b82f6; font-weight: bold; ">CAMPANHAS DE VACINAÇÃO EMERGENCIAL:</p>`,
+        `Durante surtos, as campanhas de vacinação em massa podem ser direcionadas a áreas específicas para ampliar a cobertura populacional rapidamente. Em algumas situações, doses fracionadas da vacina podem ser administradas para aumentar o alcance da imunização com o estoque disponível. Cada dose fracionada oferece proteção suficiente para situações de emergência e foi aprovada para garantir proteção por um período mínimo de 8 anos.`,
+        `<p style="color:#3b82f6; font-weight: bold; ">GRUPOS DE RISCO E ORIENTAÇÕES GERAIS:</p>`,
+        `Pessoas com mais de 60 anos, gestantes, imunocomprometidos e indivíduos com histórico de reações alérgicas graves a componentes da vacina devem ser avaliados cuidadosamente para vacinação. Em casos de alto risco de exposição, as autoridades de saúde podem decidir vacinar esses grupos após análise de risco-benefício.`,
       ],
     },
     indicacoes: {
-      pergunta: "Quem deve tomar a vacina Febre Amarela?",
+      pergunta: "",
       resposta:
-        "Pessoas a partir dos 9 meses de idade até 59 anos que vivam em áreas de risco ou que viajem para essas regiões.",
+        "",
     },
     atencaoEspecial: {
-      pergunta: "Existem cuidados para grupos de risco?",
+      pergunta: "",
       resposta: [
-        "Pessoas com mais de 60 anos, gestantes, imunocomprometidos e indivíduos com histórico de reações alérgicas graves devem ser avaliados cuidadosamente antes da vacinação.",
-        "Em casos de alto risco de exposição, as autoridades de saúde podem vacinar esses grupos após análise de risco-benefício.",
+        "",
       ],
     },
     campanhas: {
-      pergunta: "Como funcionam as campanhas de vacinação emergenciais?",
+      pergunta: "",
       resposta: [
-        "Campanhas são direcionadas a áreas específicas durante surtos para ampliar a cobertura populacional rapidamente.",
-        "Doses fracionadas podem ser utilizadas para maximizar o alcance da imunização.",
+        "",
+        "",
       ],
     },
   },

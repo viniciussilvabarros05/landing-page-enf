@@ -18,7 +18,7 @@ export const profiles = [
   {
     id: 1,
     label: "gestantes e puérpera",
-    img: "/images/icon_gravida.jpg",
+    img: "/images/logo-gestante.png",
     hero: "/images/hero-gestante.jpeg",
     title: "Proteção em dose dupla!",
     color: "#c084fc",
@@ -28,7 +28,7 @@ export const profiles = [
   {
     id: 2,
     label: "criança",
-    img: "/images/6m7m.jpeg",
+    img: "/images/logo-criancas.png",
     hero: "/images/hero-crianca2.jpeg",
     color: "#f5bf36",
     title:
@@ -40,7 +40,7 @@ export const profiles = [
   {
     id: 3,
     label: "adulto-Idoso",
-    img: "/images/adulto-idoso.avif",
+    img: "/images/logo-adulto.png",
     hero: "/images/hero-adultos.jpg",
     title: "",
     color: "#0284c7",

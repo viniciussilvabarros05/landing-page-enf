@@ -10,11 +10,10 @@ import {
 import { Container } from "./ui/container";
 import WordPullUp from "./ui/word-pull-up";
 import { useEffect, useRef, useState } from "react";
-import { AnimatePresence, useInView } from "framer-motion";
+import {  useInView } from "framer-motion";
 import BlurFade from "./ui/blur-fade";
 import { Profile, profiles } from "@/utils/profiles";
 import { motion } from "framer-motion";
-import { ModalProfile } from "./modal-profile";
 import { useRouter } from "next/navigation";
 
 export const Profiles = () => {
@@ -83,7 +82,7 @@ export const Profiles = () => {
                     }}
                     transition={{ type: "spring", bounce: 0.7 }}
                     onClick={() => handleNavigationTo(profile.label)}
-                    className="border-blue-500 border-2 size-56 rounded-full m-auto overflow-hidden p-4 cursor-pointer"
+                    className="border-blue-500 border-2 size-56 rounded-full m-auto overflow-hidden p-2 cursor-pointer"
                   >
                     <img
                       src={profile.img}
