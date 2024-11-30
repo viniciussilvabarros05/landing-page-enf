@@ -81,7 +81,7 @@ export const vaccines = [
     descricao: {
       pergunta: "Saiba mais:",
       resposta:
-        "A forma mais comum da tuberculose é quando a bactéria ataca os pulmões. Sintomas incluem tosse (às vezes com sangue), perda de peso, suor noturno e febre. A doença pode afetar os ossos, rins e cérebro, e é transmitida por tosse, espirros ou bebidas compartilhadas. A vacina BCG previne somente a tuberculose pulmonar.",
+        "A forma mais comum da tuberculose é quando a bactéria ataca os pulmões. Os sintomas incluem tosse (às vezes com sangue), perda de peso, suor noturno e febre. A doença pode afetar os ossos, rins e cérebro, sendo transmitida por tosse, espirros ou bebidas compartilhadas. A vacina BCG previne somente a tuberculose pulmonar. ATENÇÃO: A vacina BCG previne somente a tuberculose pulmonar.",
     },
     comoTomar: {
       pergunta: "Como é preciso tomar a vacina BCG?",
@@ -90,7 +90,7 @@ export const vaccines = [
     quandoTomar: {
       pergunta: "Quando a criança deve receber a vacina BCG?",
       resposta:
-        "Deve ser administrada logo após o nascimento, a partir das primeiras 2 e 12 horas de vida. Normalmente, é administrada antes da alta da Maternidade ou Hospital.",
+        "Deve ser administrada logo após o nascimento, entre 2 e 12 horas de vida, antes da alta da maternidade ou hospital.",
     },
     indicacoes: {
       idadeMinima: {
@@ -104,43 +104,43 @@ export const vaccines = [
       },
     },
     localAplicacao: {
-      pergunta: "Como a vacina BCG é aplicada?",
+      pergunta: "Como a vacina BCG é administrada?",
       resposta:
-        "A vacina BCG é aplicada de preferência no ombro do braço direito da criança por meio de injeção na pele (via intradérmica).",
+        "A vacina BCG é administrada na parte superior do braço direito ou esquerdo da criança, no músculo deltóide, por injeção na pele (via intradérmica).",
     },
     vacinacaoSimultanea: {
       pergunta:
         "A criança pode receber a vacina BCG junto com outras vacinas (vacinação simultânea)?",
       resposta:
-        "Sim, a criança pode receber outras vacinas do Calendário de Vacinação junto com a BCG.",
+        "Sim. A criança pode receber outras vacinas do Calendário de Vacinação junto com a BCG.",
     },
     reacoesAdversas: {
-      pergunta: "O que acontece no local em que a vacina BCG foi aplicada?",
+      pergunta: "O que acontece no local em que a vacina BCG foi administrada?",
       resposta:
-        "Pode haver pequena vermelhidão, seguida de formação de uma bolha com ou sem pus. Em seguida, forma-se uma ferida e, por último, uma cicatriz redondinha. Em alguns casos, pode surgir apenas um carocinho ao tocar o local.",
+        "Pode apresentar pequena vermelhidão, formação de uma bolha com ou sem pus, seguida de uma ferida com crosta (cascão) e, por fim, uma cicatriz redondinha. Pode surgir apenas um carocinho ao tocar o local. A cicatrização completa ocorre em até 12 semanas (3 meses).",
     },
     cuidadosPosVacinacao: {
-      pergunta: "Cuidados necessários pós vacinação:",
+      pergunta: "Cuidados necessários pós-vacinação:",
       resposta: [
-        "Lavar normalmente com água na hora do banho e secar com toalha limpa, sem esfregar.",
-        ,
-        "Não fazer compressas, usar pomadas ou romper a bolha. Tudo cicatriza em até 12 semanas (3 meses).",
+        "Lavar normalmente com água na hora do banho e secar com toalha limpa, sem esfregar;",
+        "Não fazer compressa;",
+        "Não usar pomadas ou qualquer outro remédio no local em que a vacina foi administrada.",
+        "Não romper a bolha."
+      ],
+      alertas: [
+        "Se houver qualquer alteração incomum no local ou próximo à aplicação, procure um profissional de saúde.",
       ],
     },
     contraIndicacoes: {
-      pergunta: "Quem não deve tomar a vacina BCG?",
+      pergunta: "ATENÇÃO",
       resposta: [
-        "Gestantes",
-        "Crianças nascidas com peso menor que 2 quilos",
-        "Crianças internadas e/ou com a imunidade baixa devido a alguma condição de saúde",
-        "Pessoas vivendo com HIV, mesmo que não apresentem nenhum sintoma",
-      ],
-      alertas: [
-        "Nas crianças nascidas com peso menor de 2 quilos, a vacina BCG será adiada até que a criança chegue nesse peso.",
-        "Nos casos de crianças internadas e/ou com a imunidade baixa, a vacina BCG será adiada, conforme acompanhamento médico, até que haja melhores condições de saúde.",
+        "Nas crianças nascidas com peso menor de 2 quilos a vacina BCG será adiada até a criança chegar nesse peso.",
+        "Qualquer outra alteração no local ou próximo de onde a vacina foi administrada procurar ajuda com um profissional de saúde.",
+        "A vacina BCG previne somente a tuberculose pulmonar.",
       ],
     },
   },
+
   {
     categories: [2, 4, 6],
     nome: "Vacina Poliomielite Inativada (VIP)",
@@ -2514,8 +2514,9 @@ export const vaccines = [
     },
     comoTomar: {
       pergunta: "Qual é o esquema vacinal da Pneumocócica Polissacarídica 23?",
-      resposta:
-        ["A vacina Pneumocócica 23 é de dose única para indivíduos a partir de 5 anos sem comprovação de vacinação com vacinas pneumocócicas conjugadas. Reforços podem ser recomendados para grupos de risco."],
+      resposta: [
+        "A vacina Pneumocócica 23 é de dose única para indivíduos a partir de 5 anos sem comprovação de vacinação com vacinas pneumocócicas conjugadas. Reforços podem ser recomendados para grupos de risco.",
+      ],
     },
     localAplicacao: {
       pergunta: "Como a vacina Pneumocócica 23 é administrada?",

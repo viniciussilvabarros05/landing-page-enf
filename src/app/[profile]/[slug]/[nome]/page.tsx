@@ -116,62 +116,71 @@ export default function Page({ params }: Props) {
                 <p className="">{vaccine.vacinacaoSimultanea?.resposta}</p>
               </div>
             </BlurFade>
-            {/* <BlurFade inView duration={0.4}>
-              <div className="flex flex-col gap-2">
-                <p className="font-bold">{vaccine.reacoesAdversas?.pergunta}</p>
-                <p className="">{vaccine.reacoesAdversas?.resposta}</p>
-              </div>
-            </BlurFade>
-            <BlurFade inView duration={0.4}>
-              <div className="flex flex-col gap-2">
-                <p className="font-bold">
-                  {vaccine.cuidadosPosVacinacao?.pergunta}
-                </p>
-                {vaccine.cuidadosPosVacinacao?.resposta?.map((res) => {
-                  return <li className="">{res}</li>;
-                })}
-              </div>
-            </BlurFade>
-            <BlurFade inView duration={0.4}>
-              <div className="flex flex-col gap-2">
-                <p className="font-bold">
-                  {vaccine.contraIndicacoes?.pergunta}
-                </p>
-                {vaccine.contraIndicacoes?.resposta?.map((res) => {
-                  if(res ==""){
-                    return
-                  }
-                  return <li className="">{res}</li>;
-                })}
-
-              </div>
-               </BlurFade> */}
-            <BlurFade inView duration={0.4}>
-              <div className="flex flex-col gap-2">
-                <p className="font-bold">
-                  {vaccine.condicoesEspecificas?.pergunta}
-                </p>
-                {vaccine.condicoesEspecificas?.respostas.map((res) => {
-                  return (
-                    <div>
-                      <p className="text-bold">- {res.titulo}</p>
-                      <li className="">{res.resposta}</li>
-                      <li className="text-red-400">{res.alerta}</li>
-                    </div>
-                  );
-                })}
-              </div>
-            </BlurFade>
-            {/* <BlurFade inView duration={0.4}>
-              <div className="flex flex-col gap-2">
-                <p className="font-bold text-red-700">
-                  {vaccine.contraIndicacoes?.alertas?.length ? "Alertas" : ""}
-                </p>
-                {vaccine.contraIndicacoes?.alertas?.map((res) => {
-                  return <li className="text-red-500 font-semibold">{res}</li>;
-                })}
-              </div>
-            </BlurFade> */}
+            {nomeSearch === "Vacina BCG" && (
+              <>
+                <BlurFade inView duration={0.4}>
+                  <div className="flex flex-col gap-2">
+                    <p className="font-bold">
+                      {vaccine.reacoesAdversas?.pergunta}
+                    </p>
+                    <p className="">{vaccine.reacoesAdversas?.resposta}</p>
+                  </div>
+                </BlurFade>
+                <BlurFade inView duration={0.4}>
+                  <div className="flex flex-col gap-2">
+                    <p className="font-bold">
+                      {vaccine.cuidadosPosVacinacao?.pergunta}
+                    </p>
+                    {vaccine.cuidadosPosVacinacao?.resposta?.map((res) => {
+                      return <li className="">{res}</li>;
+                    })}
+                  </div>
+                </BlurFade>
+                <BlurFade inView duration={0.4}>
+                  <div className="flex flex-col gap-2">
+                    <p className="font-bold">
+                      {vaccine.contraIndicacoes?.pergunta}
+                    </p>
+                    {vaccine.contraIndicacoes?.resposta?.map((res) => {
+                      if (res == "") {
+                        return;
+                      }
+                      return <li className="">{res}</li>;
+                    })}
+                  </div>
+                </BlurFade>
+                <BlurFade inView duration={0.4}>
+                  <div className="flex flex-col gap-2">
+                    <p className="font-bold">
+                      {vaccine.condicoesEspecificas?.pergunta}
+                    </p>
+                    {vaccine.condicoesEspecificas?.respostas.map((res) => {
+                      return (
+                        <div>
+                          <p className="text-bold">- {res.titulo}</p>
+                          <li className="">{res.resposta}</li>
+                          <li className="text-red-400">{res.alerta}</li>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </BlurFade>
+                <BlurFade inView duration={0.4}>
+                  <div className="flex flex-col gap-2">
+                    <p className="font-bold text-red-700">
+                      {vaccine.contraIndicacoes?.alertas?.length
+                        ? "Alertas"
+                        : ""}
+                    </p>
+                    {vaccine.contraIndicacoes?.alertas?.map((res) => {
+                      return (
+                        <li className="text-red-500 font-semibold">{res}</li>
+                      );
+                    })}
+                  </div>
+                </BlurFade>{" "}
+              </>
+            )}
           </div>
         );
       })}
