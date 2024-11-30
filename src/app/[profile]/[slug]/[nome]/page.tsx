@@ -29,7 +29,7 @@ export default function Page({ params }: Props) {
 
   return (
     <Container className="py-8 lg:px-4 gap-8 items-center">
-      <ButtonBack style={{backgroundColor: profileData?.color}} />
+      <ButtonBack style={{ backgroundColor: profileData?.color }} />
       <BlurFade inView>
         <div className="size-32 mx-auto rounded-full border-blue-500 border p-4 overflow-hidden">
           <img
@@ -72,7 +72,12 @@ export default function Page({ params }: Props) {
             <BlurFade inView duration={0.4}>
               <div className="flex flex-col gap-2">
                 <p className="font-bold">{vaccine.comoTomar.pergunta}</p>
-                <p className="">{vaccine.comoTomar.resposta}</p>
+                <div
+                  className=""
+                  dangerouslySetInnerHTML={{
+                    __html: vaccine.comoTomar.resposta,
+                  }}
+                ></div>
               </div>
             </BlurFade>
             <BlurFade inView duration={0.4}>
@@ -148,14 +153,13 @@ export default function Page({ params }: Props) {
                 </p>
                 {vaccine.condicoesEspecificas?.respostas.map((res) => {
                   return (
-                  <div>
-                    <p className="text-bold">- {res.titulo}</p>
-                    <li className="">{res.resposta}</li>
-                    <li className="text-red-400">{res.alerta}</li>
-                  </div>
+                    <div>
+                      <p className="text-bold">- {res.titulo}</p>
+                      <li className="">{res.resposta}</li>
+                      <li className="text-red-400">{res.alerta}</li>
+                    </div>
                   );
                 })}
-
               </div>
             </BlurFade>
             {/* <BlurFade inView duration={0.4}>

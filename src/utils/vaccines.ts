@@ -1844,36 +1844,47 @@ export const vaccines = [
     nome: "Vacina Febre Amarela",
     finalidade: {
       pergunta: "Para que serve a vacina Febre Amarela?",
-      resposta: "A vacina Febre Amarela serve para prevenir contra a Febre Amarela.",
+      resposta:
+        "A vacina Febre Amarela serve para prevenir contra a Febre Amarela.",
     },
     descricao: {
       pergunta: "Saiba mais:",
-      resposta: "A vacinação contra a febre amarela é fundamental para puérperas (mulheres no período pós-parto), principalmente se elas vivem ou planejam viajar para áreas com muitos registros de casos da doença. Durante a gravidez, a vacina não é indicada, mas após o parto, a puérpera pode e deve ser vacinada, especialmente se houver risco de exposição.",
+      resposta:
+        "A vacinação contra a febre amarela é fundamental para puérperas (mulheres no período pós-parto), principalmente se elas vivem ou planejam viajar para áreas com muitos registros de casos da doença. Durante a gravidez, a vacina não é indicada, mas após o parto, a puérpera pode e deve ser vacinada, especialmente se houver risco de exposição.",
     },
     comoTomar: {
       pergunta: "Como tomar a vacina Febre Amarela?",
-      resposta: "Se a puérpera vive em área com muitos casos de Febre Amarela ou planeja viajar para essas áreas e não foi vacinada antes da gestação, a vacina pode ser administrada (dose única) após o parto.",
-      atencao: "A amamentação deve ser suspensa por 10 dias após a vacinação, se o bebê tiver menos de 6 meses.",
-      alerta: "Vacinas com vírus vivo atenuado (como febre amarela e tríplice viral) não são indicadas durante a gestação, mas podem ser administradas no período pós-parto, exceto em casos de amamentação de bebês com menos de 6 meses.",
+      resposta:
+        "Se a puérpera vive em área com muitos casos de Febre Amarela ou planeja viajar para essas áreas e não foi vacinada antes da gestação, a vacina pode ser administrada (dose única) após o parto.",
+      atencao:
+        "A amamentação deve ser suspensa por 10 dias após a vacinação, se o bebê tiver menos de 6 meses.",
+      alerta:
+        "Vacinas com vírus vivo atenuado (como febre amarela e tríplice viral) não são indicadas durante a gestação, mas podem ser administradas no período pós-parto, exceto em casos de amamentação de bebês com menos de 6 meses.",
     },
     indicacoes: {
       periodoVacinacao: {
         pergunta: "Período recomendado para a puérpera ser vacinada:",
-        resposta: "A puérpera pode ser vacinada em até 45 dias após o nascimento do bebê.",
+        resposta:
+          "A puérpera pode ser vacinada em até 45 dias após o nascimento do bebê.",
       },
     },
     localAplicacao: {
       pergunta: "Como a vacina Febre Amarela é aplicada?",
-      resposta: "A vacina Febre Amarela é aplicada no braço direito ou esquerdo da puérpera por meio de injeção sob a pele (chamada via subcutânea).",
+      resposta:
+        "A vacina Febre Amarela é aplicada no braço direito ou esquerdo da puérpera por meio de injeção sob a pele (chamada via subcutânea).",
     },
     vacinacaoSimultanea: {
-      pergunta: "A puérpera pode receber a vacina Febre Amarela junto com outras vacinas (vacinação simultânea)?",
-      resposta: "Não. Puérperas NÃO PODEM receber a vacina Febre Amarela junto a vacina Tríplice Viral, devendo respeitar o intervalo de tempo mínimo de 30 dias entre elas.",
-      atencao: "Se a puérpera está amamentando um bebê com menos de 6 meses, a vacinação contra febre amarela não é recomendada. É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura.",
+      pergunta:
+        "A puérpera pode receber a vacina Febre Amarela junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Não. Puérperas NÃO PODEM receber a vacina Febre Amarela junto a vacina Tríplice Viral, devendo respeitar o intervalo de tempo mínimo de 30 dias entre elas.",
+      atencao:
+        "Se a puérpera está amamentando um bebê com menos de 6 meses, a vacinação contra febre amarela não é recomendada. É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura.",
     },
     reacoesAdversas: {
       pergunta: "O que acontece no local em que a vacina foi aplicada?",
-      resposta: "Pode ocorrer dor, vermelhidão e inchaço no local da injeção, além de febre leve em algumas mulheres.",
+      resposta:
+        "Pode ocorrer dor, vermelhidão e inchaço no local da injeção, além de febre leve em algumas mulheres.",
     },
     cuidadosPosVacinacao: {
       pergunta: "Cuidados necessários pós vacinação:",
@@ -1960,11 +1971,13 @@ export const vaccines = [
     nome: "Vacina Covid-19",
     finalidade: {
       pergunta: "Para que serve a vacina Covid-19?",
-      resposta: "A vacina contra a Covid-19 ajuda a prevenir problemas respiratórios graves que podem ser causados pela doença.",
+      resposta:
+        "A vacina contra a Covid-19 ajuda a prevenir problemas respiratórios graves que podem ser causados pela doença.",
     },
     descricao: {
       pergunta: "Saiba mais:",
-      resposta: "Vacinas contra a Covid-19 são recomendadas para puérperas, seguindo as orientações necessárias de acordo com o tipo de vacina disponível. Quando a mãe se vacina, ela passa anticorpos para o bebê, protegendo-o contra a doença nos primeiros meses de vida, antes que ele possa ser vacinado. Essa proteção é fundamental para criar um ambiente seguro para a mãe, seu bebê, família e comunidade.",
+      resposta:
+        "Vacinas contra a Covid-19 são recomendadas para puérperas, seguindo as orientações necessárias de acordo com o tipo de vacina disponível. Quando a mãe se vacina, ela passa anticorpos para o bebê, protegendo-o contra a doença nos primeiros meses de vida, antes que ele possa ser vacinado. Essa proteção é fundamental para criar um ambiente seguro para a mãe, seu bebê, família e comunidade.",
     },
     comoTomar: {
       pergunta: "Como tomar a vacina Covid-19?",
@@ -1977,21 +1990,27 @@ export const vaccines = [
     indicacoes: {
       periodoVacinacao: {
         pergunta: "Período recomendado para a puérpera ser vacinada:",
-        resposta: "A puérpera pode ser vacinada em até 45 dias após o nascimento do bebê.",
+        resposta:
+          "A puérpera pode ser vacinada em até 45 dias após o nascimento do bebê.",
       },
     },
     localAplicacao: {
       pergunta: "Como a vacina Covid-19 é aplicada?",
-      resposta: "A vacina Covid-19 é aplicada de preferência no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+      resposta:
+        "A vacina Covid-19 é aplicada de preferência no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
-      pergunta: "A puérpera pode receber a vacina Covid-19 junto com outras vacinas (vacinação simultânea)?",
-      resposta: "Sim. A puérpera pode receber outras vacinas do Calendário de Vacinação junto com a vacina Covid-19.",
-      atencao: "É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a gestante ou puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura.",
+      pergunta:
+        "A puérpera pode receber a vacina Covid-19 junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. A puérpera pode receber outras vacinas do Calendário de Vacinação junto com a vacina Covid-19.",
+      atencao:
+        "É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a gestante ou puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura.",
     },
     reacoesAdversas: {
       pergunta: "O que pode ocorrer após a vacinação?",
-      resposta: "Reações comuns incluem dor no local da injeção, fadiga, dor de cabeça e febre leve.",
+      resposta:
+        "Reações comuns incluem dor no local da injeção, fadiga, dor de cabeça e febre leve.",
     },
     cuidadosPosVacinacao: {
       pergunta: "Cuidados necessários pós vacinação:",
@@ -2015,11 +2034,13 @@ export const vaccines = [
     nome: "Vacina Hepatite B",
     finalidade: {
       pergunta: "Para que serve a vacina da Hepatite B?",
-      resposta: "A vacina Hepatite B serve para proteger a mãe e o seu bebê de doenças causadas pelo vírus da hepatite B.",
+      resposta:
+        "A vacina Hepatite B serve para proteger a mãe e o seu bebê de doenças causadas pelo vírus da hepatite B.",
     },
     descricao: {
       pergunta: "Saiba mais:",
-      resposta: "A Hepatite B é uma doença que provoca inflamação e problemas no fígado e pode ser passada para outra pessoa por meio do sexo sem proteção, compartilhamento de objetos contaminados, e de mãe para filho.",
+      resposta:
+        "A Hepatite B é uma doença que provoca inflamação e problemas no fígado e pode ser passada para outra pessoa por meio do sexo sem proteção, compartilhamento de objetos contaminados, e de mãe para filho.",
     },
     comoTomar: {
       pergunta: "Como tomar a vacina Hepatite B?",
@@ -2032,37 +2053,47 @@ export const vaccines = [
     indicacoes: {
       periodoVacinacao: {
         pergunta: "Idade recomendada para a gestante ser vacinada:",
-        resposta: "A gestante pode ser vacinada, a partir da comprovação da gravidez, a qualquer tempo durante o pré-natal.",
+        resposta:
+          "A gestante pode ser vacinada, a partir da comprovação da gravidez, a qualquer tempo durante o pré-natal.",
       },
       periodoPuerpera: {
         pergunta: "Período recomendado para a puérpera ser vacinada:",
-        resposta: "A puérpera pode ser vacinada em até 45 dias após o nascimento do bebê.",
+        resposta:
+          "A puérpera pode ser vacinada em até 45 dias após o nascimento do bebê.",
       },
     },
     localAplicacao: {
       pergunta: "Como a vacina Hepatite B é aplicada?",
-      resposta: "A vacina Hepatite B é aplicada no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+      resposta:
+        "A vacina Hepatite B é aplicada no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
-      pergunta: "A gestante ou puérpera pode receber a vacina Hepatite B junto com outras vacinas (vacinação simultânea)?",
-      resposta: "Sim. A gestante ou puérpera pode receber outras vacinas do Calendário de Vacinação junto com a Hepatite B.",
-      atencao: "É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a gestante ou puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura.",
+      pergunta:
+        "A gestante ou puérpera pode receber a vacina Hepatite B junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. A gestante ou puérpera pode receber outras vacinas do Calendário de Vacinação junto com a Hepatite B.",
+      atencao:
+        "É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a gestante ou puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura.",
     },
-    contraIndicacoes : {
+    contraIndicacoes: {
       resposta: [""],
-      alertas: ["É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a gestante ou puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura."]
-    }
+      alertas: [
+        "É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a gestante ou puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura.",
+      ],
+    },
   },
   {
     categories: [310],
     nome: "Vacina Dupla Bacteriana (dT)",
     finalidade: {
       pergunta: "Para que serve a vacina Dupla Bacteriana?",
-      resposta: "A vacina Dupla Bacteriana serve para prevenir duas doenças graves causadas por bactérias: a difteria e o tétano.",
+      resposta:
+        "A vacina Dupla Bacteriana serve para prevenir duas doenças graves causadas por bactérias: a difteria e o tétano.",
     },
     descricao: {
       pergunta: "Saiba mais:",
-      resposta: "Durante a gestação, é importante que a mãe seja vacinada com a Dupla Bacteriana para sua proteção e do seu bebê, especialmente, contra o tétano neonatal, que é uma infecção grave que pode ocorrer em recém-nascidos.",
+      resposta:
+        "Durante a gestação, é importante que a mãe seja vacinada com a Dupla Bacteriana para sua proteção e do seu bebê, especialmente, contra o tétano neonatal, que é uma infecção grave que pode ocorrer em recém-nascidos.",
     },
     comoTomar: {
       pergunta: "Como tomar a vacina Dupla Bacteriana?",
@@ -2074,26 +2105,34 @@ export const vaccines = [
     indicacoes: {
       periodoVacinacao: {
         pergunta: "Idade recomendada para a gestante ser vacinada:",
-        resposta: "A gestante pode ser vacinada, a partir da comprovação da gravidez, a qualquer tempo durante o pré-natal.",
+        resposta:
+          "A gestante pode ser vacinada, a partir da comprovação da gravidez, a qualquer tempo durante o pré-natal.",
       },
       periodoPuerpera: {
         pergunta: "Período recomendado para a puérpera ser vacinada:",
-        resposta: "A puérpera pode ser vacinada em até 45 dias após o nascimento do bebê.",
+        resposta:
+          "A puérpera pode ser vacinada em até 45 dias após o nascimento do bebê.",
       },
     },
     localAplicacao: {
       pergunta: "Como a vacina Dupla Bacteriana é aplicada?",
-      resposta: "A vacina Dupla Bacteriana é aplicada de preferência no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+      resposta:
+        "A vacina Dupla Bacteriana é aplicada de preferência no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
-      pergunta: "A gestante ou puérpera pode receber a vacina Dupla Bacteriana junto com outras vacinas (vacinação simultânea)?",
-      resposta: "Sim. A gestante ou puérpera pode receber outras vacinas do Calendário de Vacinação junto com a Dupla Bacteriana.",
-      atencao: "É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a gestante ou puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura.",
+      pergunta:
+        "A gestante ou puérpera pode receber a vacina Dupla Bacteriana junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. A gestante ou puérpera pode receber outras vacinas do Calendário de Vacinação junto com a Dupla Bacteriana.",
+      atencao:
+        "É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a gestante ou puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura.",
     },
     contraIndicacoes: {
       resposta: [""],
-      alertas:["É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a gestante ou puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura."]
-    }
+      alertas: [
+        "É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a gestante ou puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura.",
+      ],
+    },
   },
   {
     categories: [310],
@@ -2110,8 +2149,9 @@ export const vaccines = [
     },
     comoTomar: {
       pergunta: "Como tomar a vacina Dupla Bacteriana?",
-      resposta:
+      resposta: [
         "A vacina Dupla Bacteriana para gestantes possui 3 doses com intervalo mínimo de 30 dias e máximo de 60 dias entre a 1ª e a 2ª dose.",
+      ],
       atencao:
         "A última dose deve ser feita 20 dias antes do parto para maior proteção da criança.",
     },
@@ -2172,8 +2212,9 @@ export const vaccines = [
     },
     comoTomar: {
       pergunta: "Como tomar a vacina Influenza?",
-      resposta:
+      resposta: [
         "A vacina Influenza possui uma dose anual (somente uma dose, uma vez por ano).",
+      ],
       atencao:
         "A vacina contra a gripe é indicada durante a gestação e também pode ser aplicada no período pós-parto, especialmente em épocas de campanha ou durante surtos de influenza.",
     },
@@ -2234,8 +2275,9 @@ export const vaccines = [
     },
     comoTomar: {
       pergunta: "Como tomar a vacina Covid-19?",
-      resposta:
+      resposta: [
         "Gestantes que não tomaram nenhuma dose da vacina Covid-19 anteriormente, podem iniciar a vacinação com 2 doses da vacina bivalente (Comirnaty) da Pfizer com intervalo de no mínimo 30 dias entre elas.",
+      ],
       atencao:
         "Recomenda-se 1 dose de reforço a cada 6 meses, mesmo que já tenham completado o esquema inicial de vacinação.",
     },
@@ -2294,8 +2336,7 @@ export const vaccines = [
     },
     comoTomar: {
       pergunta: "Como tomar a vacina Tríplice Bacteriana?",
-      resposta:
-        `A vacina Tríplice Bacteriana (dTpa) possui uma dose a cada gestação, a partir da vigésima (20ª) semana de gestação. 
+      resposta: `A vacina Tríplice Bacteriana (dTpa) possui uma dose a cada gestação, a partir da vigésima (20ª) semana de gestação. 
         Mulheres no período pós-parto (puérperas): É recomendada uma dose da vacina Tríplice Bacteriana (dTpa) para a puérpera, caso não tenha recebido durante a gestação, para proteger o bebê contra a coqueluche, especialmente nos primeiros meses de vida, quando ainda não pode ser vacinado.`,
       atencao:
         "É recomendada uma dose da vacina Tríplice Bacteriana (dTpa) para a puérpera, caso não tenha recebido durante a gestação, para proteger o bebê contra a coqueluche, especialmente nos primeiros meses de vida, quando ainda não pode ser vacinado.",
@@ -2307,7 +2348,8 @@ export const vaccines = [
       },
       idadeMaxima: {
         pergunta: "Período recomendado para a puérpera ser vacinada:",
-        resposta: "A puérpera pode ser vacinada em até 45 dias após o nascimento do bebê.",
+        resposta:
+          "A puérpera pode ser vacinada em até 45 dias após o nascimento do bebê.",
       },
     },
     localAplicacao: {
@@ -2323,9 +2365,168 @@ export const vaccines = [
       atencao:
         "É importante considerar as orientações e a avaliação do profissional de saúde que acompanha a gestante ou puérpera para garantir que todas as vacinas sejam administradas de forma correta e segura.",
     },
-  }
-  
-  
-    
+  },
+  {
+    categories: [400],
+    nome: "Vacina Febre Amarela",
+    finalidade: {
+      pergunta: "Para que serve a vacina Febre Amarela?",
+      resposta:
+        "A vacina Febre Amarela serve para prevenir contra a Febre Amarela.",
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta:
+        "A Febre Amarela é causada por um vírus transmitido pela picada de mosquitos. Pode causar febre, dores no corpo, dor de cabeça, náusea e vômito.",
+    },
+    comoTomar: {
+      pergunta: "Esquema Vacinal:",
+      resposta:
+        "A vacina Febre Amarela possui uma dose única a partir de 5 anos de idade, podendo ser aplicada em qualquer momento.",
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Febre Amarela é administrada?",
+      resposta:
+        "A vacina Febre Amarela é administrada no músculo deltóide (região externa do ombro do braço direito ou esquerdo) por meio de injeção sob a pele (via subcutânea).",
+    },
+    vacinacaoSimultanea: {
+      pergunta:
+        "O viajante pode receber a vacina Febre Amarela junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. O viajante pode receber outras vacinas do Calendário de Vacinação junto com a Febre Amarela.",
+    },
+  },
+  {
+    categories: [400],
+    nome: "Vacina Dupla Bacteriana",
+    finalidade: {
+      pergunta: "Para que serve a vacina Dupla Bacteriana?",
+      resposta:
+        "A vacina Dupla Bacteriana serve para prevenir as doenças graves causadas por bactérias: a difteria e o tétano.",
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta:
+        "A difteria se caracteriza pela presença de placas branco-acinzentadas nas amígdalas ou próximas, podendo causar dificuldade para respirar. Já o tétano provoca rigidez e dores musculares, resultando em câimbras intensas.",
+    },
+    comoTomar: {
+      pergunta: "Esquema Vacinal:",
+      resposta: [
+        `<li><strong style="color: #3B82F6">Para crianças menores de 7 anos:</strong> Recomenda-se iniciar ou completar o esquema vacinal com Pentavalente (2, 4 e 6 meses) e Tríplice Bacteriana (15 meses e 4 anos).</li>`,
+        `<li><strong style="color: #3B82F6">Gestantes e Puérperas:</strong> Recomenda-se uma dose de dTpa (Difteria e Tétano Acelular) a partir da 20ª semana de gestação em cada gravidez. Para puérperas, a dTpa pode ser administrada até 45 dias após o parto, caso não tenham sido vacinadas durante a gestação.</li>`,
+      ],
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Dupla Bacteriana é administrada?",
+      resposta:
+        "As vacinas Dupla Bacteriana e Dupla Bacteriana Acelular são administradas no músculo deltóide (região externa do ombro do braço direito ou esquerdo) por meio de injeção intramuscular.",
+    },
+    vacinacaoSimultanea: {
+      pergunta:
+        "O viajante pode receber a vacina Dupla Bacteriana junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. O viajante pode receber outras vacinas do Calendário de Vacinação junto com a Dupla Bacteriana.",
+    },
+  },
 
+  {
+    categories: [400],
+    nome: "Vacina Poliomielite (Viajantes)",
+    finalidade: {
+      pergunta: "Para que serve a vacina Poliomielite?",
+      resposta:
+        "A vacina Poliomielite (VIP) serve para prevenir contra a paralisia infantil.",
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta:
+        "Os viajantes internacionais devem ser vacinados contra a Poliomielite se forem oriundos ou se deslocarem para áreas com recomendação de vacinação, especialmente países com circulação de poliovírus selvagem.",
+    },
+    comoTomar: {
+      pergunta: "Esquema Vacinal:",
+      resposta: [
+        "A vacina Poliomielite (VIP) possui 3 doses iniciais para crianças entre 2 meses e 4 anos, 11 meses e 29 dias:",
+        " <strong> 1ª Dose: </strong>2 meses de idade.",
+        " <strong> 2ª Dose: </strong>4 meses de idade.",
+        " <strong>3ª Dose: </strong>6 meses de idade.",
+        "<strong>Dose de Reforço:</strong> 15 meses de idade.",
+        "<strong>ATENÇÃO: </strong> O intervalo de tempo recomendado entre as 3 doses iniciais é de no mínimo 30 dias e no máximo 60 dias.",
+      ],
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Poliomielite é administrada?",
+      resposta:
+        "A vacina Poliomielite (VIP) é administrada no músculo vasto lateral da coxa em crianças de até 1 ano, 11 meses e 29 dias. Em crianças a partir de 2 anos, a vacina é aplicada no músculo deltóide (região externa do ombro do braço direito ou esquerdo) por meio de injeção intramuscular.",
+    },
+    vacinacaoSimultanea: {
+      pergunta:
+        "O viajante pode receber a vacina Poliomielite junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. O viajante pode receber outras vacinas do Calendário de Vacinação junto com a Poliomielite (VIP).",
+    },
+  },
+  {
+    categories: [400],
+    nome: "Vacina Tríplice Viral (Viajantes)",
+    finalidade: {
+      pergunta: "Para que serve a vacina Tríplice Viral?",
+      resposta:
+        "A vacina Tríplice Viral serve para prevenir contra três doenças: sarampo, caxumba e rubéola.",
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta:
+        "O sarampo, a caxumba (papeira) e a rubéola são doenças contagiosas. O sarampo causa febre e manchas vermelhas na pele; a caxumba provoca febre, inchaço e dores na garganta; e a rubéola geralmente causa febre e o aparecimento de bolhas na pele.",
+    },
+    comoTomar: {
+      pergunta: "Esquema Vacinal:",
+      resposta: [
+        "<li><strong style='color: #3B82F6'>Bebês de 6 meses a 11 meses e 29 dias:</strong> Dose 0 da Vacina Tríplice Viral e manter o esquema indicado no Calendário Nacional de Vacinação aos 12 meses (tríplice viral) e aos 15 meses (tetraviral);</li>",
+        "<li><strong style='color: #3B82F6'>Pessoas de 12 meses a 29 anos de idade:</strong> Duas doses com intervalo mínimo de 30 dias entre a 1ª e a 2ª dose;</li>",
+        "<li><strong style='color: #3B82F6'> Manter o esquema indicado no Calendário Nacional de Vacinação:</strong> 12 meses (tríplice viral) e 15 meses (tetraviral).</li>",
+        "<li><strong style='color: #3B82F6'>Pessoas de 30 a 59 anos:</strong> Uma dose.</li>",
+      ],
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Tríplice Viral é administrada?",
+      resposta:
+        "A vacina Tríplice Viral é administrada no músculo deltóide (região externa do ombro do braço direito ou esquerdo) por meio de injeção subcutânea.",
+    },
+    vacinacaoSimultanea: {
+      pergunta:
+        "O viajante pode receber a vacina Tríplice Viral junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. O viajante pode receber outras vacinas do Calendário de Vacinação junto com a Tríplice Viral.",
+    },
+  },
+  {
+    categories: [500],
+    nome: "Vacina Pneumocócica Polissacarídica 23",
+    finalidade: {
+      pergunta: "Para que serve a vacina Pneumocócica Polissacarídica 23?",
+      resposta:
+        "A vacina Pneumocócica Polissacarídica 23 serve para prevenir pneumonia, meningite, sinusite, infecção no ouvido e outras doenças causadas pela bactéria pneumococo, especialmente para grupos mais vulneráveis.",
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta:
+        "A bactéria pneumococo costuma estar presente na parte respiratória de pessoas saudáveis, como nos pulmões. É transmitida por meio de gotas de saliva pelo ar, espirros ou tosse.",
+    },
+    comoTomar: {
+      pergunta: "Qual é o esquema vacinal da Pneumocócica Polissacarídica 23?",
+      resposta:
+        ["A vacina Pneumocócica 23 é de dose única para indivíduos a partir de 5 anos sem comprovação de vacinação com vacinas pneumocócicas conjugadas. Reforços podem ser recomendados para grupos de risco."],
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Pneumocócica 23 é administrada?",
+      resposta:
+        "A vacina Pneumocócica 23 é administrada no músculo deltóide (região externa do ombro do braço direito ou esquerdo) por meio de injeção subcutânea.",
+    },
+    vacinacaoSimultanea: {
+      pergunta:
+        "O indígena pode receber a vacina Pneumocócica 23 junto com outras vacinas (vacinação simultânea)?",
+      resposta:
+        "Sim. O indígena pode receber outras vacinas do Calendário de Vacinação junto com a Pneumocócica 23.",
+    },
+  },
 ];

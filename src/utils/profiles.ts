@@ -1,8 +1,10 @@
 import { categoriesAdults } from "./categories-adults";
 import { CategoriesEmergency } from "./categories-emergency";
+import { categoriesIndigena } from "./categories-indigena";
 import { categoriesKids, Category } from "./categories-kids";
 import { categoriesPregnant } from "./categories-pregnant";
 import { categoriesTeen } from "./categories-teen";
+import { categoriesViajantes } from "./categories-viajantes";
 
 export type Profile = {
   label: string;
@@ -50,22 +52,22 @@ export const profiles = [
   {
     id: 4,
     label: "indígena",
-    img: "",
-    hero: "",
-    title: "",
+    img: "/images/indigena.png",
+    hero: "/images/indigena.png",
+    title: "Vacinação é Inclusão",
     color: "",
-    description: "",
-    categories: categoriesKids,
+    description: "Os povos indígenas enfrentam desafios únicos que os tornam vulneráveis a doenças infecciosas, incluindo acesso limitado a serviços de saúde, condições de vida precárias e maior suscetibilidade a surtos de doenças. Garantir a vacinação adequada a este grupo é uma forma de promover equidade em saúde e proteger essas comunidades.</br> Os indígenas possuem apenas uma vacina diferente no esquema vacinal porque o Programa Nacional de Imunizações (PNI) prioriza estratégias específicas para proteger grupos mais vulneráveis. Nesse contexto, além da inclusão da vacina pneumocócica 23-valente como medida específica para proteger contra infecções graves, os indígenas têm acesso a todas as demais vacinas previstas no</br> <a href='/#profiles' style='color:#3B82F6; font-weight:bold'>Calendário Nacional de Vacinação.</a>",
+    categories: categoriesIndigena,
   },
   {
     id: 5,
     label: "viajante",
-    img: "",
-    hero: "",
-    title: "",
+    img: "/images/viajante.png",
+    hero: "/images/viajante.png",
+    title: "Viajando com segurança!",
     color: "",
-    description: "",
-    categories: categoriesKids,
+    description: "Viajar é uma experiência enriquecedora, mas também pode expor os viajantes a doenças infecciosas que não são comuns em sua região de origem. As vacinas para viajantes são fundamentais para proteger a saúde durante deslocamentos nacionais e internacionais. Eles ajudam a prevenir doenças que podem ser comuns em determinados destinos, além de reduzir o risco de surtos e cooperar para a saúde pública. Antes de viajar, é importante verificar o Calendário de Vacinação, incluindo vacinas recomendadas e oportunas, de acordo com o país ou região a ser visitada, pelo menos 15 dias antes da data da viagem.",
+    categories: categoriesViajantes,
   },
   {
     id: 6,
@@ -73,8 +75,8 @@ export const profiles = [
     img: "/images/adolescentes1.png",
     hero: "/images/hero-adolescentes.jpg",
     color: "#84cc16",
-    title: "",
-    description: "",
+    title: "Cuide de você e de quem você ama: vacine-se e faça parte de uma geração mais saudável!",
+    description: "A vacinação na adolescência é essencial para a proteção da saúde a curto e longo prazo. Nesta fase, o sistema imunológico ainda está em desenvolvimento e, apesar de terem mais resistência do que as crianças pequenas, os adolescentes estão expostos a uma variedade de vírus e bactérias em ambientes de convivência como escolas, práticas esportivas e atividades sociais.Vacinas como as que previnem contra o HPV, a meningite e outras infecções graves ajudam a evitar doenças graves que podem ter efeitos duradouros na saúde. Além disso, ao se vacinarem, os adolescentes não apenas protegem a si mesmos, mas também ajudam a reduzir a disseminação de doenças na comunidade, contribuindo para a imunidade coletiva. A vacinação nessa faixa etária também facilita a conscientização sobre a importância de manter uma rotina de cuidados com a saúde, reforçando hábitos preventivos que serão levados para a vida adulta.",
     categories: categoriesTeen,
   },
   {
