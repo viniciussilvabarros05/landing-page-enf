@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Page() {
   return (
     <Container className="gap-4 text-justify mt-12 pb-8 text-lg">
-      <h1 className="text-blue-500 text-2xl font-bold mx-auto mb-8 capitalize">
-        Em que situações a vacinação não é indicada?
+      <h1 className="text-blue-500 text-2xl font-bold mx-auto mb-8">
+        Em que Situações a Vacinação não é Indicada?
       </h1>
       <div className="w-[250px] lg:w-[500px] lg:h-[250px] m-auto rounded-2xl mb-16">
           <Image
@@ -42,7 +42,7 @@ export default function Page() {
         <span className="text-blue-500 font-bold">
           Vacinas com Vírus Vivo Atenuado:
         </span>{" "}
-        Vacinas vivas atenuadas são vacinas produzidas com uma versão
+        São vacinas produzidas com uma versão
         enfraquecida do vírus ou bactéria que causa a doença. Esses
         microrganismos foram modificados para não serem capazes de causar
         doenças em pessoas saudáveis, mas ainda estimulam o sistema imunológico

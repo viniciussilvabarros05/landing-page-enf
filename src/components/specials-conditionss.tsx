@@ -124,6 +124,56 @@ export const SpecialsConditions = () => {
                 Em que situações a vacinação não é indicada?
               </h2>
             </CarouselItem>
+            <CarouselItem className="lg:basis-1/3">
+              <motion.div
+                whileHover={{
+                  scale: 1,
+                }}
+                whileTap={{
+                  scale: 0.9,
+                }}
+                transition={{ type: "spring", bounce: 0.7 }}
+                onClick={() => handleNavigationTo("/posvacinacao")}
+                className="border-yellow-300 border-[8px] w-56 h-[18rem] rounded-2xl m-auto  flex items-center justify-center cursor-pointer relative"
+              >
+                <Image
+                  src="/images/cuidados-card.png"
+                  alt="Não indicadas"
+                  width={300}
+                  height={350}
+                  className="w-fit"
+                  style={{ objectFit: "cover" }}
+                />
+              </motion.div>
+              <h2 className="text-blue-500 text-center font-semibold uppercase mt-4 w-56 m-auto">
+                 Cuidados Necessários Pós-Vacinação
+              </h2>
+            </CarouselItem>
+            <CarouselItem className="lg:basis-1/3">
+              <motion.div
+                whileHover={{
+                  scale: 1,
+                }}
+                whileTap={{
+                  scale: 0.9,
+                }}
+                transition={{ type: "spring", bounce: 0.7 }}
+                onClick={() => handleNavigationTo("/efeitos")}
+                className="border-yellow-300 border-[8px] w-56 h-[18rem] rounded-2xl m-auto  flex items-center justify-center cursor-pointer relative"
+              >
+                <Image
+                  src="/images/efeitos-card.png"
+                  alt="Não indicadas"
+                  width={300}
+                  height={350}
+                  className="w-fit"
+                  style={{ objectFit: "cover" }}
+                />
+              </motion.div>
+              <h2 className="text-blue-500 text-center font-semibold uppercase mt-4 w-56 m-auto">
+              Eventos Esperados e Inesperados Pós-Vacinação
+              </h2>
+            </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />
