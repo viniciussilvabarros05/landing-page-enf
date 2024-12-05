@@ -32,19 +32,8 @@ export default function Page() {
         Nacional de Vacinação, independente da faixa-etária.
         <br />
         <br />
+      </p>
         São exemplos de eventos esperados:
-      </p>
-      <p className="">
-        comuns nos dois primeiros dias. Na maioria dos casos, esses sintomas
-        desaparecem espontaneamente{" "}
-        <strong className="text-blue-500">em 1 a 3 dias</strong>, mas é
-        necessário que alguns cuidados sejam adotados durante esse período para
-        garantir uma recuperação rápida e segura. Acesse a aba “Cuidados
-        Necessários Pós-vacinação” e veja as orientações disponíveis.
-      </p>
-      <Link href="/posvacina">
-        <Button3D>Cuidados Necessários Pós-vacinação</Button3D>
-      </Link>
       <ul style={{ listStyleType: "inherit" }} className="px-4">
         <li>
           Dor e/ou leve inchaço no local em que a vacina foi administrada;
@@ -58,6 +47,14 @@ export default function Page() {
           são comuns nos dois primeiros dias.
         </li>
       </ul>
+      <p className="">
+        Na maioria dos casos, esses sintomas desaparecem espontaneamente em
+        <strong className="text-blue-500">em 1 a 3 dias</strong>, mas é necessário que alguns cuidados sejam adotados durante esse período para garantir uma recuperação rápida e segura. Acesse a aba “Cuidados Necessários Pós-vacinação” e veja as orientações disponíveis.
+      </p>
+      <Link href="/posvacina">
+        <Button3D>Cuidados Necessários Pós-vacinação</Button3D>
+      </Link>
+    
 
       <p className="">
         <strong className="text-blue-500">

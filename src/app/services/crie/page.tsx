@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <div className="w-full min-h-screen flex flex-col items-center py-14">
       <Header />
-      <Container className="bg-[#BED9DE] py-2 px-4 flex flex-row items-center justify-center gap-10 xl:flex-row">
+      <Container className="bg-[#BED9DE] py-2 px-4 flex flex-row items-center justify-center gap-10 xl:flex-row max-lg:flex-col">
         <div className="flex flex-col gap-4 w-[50%] max-lg:w-[80%] max-xl:w-[70%]">
           <BoxReveal boxColor={"#8FC0FB"} duration={0.3}>
             <h1 className="lg:text-3xl font-semibold 2xl:text-4xl text-2xl">
