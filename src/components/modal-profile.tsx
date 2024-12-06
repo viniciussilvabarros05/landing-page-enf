@@ -84,13 +84,14 @@ export const ModalProfile = ({ profile }: Props) => {
             </h1>
           </div>
         </div>
-        <div className="w-[250px] lg:w-[500px] lg:h-[250px]  rounded-2xl mb-4">
+        <div className="w-[250px] lg:w-[500px] rounded-2xl mb-4">
           <Image
             alt="crianças"
             src={profile?.hero || ""}
-            className="rounded-2xl"
+            className="rounded-2xl h-full m-auto"
             width={500}
             height={250}
+            style={{objectFit:'contain'}}
             layout="responsive"
           />
         </div>
