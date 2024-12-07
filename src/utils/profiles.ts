@@ -52,7 +52,7 @@ export const profiles = [
   {
     id: 4,
     label: "indígena",
-    img: "/images/indigena.png",
+    img: "/images/1INDIGENA.png",
     hero: "/images/indigena.png",
     title: "Vacinação é Inclusão",
     color: "#a16207",
@@ -62,7 +62,7 @@ export const profiles = [
   {
     id: 5,
     label: "viajante",
-    img: "/images/viajante.png",
+    img: "/images/1VIAJANTES.png",
     hero: "/images/hero-viajantes.png",
     title: "Viajando com segurança!",
     color: "#f59e0b",

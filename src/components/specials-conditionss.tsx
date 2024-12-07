@@ -31,7 +31,7 @@ export const SpecialsConditions = () => {
         {isInView && (
           <WordPullUp
             className="text-2xl lg:text-3xl w-full 2xl:text-5xl"
-            words="Condições Especiais de Saúde: O que você precisa saber"
+            words="Condições Especiais de Vacinação: O que você precisa saber"
           />
         )}
       </div>
