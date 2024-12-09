@@ -37,7 +37,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Hepatite B é aplicada?",
       resposta:
-        "A vacina Hepatite B é aplicada na coxa em crianças de até 1 ano, 11 meses e 29 dias. Em crianças a partir de 2 anos, é administrada no ombro do braço por meio de injeção intramuscular.",
+        "A vacina Hepatite B é aplicada na coxa (músculo vasto lateral da coxa) em crianças de até 1 ano, 11 meses e 29 dias. Em crianças a partir de 2 anos, é administrada no ombro do braço por meio de injeção intramuscular.",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -176,7 +176,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Poliomielite é aplicada?",
       resposta:
-        "A vacina Poliomielite (VIP) é aplicada na coxa em crianças de até 1 ano, 11 meses e 29 dias. A partir dos 2 anos, é aplicada no ombro por via intramuscular.",
+        "A vacina Poliomielite (VIP) é aplicada na coxa (músculo vasto lateral da coxa) em crianças de até 1 ano, 11 meses e 29 dias. A partir dos 2 anos, é aplicada no ombro por via intramuscular.",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -309,7 +309,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Pneumocócica 10 é aplicada?",
       resposta:
-        "A vacina Pneumocócica 10 é aplicada na coxa em crianças de até 1 ano, 11 meses e 29 dias de vida. Em crianças a partir de 2 anos, a vacina é aplicada no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Pneumocócica 10 é aplicada na coxa (músculo vasto lateral da coxa) em crianças de até 1 ano, 11 meses e 29 dias de vida. Em crianças a partir de 2 anos, a vacina é aplicada na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -374,7 +374,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Pentavalente é aplicada?",
       resposta:
-        "A vacina Pentavalente é aplicada na lateral da coxa em crianças de até 1 ano, 11 meses e 29 dias. Em crianças a partir de 2 anos, a vacina é administrada no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Pentavalente é aplicada na lateral da coxa (músculo vasto lateral da coxa) em crianças de até 1 ano, 11 meses e 29 dias. Em crianças a partir de 2 anos, a vacina é administrada na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -441,7 +441,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Meningocócica C é aplicada?",
       resposta:
-        "A vacina Meningocócica C é aplicada na coxa em crianças de até 1 ano, 11 meses e 29 dias de vida. Em crianças a partir de 2 anos, a vacina é aplicada no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Meningocócica C é aplicada na coxa (músculo vasto lateral da coxa) em crianças de até 1 ano, 11 meses e 29 dias de vida. Em crianças a partir de 2 anos, a vacina é aplicada na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -505,7 +505,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Influenza é aplicada?",
       resposta:
-        "Em crianças de até 1 ano, 11 meses e 29 dias, a vacina é aplicada na lateral da coxa. Em crianças a partir de 2 anos, a vacina é aplicada no ombro, por meio de uma injeção no músculo (chamada via intramuscular).",
+        "Em crianças de até 1 ano, 11 meses e 29 dias, a vacina é aplicada na lateral da coxa (músculo vasto lateral da coxa). Em crianças a partir de 2 anos, a vacina é aplicada no ombro, por meio de uma injeção no músculo (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -576,7 +576,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Covid-19 é aplicada?",
       resposta:
-        "A vacina Covid-19 é aplicada na coxa em crianças de 6 a 12 meses de idade. Em crianças acima de 1 ano, a mesma vacina pode ser aplicada na coxa ou no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Covid-19 é aplicada na coxa (músculo vasto lateral da coxa) em crianças de 6 a 12 meses de idade. Em crianças acima de 1 ano, a mesma vacina também pode ser aplicada na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -782,8 +782,8 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Tríplice Bacteriana é aplicada?",
       resposta: [
-        "A vacina Tríplice Bacteriana é aplicada na lateral da coxa em crianças de até 1 ano, 11 meses e 29 dias.",
-        "Em crianças a partir de 2 anos, a vacina Tríplice Bacteriana é administrada no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Tríplice Bacteriana é aplicada na lateral da coxa (músculo vasto lateral da coxa) em crianças de até 1 ano, 11 meses e 29 dias.",
+        "Em crianças a partir de 2 anos, a vacina Tríplice Bacteriana é administrada na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
       ],
     },
     vacinacaoSimultanea: {
@@ -903,8 +903,8 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Hepatite A é aplicada?",
       resposta: [
-        "A vacina Hepatite A é aplicada na lateral da coxa em crianças de até 1 ano, 11 meses e 29 dias.",
-        "Em crianças a partir de 2 anos, a vacina Hepatite A é administrada no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Hepatite A é aplicada na lateral da coxa (músculo vasto lateral da coxa) em crianças de até 1 ano, 11 meses e 29 dias.",
+        "Em crianças a partir de 2 anos, a vacina Hepatite A é administrada na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
       ],
     },
     vacinacaoSimultanea: {
@@ -1027,7 +1027,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Dupla Bacteriana é aplicada?",
       resposta:
-        "A vacina Difteria e Tétano é aplicada de preferência no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Difteria e Tétano é aplicada de preferência na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -1997,7 +1997,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Covid-19 é aplicada?",
       resposta:
-        "A vacina Covid-19 é aplicada de preferência no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Covid-19 é aplicada de preferência na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -2065,7 +2065,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Hepatite B é aplicada?",
       resposta:
-        "A vacina Hepatite B é aplicada no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Hepatite B é aplicada na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -2117,7 +2117,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Dupla Bacteriana é aplicada?",
       resposta:
-        "A vacina Dupla Bacteriana é aplicada de preferência no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Dupla Bacteriana é aplicada de preferência na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -2165,7 +2165,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Dupla Bacteriana é aplicada?",
       resposta:
-        "A vacina Dupla Bacteriana é aplicada de preferência no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Dupla Bacteriana é aplicada de preferência na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -2228,7 +2228,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Influenza é aplicada?",
       resposta:
-        "A vacina Influenza é aplicada no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Influenza é aplicada na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -2291,7 +2291,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Covid-19 é aplicada?",
       resposta:
-        "A vacina Covid-19 é aplicada de preferência no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Covid-19 é aplicada de preferência na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -2355,7 +2355,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Tríplice Bacteriana é aplicada?",
       resposta:
-        "A vacina Tríplice Bacteriana é aplicada no ombro do braço direito ou esquerdo por meio de injeção no músculo (chamada via intramuscular).",
+        "A vacina Tríplice Bacteriana é aplicada na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (chamada via intramuscular).",
     },
     vacinacaoSimultanea: {
       pergunta:
@@ -2456,7 +2456,7 @@ export const vaccines = [
     localAplicacao: {
       pergunta: "Como a vacina Poliomielite é administrada?",
       resposta:
-        "A vacina Poliomielite (VIP) é administrada no músculo vasto lateral da coxa em crianças de até 1 ano, 11 meses e 29 dias. Em crianças a partir de 2 anos, a vacina é aplicada no músculo deltóide (região externa do ombro do braço direito ou esquerdo) por meio de injeção intramuscular.",
+        "A vacina Poliomielite (VIP) é administrada no músculo vasto lateral da coxa (músculo vasto lateral da coxa) em crianças de até 1 ano, 11 meses e 29 dias. Em crianças a partir de 2 anos, a vacina é aplicada no músculo deltóide (região externa do ombro do braço direito ou esquerdo) por meio de injeção intramuscular.",
     },
     vacinacaoSimultanea: {
       pergunta:
