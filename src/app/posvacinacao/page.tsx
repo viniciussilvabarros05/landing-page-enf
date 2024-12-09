@@ -1,10 +1,12 @@
 import BlurFade from "@/components/ui/blur-fade";
 import { Container } from "@/components/ui/container";
 import Image from "next/image";
+import { ButtonBack } from "../[profile]/[slug]/[nome]/buttonBack";
 
 export default function Page() {
   return (
     <Container className="gap-4 text-justify mt-12 pb-8 text-lg">
+      <ButtonBack />
       <h1 className="text-blue-500 text-2xl font-bold mx-auto mb-8">
         Cuidados Necessários Pós-Vacinação
       </h1>
@@ -12,7 +14,7 @@ export default function Page() {
         <div className="w-[250px] lg:w-[500px] lg:h-[250px] m-auto rounded-2xl mb-16">
           <Image
             alt="crianças"
-            src={"/images/hero-viajantes.png"}
+            src={"/images/hero-cuidados.png"}
             className="rounded-2xl"
             width={500}
             height={250}

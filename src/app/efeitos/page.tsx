@@ -70,7 +70,7 @@ export default function Page() {
       </p>
 
       <ul style={{ listStyleType: "inherit" }} className="px-4">
-        <li>Febre baixa a moderada (até 37,9°);</li>
+        <li>Febre alta e persistente (até 37,9°);</li>
         <li>Vermelhidão no local onde a vacina foi administrada;</li>
         <li>
           Abscessos locais (coleção de pus que se forma em um tecido ou área

@@ -1,9 +1,11 @@
 import { Container } from "@/components/ui/container";
 import Image from "next/image";
+import { ButtonBack } from "../[profile]/[slug]/[nome]/buttonBack";
 
 export default function Page() {
   return (
     <Container className="gap-4 text-justify mt-12 pb-8 text-lg">
+      <ButtonBack />
       <h1 className="text-blue-500 text-2xl font-bold mx-auto mb-8">
         Em que Situações a Vacinação não é Indicada?
       </h1>

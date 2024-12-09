@@ -81,7 +81,7 @@ export const profiles = [
   },
   {
     id: 7,
-    label: "emergencia",
+    label: "emergência",
     img: "/images/logo-emergency.png",
     hero: "/images/hero-emergency.png",
     color: "#f87171",

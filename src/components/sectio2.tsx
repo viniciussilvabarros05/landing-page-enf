@@ -76,9 +76,9 @@ export const Section2 = () => {
                 VISÃO
               </span>
               <p className="font-semibold">
-                Busca-se ser uma referência em educação em saúde, orientando a
-                população e contribuindo para a promoção da saúde por meio da
-                prevenção de doenças através do conhecimento.
+                Instrumento digital referência em Educação em Saúde, orientando
+                a população e contribuindo para a prevenção de doenças através
+                do conhecimento.
               </p>
               <span className="py-1 px-4 rounded-full font-semibold bg-blue-200 w-fit">
                 PRINCÍPIOS/VALORES
