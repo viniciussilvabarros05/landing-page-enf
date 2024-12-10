@@ -125,7 +125,7 @@ export const vaccines = [
         "Lavar normalmente com água na hora do banho e secar com toalha limpa, sem esfregar;",
         "Não fazer compressa;",
         "Não usar pomadas ou qualquer outro remédio no local em que a vacina foi administrada.",
-        "Não romper a bolha."
+        "Não romper a bolha.",
       ],
       alertas: [
         "Se houver qualquer alteração incomum no local ou próximo à aplicação, procure um profissional de saúde.",
@@ -552,9 +552,7 @@ export const vaccines = [
     comoTomar: {
       pergunta: "Como tomar a vacina Covid-19?",
       resposta: [
-        "A vacina Covid-19 possui 2 doses iniciais com a vacina Monovalente XXB, Moderna, sendo:",
-        "1ª dose: 6 meses de idade",
-        "2ª dose: 7 meses de idade",
+        "A vacina Covid-19 possui 2 doses iniciais com a vacina Monovalente XXB, Moderna, sendo: <br/> <strong/>1ª dose: </strong>6 meses de idade <br/> <strong/>2ª dose: </strong> 7 meses de idade ",
       ],
       alertas: [
         "O intervalo de tempo recomendado entre a primeira e a segunda dose é de 30 dias (4 semanas).",
