@@ -70,7 +70,7 @@ export default function Page({ params }: Props) {
             </BlurFade>
             <BlurFade inView duration={0.4}>
               <div className="mb-4 flex flex-col gap-2" style={{display: vaccine.comoTomar.resposta !== " " ? "flex": "none"}}>
-                <p className="font-bold">Esquema Vacinal</p>
+                <p className="font-bold">Esquema Vacinal:</p>
                 <p
                   className=""
                   dangerouslySetInnerHTML={{
@@ -104,7 +104,7 @@ export default function Page({ params }: Props) {
             </BlurFade>
             <BlurFade inView duration={0.4}>
               <div className="mb-4 flex flex-col gap-2 h-fit" style={{display: vaccine.localAplicacao?.resposta ? "flex": "none"}}>
-                <p className="font-bold">Como a vacina é administrada</p>
+                <p className="font-bold">Como a vacina é administrada?</p>
                 <p className="">{vaccine.localAplicacao?.resposta}</p>
               </div>
             </BlurFade>

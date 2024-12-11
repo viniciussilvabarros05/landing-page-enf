@@ -1,4 +1,3 @@
-import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Profiles } from "@/components/profiles";
@@ -14,7 +13,6 @@ export default function Home() {
       <Section2/>
       <Profiles/>
       <SpecialsConditions/>
-      <Footer/>
     </div>
   );
 }

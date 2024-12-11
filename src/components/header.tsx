@@ -45,7 +45,7 @@ export const Header = () => {
         </DropdownMenu>
         <LinkHeader href={"/#conditions-specials"} label={"Mais informações"} />
         <Button3D className="bg-[#f5bf36]">
-          <Link href={"/#contatos"} className="font-bold">
+          <Link href={"/contatos"} className="font-bold">
             Contato
           </Link>
         </Button3D>
@@ -117,7 +117,7 @@ export const Header = () => {
             className="w-full"
           />
           <Button3D className="bg-[#f5bf36] w-full">
-            <Link href={"/#contatos"} className="font-bold w-full">
+            <Link href={"/contatos"} className="font-bold w-full">
               Contato
             </Link>
           </Button3D>
