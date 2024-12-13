@@ -3,6 +3,7 @@ import { CategoriesEmergency } from "./categories-emergency";
 import { categoriesIndigena } from "./categories-indigena";
 import { categoriesKids, Category } from "./categories-kids";
 import { categoriesPregnant } from "./categories-pregnant";
+import { categoriesProfissionais } from "./categories-profissionais";
 import { categoriesTeen } from "./categories-teen";
 import { categoriesViajantes } from "./categories-viajantes";
 
@@ -90,5 +91,16 @@ export const profiles = [
     </br>
 O Ministério da Saúde atua coordenando respostas estratégicas, garantindo o fornecimento e a distribuição das vacinas adequadas e orientando profissionais de saúde e comunidades sobre medidas preventivas. Essa ação ágil e coordenada é vital para controlar surtos e garantir a proteção coletiva`,
     categories: CategoriesEmergency,
+  },
+  {
+    id: 8,
+    label: "profissionais da saúde",
+    img: "/images/profissionais-logo.png",
+    hero: "/images/hero-profissionais.png",
+    color: "#4ade80",
+    title: "Imunize-se, proteja vidas!",
+    description: `Os trabalhadores da saúde estão na linha de frente do cuidado com a população, lidando diariamente com diversos agentes infecciosos e grupos vulneráveis. Por isso, a vacinação é uma estratégia fundamental para proteger esses profissionais e, ao mesmo tempo, evitar a propagação de doenças no ambiente de trabalho.
+    `,
+    categories: categoriesProfissionais,
   },
 ];

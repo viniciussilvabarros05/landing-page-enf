@@ -2528,4 +2528,376 @@ export const vaccines = [
         "Sim. O indígena pode receber outras vacinas do Calendário de Vacinação junto com a Pneumocócica 23.",
     },
   },
+  {
+    categories: [600],
+    nome: "Vacina Tríplice Viral",
+    finalidade: {
+      pergunta: "Para que serve a vacina Tríplice Viral?",
+      resposta: "A vacina Tríplice Viral serve para prevenir contra três doenças: sarampo, caxumba e rubéola."
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta: "O sarampo, a caxumba e a rubéola são doenças contagiosas que podem causar problemas, especialmente em crianças; O sarampo causa febre e manchas vermelhas na pele; A caxumba pode causar febre, inchaço e dores na garganta; A rubéola geralmente causa febre e o aparecimento de bolhas na pele."
+    },
+    comoTomar: {
+      pergunta: "Esquema Vacinal:",
+      resposta: [
+        "A vacina Tríplice Viral possui duas doses, com intervalo mínimo de 30 dias entre a 1ª e a 2ª dose.",
+        "Pode ser administrada em qualquer idade na fase adulta."
+      ]
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Tríplice Viral é administrada?",
+      resposta: "A vacina Tríplice Viral é administrada no braço direito ou esquerdo por meio de injeção sob a pele (chamada via subcutânea)."
+    },
+    vacinacaoSimultanea: {
+      pergunta: "Profissionais da saúde podem receber a vacina Tríplice Viral junto com outras vacinas (vacinação simultânea)?",
+      resposta: "Sim. Profissionais de saúde podem receber outras vacinas do Calendário de Vacinação junto com a Tríplice Viral, respeitando o intervalo mínimo de 15 dias e máximo de 30 entre cada uma das doses."
+    },
+    reacoesAdversas: {
+      pergunta: "O que pode ocorrer no local onde a vacina foi aplicada?",
+      resposta: "Pode ocorrer vermelhidão, dor leve ou inchaço no local da aplicação. Sintomas mais graves são raros."
+    },
+    cuidadosPosVacinacao: {
+      pergunta: "Cuidados necessários após a vacinação:",
+      resposta: [
+        "Evitar esforços físicos intensos nas primeiras horas após a aplicação.",
+        "Caso ocorram reações adversas persistentes, procurar orientação médica."
+      ]
+    },
+    contraIndicacoes: {
+      pergunta: "Quem não deve tomar a vacina Tríplice Viral?",
+      resposta: [
+        "Indivíduos com alergia severa a qualquer componente da vacina.",
+        "Pessoas com sistema imunológico comprometido sem orientação médica."
+      ],
+      alertas: [
+        "A vacina não é indicada para gestantes.",
+        "Caso ocorra febre alta após a vacinação, consultar um médico."
+      ]
+    }
+  },
+  {
+    categories: [600],
+    nome: "Vacina Dupla Bacteriana (dT) ou Tríplice Bacteriana (dTpa)",
+    finalidade: {
+      pergunta: "Para que serve a vacina Dupla Bacteriana e Tríplice Bacteriana?",
+      resposta: "A vacina Dupla Bacteriana serve para prevenir as doenças graves causadas por bactérias: a difteria e o tétano. A Tríplice Bacteriana é recomendada para reforço da coqueluche."
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta: "A difteria se caracteriza pela presença de placas branco-acinzentadas nas amígdalas (garganta) ou próximas, causando dificuldade para respirar. O tétano pode fazer os músculos ficarem rígidos e doloridos, causando fortes câimbras. A coqueluche é uma infecção respiratória caracterizada por crises incontroláveis de tosse seca."
+    },
+    comoTomar: {
+      pergunta: "Esquema Vacinal:",
+      resposta: [
+        "Doses de reforço para dT (Dupla Bacteriana) ou dTpa (Tríplice Bacteriana) devem ser administradas a cada 10 anos após a última dose.",
+        "Em casos de ferimentos graves, o reforço passa a ser a cada 5 anos."
+      ]
+    },
+    indicacoes: {
+      periodoVacinacao: {
+        pergunta: "Quando é recomendado tomar a vacina?",
+        resposta: "A cada 10 anos, ou a cada 5 anos em casos de ferimentos graves."
+      }
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina é administrada?",
+      resposta: "A vacina é aplicada na parte superior do braço direito ou esquerdo por meio de injeção no músculo deltóide (via intramuscular)."
+    },
+    vacinacaoSimultanea: {
+      pergunta: "Profissionais da saúde podem receber a vacina Dupla Bacteriana e Tríplice Bacteriana junto com outras vacinas (vacinação simultânea)?",
+      resposta: "Sim. Profissionais da saúde podem receber outras vacinas do Calendário de Vacinação junto com a Dupla Bacteriana ou Tríplice Bacteriana."
+    },
+    reacoesAdversas: {
+      pergunta: "O que pode ocorrer no local em que a vacina foi aplicada?",
+      resposta: "Pode ocorrer dor, inchaço e vermelhidão no local da aplicação. Reações sistêmicas, como febre, são raras."
+    },
+    cuidadosPosVacinacao: {
+      pergunta: "Cuidados necessários após a vacinação:",
+      resposta: [
+        "Evitar atividades físicas intensas nas primeiras 24 horas.",
+        "Em caso de reações adversas persistentes, buscar orientação médica."
+      ]
+    },
+    contraIndicacoes: {
+      pergunta: "Quem não deve tomar a vacina Dupla Bacteriana e Tríplice Bacteriana?",
+      resposta: [
+        "Pessoas que apresentaram reação alérgica grave (anafilaxia) a doses anteriores da vacina ou a algum de seus componentes."
+      ],
+      alertas: [
+        "Indivíduos com doenças febris agudas devem adiar a vacinação.",
+        "Consultar um médico em casos de dúvidas ou condições de saúde específicas."
+      ]
+    }
+  },
+  {
+    categories: [600],
+    nome: "Vacina Febre Amarela",
+    finalidade: {
+      pergunta: "Para que serve a vacina Febre Amarela?",
+      resposta: "A vacina Febre Amarela serve para prevenir contra a Febre Amarela."
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta: "A febre amarela é uma doença causada por vírus transmitida, principalmente, pela picada de mosquitos infectados. Pode causar febre, dores no corpo, dor de cabeça, náusea e vômito."
+    },
+    comoTomar: {
+      pergunta: "Como tomar a vacina Febre Amarela?",
+      resposta: [
+        "A vacina Febre Amarela é administrada em dose única, a qualquer tempo."
+      ]
+    },
+    indicacoes: {
+      periodoVacinacao: {
+        pergunta: "Quando é recomendado tomar a vacina?",
+        resposta: "A qualquer tempo, sendo válida por toda a vida após a aplicação da dose única."
+      }
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina é administrada?",
+      resposta: "A vacina Febre Amarela é administrada no braço direito ou esquerdo por meio de injeção subcutânea."
+    },
+    vacinacaoSimultanea: {
+      pergunta: "Profissionais da saúde podem receber a vacina Febre Amarela junto com outras vacinas (vacinação simultânea)?",
+      resposta: "Sim. Profissionais da saúde podem receber outras vacinas do Calendário de Vacinação junto com a Febre Amarela, respeitando o intervalo mínimo de 15 dias e máximo de 30 entre cada uma das doses."
+    },
+    reacoesAdversas: {
+      pergunta: "O que pode ocorrer no local em que a vacina foi aplicada?",
+      resposta: "Pode ocorrer dor, vermelhidão ou inchaço no local da aplicação. Reações sistêmicas, como febre leve ou dores no corpo, são raras."
+    },
+    cuidadosPosVacinacao: {
+      pergunta: "Cuidados necessários após a vacinação:",
+      resposta: [
+        "Evitar coçar ou pressionar o local da aplicação.",
+        "Em caso de reações adversas persistentes, buscar orientação médica."
+      ]
+    },
+    contraIndicacoes: {
+      pergunta: "Quem não deve tomar a vacina Febre Amarela?",
+      resposta: [
+        "Pessoas com alergia grave a ovo ou a componentes da vacina.",
+        "Indivíduos imunossuprimidos ou em tratamento com medicamentos imunossupressores."
+      ],
+      alertas: [
+        "Gestantes e mulheres que amamentam devem consultar um médico antes da vacinação.",
+        "Idosos acima de 60 anos devem ser avaliados por um profissional de saúde antes de receber a vacina."
+      ]
+    }
+  },
+  {
+    categories: [600],
+    nome: "Vacina Hepatite B",
+    finalidade: {
+      pergunta: "Para que serve a vacina Hepatite B?",
+      resposta: "A vacina Hepatite B serve para prevenir doenças causadas pelo vírus da hepatite B."
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta: "A Hepatite B é uma doença que provoca inflamação e problemas no fígado. Ela pode ser transmitida por sexo sem proteção, compartilhamento de objetos contaminados e de mãe para filho."
+    },
+    comoTomar: {
+      pergunta: "Como tomar a vacina Hepatite B?",
+      resposta: [
+        ` vacina Hepatite B possui 3 doses:
+        <br/>
+        1ª dose: administrada em qualquer momento.
+        <br/>
+        2ª dose: após 30 dias da 1ª dose.
+        <br/>
+        3ª dose: após 6 meses da 1ª dose.
+        `
+      ]
+    },
+    indicacoes: {
+      periodoVacinacao: {
+        pergunta: "Quando a vacina Hepatite B pode ser administrada?",
+        resposta: "A vacina pode ser administrada em qualquer momento na idade adulta."
+      }
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Hepatite B é administrada?",
+      resposta: "A vacina Hepatite B é administrada na parte superior do braço direito ou esquerdo por meio de injeção intramuscular no músculo deltóide."
+    },
+    vacinacaoSimultanea: {
+      pergunta: "Profissionais da saúde podem receber a vacina Hepatite B junto com outras vacinas (vacinação simultânea)?",
+      resposta: "Sim. Profissionais da saúde podem receber outras vacinas do Calendário de Vacinação junto com a Hepatite B."
+    },
+    reacoesAdversas: {
+      pergunta: "O que acontece com o local em que a vacina foi administrada?",
+      resposta: "Pode ocorrer pequena vermelhidão no local da aplicação e febre leve nas primeiras 24 horas após a vacinação."
+    },
+    cuidadosPosVacinacao: {
+      pergunta: "Cuidados necessários após a vacinação:",
+      resposta: [
+        "Utilizar compressas frias no local de aplicação para alívio da vermelhidão.",
+        "Se houver desconforto incomum por vários dias, alergias ou febre acima de 37,9ºC, procurar um profissional de saúde para avaliação."
+      ]
+    },
+    contraIndicacoes: {
+      pergunta: "Quem não deve tomar a vacina Hepatite B?",
+      resposta: [],
+      alertas: [
+        "Qualquer alteração incomum no local da aplicação deve ser avaliada por um profissional de saúde."
+      ]
+    }
+  },
+  {
+    categories: [600],
+    nome: "Vacina Meningocócica C ou ACWY",
+    finalidade: {
+      pergunta: "Para que serve a vacina Meningocócica C ou ACWY?",
+      resposta: "A vacina Meningocócica C ou ACWY é indicada para prevenir a meningite."
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta: "A meningite é uma inflamação das meninges, as membranas que protegem o cérebro e a medula espinhal. Essa inflamação pode ser causada por bactérias ou vírus. A vacina é especialmente recomendada para profissionais que trabalham em laboratórios ou com pacientes imunossuprimidos."
+    },
+    comoTomar: {
+      pergunta: "Como tomar a vacina Meningocócica C ou ACWY?",
+      resposta: [
+        "A vacina Meningocócica C ou ACWY pode ser administrada em dose única ou em esquema conforme recomendação médica."
+      ]
+    },
+    indicacoes: {
+      periodoVacinacao: {
+        pergunta: "Quando a vacina Meningocócica C ou ACWY deve ser administrada?",
+        resposta: "A vacinação deve seguir as recomendações médicas para profissionais expostos a riscos."
+      }
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Meningocócica C ou ACWY é administrada?",
+      resposta: "A vacina é aplicada na parte superior do braço direito ou esquerdo por meio de injeção intramuscular no músculo deltóide."
+    },
+    vacinacaoSimultanea: {
+      pergunta: "Os profissionais da saúde podem receber a vacina Meningocócica C ou ACWY junto com outras vacinas (vacinação simultânea)?",
+      resposta: "Sim. Os profissionais da saúde podem receber outras vacinas do Calendário de Vacinação junto com a Meningocócica C ou ACWY."
+    },
+    reacoesAdversas: {
+      pergunta: "O que acontece com o local em que a vacina foi administrada?",
+      resposta: "Pode ocorrer dor, vermelhidão e inchaço no local da aplicação."
+    },
+    cuidadosPosVacinacao: {
+      pergunta: "Cuidados necessários após a vacinação:",
+      resposta: [
+        "Evitar atividades extenuantes nas primeiras 24 horas após a aplicação.",
+        "Se houver reações adversas prolongadas ou intensas, procurar um profissional de saúde."
+      ]
+    },
+    contraIndicacoes: {
+      pergunta: "Quem não deve tomar a vacina Meningocócica C ou ACWY?",
+      resposta: [],
+      alertas: [
+        "Pacientes com alergia severa a qualquer componente da vacina devem consultar um médico antes da vacinação."
+      ]
+    }
+  },
+  {
+    categories: [600],
+    nome: "Vacina Influenza",
+    finalidade: {
+      pergunta: "Para que serve a vacina Influenza?",
+      resposta: "A vacina Influenza serve para prevenir contra a gripe e ajuda a evitar outras doenças que podem afetar o nariz, a boca, a garganta e os pulmões."
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta: "A gripe é uma doença contagiosa que geralmente afeta o nariz, a garganta e os pulmões, causando sintomas como febre, tosse, dor de garganta, nariz entupido, dores no corpo e cansaço."
+    },
+    comoTomar: {
+      pergunta: "Como tomar a vacina Influenza?",
+      resposta: [
+        "A vacina Influenza é administrada anualmente, em dose única, recomendada a partir dos 9 anos de idade."
+      ]
+    },
+    indicacoes: {
+      periodoVacinacao: {
+        pergunta: "Quando a vacina Influenza deve ser administrada?",
+        resposta: "A vacina Influenza deve ser administrada anualmente, a partir dos 9 anos de idade."
+      }
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Influenza é administrada?",
+      resposta: "A vacina Influenza é administrada na parte superior do braço direito ou esquerdo por meio de injeção intramuscular no músculo deltóide."
+    },
+    vacinacaoSimultanea: {
+      pergunta: "Os profissionais da saúde podem receber a vacina Influenza junto com outras vacinas (vacinação simultânea)?",
+      resposta: "Sim. Profissionais da saúde podem receber outras vacinas do Calendário de Vacinação junto com a Influenza."
+    },
+    reacoesAdversas: {
+      pergunta: "O que acontece com o local em que a vacina foi administrada?",
+      resposta: "Pode ocorrer dor, vermelhidão e inchaço no local da aplicação, além de febre baixa e cansaço."
+    },
+    cuidadosPosVacinacao: {
+      pergunta: "Cuidados necessários após a vacinação:",
+      resposta: [
+        "Evitar atividades físicas intensas nas primeiras 24 horas após a vacinação.",
+        "Se houver reações adversas intensas ou prolongadas, procurar um profissional de saúde."
+      ]
+    },
+    contraIndicacoes: {
+      pergunta: "Quem não deve tomar a vacina Influenza?",
+      resposta: [
+        "Pessoas com alergia grave a qualquer componente da vacina, como ovo ou proteína de galinha."
+      ],
+      alertas: [
+        "Pacientes com doenças agudas febris devem aguardar a recuperação antes de tomar a vacina."
+      ]
+    }
+  },
+  {
+    categories: [600],
+    nome: "Vacina Tríplice Bacteriana (dTpa)",
+    finalidade: {
+      pergunta: "Para que serve a vacina Tríplice Bacteriana?",
+      resposta: "A vacina Tríplice Bacteriana serve para proteção contra três doenças: Difteria, Tétano e Coqueluche."
+    },
+    descricao: {
+      pergunta: "Saiba mais:",
+      resposta: "Essas três doenças podem afetar a garganta e causar problemas na respiração. Quando alguém pega Difteria, por exemplo, pode aparecer uma 'pele' grossa na garganta, dificultando a respiração. Já o Tétano causa rigidez muscular, ou seja, os músculos ficam 'travados' e doloridos. A Coqueluche faz com que a criança tenha tosse forte por vários dias."
+    },
+    comoTomar: {
+      pergunta: "Como tomar a vacina Tríplice Bacteriana?",
+      resposta: [
+        "A vacina Tríplice Bacteriana é administrada como dose de reforço para difteria e tétano, com uma dose a cada 10 anos após a última dose. Em casos de ferimentos graves, o reforço passa a ser a cada 5 anos."
+      ]
+    },
+    indicacoes: {
+      idadeMinima: {
+        pergunta: "Idade mínima recomendada para vacinação:",
+        resposta: "15 meses de idade."
+      },
+      idadeMaxima: {
+        pergunta: "Idade máxima recomendada para vacinação:",
+        resposta: "6 anos, 11 meses e 29 dias."
+      }
+    },
+    localAplicacao: {
+      pergunta: "Como a vacina Tríplice Bacteriana é aplicada?",
+      resposta: "A vacina é aplicada na lateral da coxa em crianças de até 1 ano, 11 meses e 29 dias. A partir dos 2 anos, é administrada no ombro direito ou esquerdo por meio de injeção intramuscular."
+    },
+    vacinacaoSimultanea: {
+      pergunta: "A criança pode receber a vacina Tríplice Bacteriana junto com outras vacinas (vacinação simultânea)?",
+      resposta: "Sim. A criança pode receber outras vacinas do Calendário de Vacinação junto com a Tríplice Bacteriana."
+    },
+    reacoesAdversas: {
+      pergunta: "O que acontece no local em que a vacina Tríplice Bacteriana foi aplicada?",
+      resposta: "O local da aplicação pode ficar dolorido, sensível ao toque, um pouco inchado e vermelho. Esses sintomas podem vir acompanhados de febre ou não. Isso é comum e geralmente ocorre nos primeiros 2 dias após a vacinação."
+    },
+    cuidadosPosVacinacao: {
+      pergunta: "Cuidados necessários pós vacinação:",
+      resposta: [
+        "Utilizar compressas frias no local de aplicação para alívio da dor, vermelhidão e/ou inflamação.",
+        "Se a criança sentir algum desconforto incomum por vários dias ou se observar o aparecimento de alergias e febre acima de 37.9º, é importante procurar ajuda com um profissional de saúde para avaliação."
+      ]
+    },
+    contraIndicacoes: {
+      pergunta: "Quem não deve tomar a vacina Tríplice Bacteriana?",
+      resposta: [
+        "Pessoas com alergia grave a algum componente da vacina ou que apresentem quadro de doenças agudas."
+      ],
+      alertas: [
+        "Qualquer alteração no local de aplicação ou sintomas incomuns devem ser avaliados por um profissional de saúde."
+      ]
+    }
+  }
 ];
